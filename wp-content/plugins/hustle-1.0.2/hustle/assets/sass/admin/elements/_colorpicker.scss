@@ -1,0 +1,221 @@
+.wpmud .wp-picker-container {
+	position: relative;
+	.wp-color-result {
+		width: 30px;
+		height: 30px;
+		display: block;
+		position: relative;
+		margin-right: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+		border: 3px solid #FFF;
+		box-shadow: none;
+		&:after {
+			content: "";
+			width: 30px;
+			height: 30px;
+			display: block;
+			position: absolute;
+			top: -3px;
+			left: -3px;
+			border: 1px solid #DDD;
+			border-radius: 3px;
+			background: transparent;
+			box-sizing: border-box;
+		}
+	}
+	.wp-picker-absolute {
+		width: 186px;
+		display: none;
+		flex-direction: column-reverse;
+		justify-content: center;
+		position: absolute;
+		z-index: 10;
+		top: 29px;
+		padding: 10px;
+		border: 1px solid #ddd;
+		border-radius: 0 5px 5px;
+		background: #fff;
+		box-sizing: border-box;
+		&:before {
+			content: "";
+			width: 29px;
+			height: 6px;
+			display: none;
+			position: absolute;
+			z-index: 2;
+			top: -3px;
+			left: -1px;
+			border-left: 1px solid #ddd;
+			background: #fff;
+			box-sizing: border-box;
+		}
+	}
+	.wp-picker-input-wrap,
+	.wp-picker-holder {
+		display: flex;
+		flex: 1;
+	}
+	.wp-picker-input-wrap {
+		width: 140px;
+		position: relative;
+		input[type="text"] {
+			width: 100%;
+			display: block;
+			margin: 0;
+			padding-right: 40px;
+			padding-left: 10px;
+			border-radius: 2px;
+			text-align: left;
+		}
+		input[type="button"] {
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			border-top-left-radius: 0;
+			border-top-right-radius: 2px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 2px;
+			background-color: #BE1E2D;
+			background-image: url('../img/icon-clear.png');
+			background-repeat: no-repeat;
+			background-size: 10px;
+			background-position: center;
+			text-indent: -9999px;
+			&:hover, &:active, &:focus {
+				background-color: #A11926;
+			}
+		}
+	}
+	.wp-picker-holder {
+		.iris-picker {
+			width: 100% !important;
+			height: auto !important;
+			margin-top: 0;
+			padding-bottom: 0 !important;
+			border-color: transparent;
+			.iris-picker-inner {
+				position: relative;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				&:before, &:after {
+					content: "";
+					display: table;
+				}
+				&:after {
+					clear: both;
+				}
+				.iris-square {
+					width: 140px !important;
+					height: 140px !important;
+					margin-right: 10px;
+					border-radius: 0;
+				}
+				.iris-square .iris-square-inner {
+					border-radius: 0;
+					box-shadow: none;
+				}
+				.iris-square-value .iris-square-handle {
+					width: 16px;
+					height: 16px;
+					top: -4px;
+					left: -4px;
+				}
+				.iris-slider {
+					width: 8px !important;
+					height: 140px !important;
+					border-radius: 0;
+					.iris-slider-offset {
+						top: 0;
+						bottom: 0;
+					}
+					.ui-slider-handle {
+						width: 16px;
+						height: 9px;
+						left: -4px;
+						right: -4px;
+						border-color: transparent;
+						box-shadow: none;
+						&:before {
+							width: 16px;
+							height: 9px;
+							top: 1px;
+							right: -3px;
+							bottom: 0;
+							left: -3px;
+							border: 1px solid #000;
+							border-radius: 1px;
+							box-sizing: border-box;
+						}
+					}
+				}
+			}
+			.iris-palette-container {
+				width: 144px;
+				position: relative;
+				left: 0;
+				bottom: 0;
+				margin-top: 10px;
+				margin-bottom: 5px;
+				&:before, &:after {
+					content: "";
+					display: table;
+				}
+				&:after {
+					clear: both;
+				}
+				a {
+					width: 20px !important;
+					height: 20px !important;
+					float: none;
+					display: inline-block;
+					position: relative;
+					margin-right: 4px;
+					margin-left: 0 !important;
+					padding: 2px;
+					border: 2px solid #fff;
+					border-radius: 2px;
+					box-shadow: none;
+					&:last-child {
+						margin-right: 0;
+					}
+					&:before {
+						content: "";
+						position: absolute;
+						top: -2px;
+						right: -2px;
+						bottom: -2px;
+						left: -2px;
+						border: 1px solid #ddd;
+						border-radius: 2px;
+					}
+				}
+			}
+		}
+		.iris-border {
+			border: 0;
+			background: transparent;
+		}
+	}
+	&.wp-picker-active {
+		.wp-color-result,
+		.wp-picker-absolute {
+			box-shadow: 0 0 5px rgba(0,0,0,0.2);
+		}
+		.wp-color-result {
+			&:after {
+				border-radius: 0;
+			}
+		}
+		.wp-picker-absolute {
+			display: flex;
+			&:before {
+				display: block;
+			}
+		}
+	}
+}

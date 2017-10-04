@@ -1,0 +1,52 @@
+@import "admin/_global.scss";
+
+// Mixins
+@import "admin/mixins/_alignment.scss";
+@import "admin/mixins/_opacity.scss";
+
+// Typography
+@import "admin/typography/_import.scss";
+@import "admin/typography/_labels.scss";
+
+// Basic
+@import "admin/basic/_grid.scss";
+@import "admin/basic/_tabs.scss";
+@import "admin/basic/_rows.scss";
+@import "admin/basic/_cards.scss";
+
+// Elements
+@import "admin/elements/_loading.scss";
+@import "admin/elements/_images.scss";
+@import "admin/elements/_forms.scss";
+@import "admin/elements/_icons.scss";
+@import "admin/elements/_arrows.scss";
+@import "admin/elements/_toggle.scss";
+@import "admin/elements/_buttons.scss";
+@import "admin/elements/_wysiwyg.scss";
+@import "admin/elements/_colorpicker.scss";
+@import "admin/elements/_customcss.scss";
+@import "admin/elements/_select2.scss";
+@import "admin/elements/_positionblock.scss";
+@import "admin/elements/_conditionsblock.scss";
+
+// Reset
+@import "admin/reset/_reset.scss";
+
+// Wizard Templates
+@import "admin/templates/_template-welcome.scss";
+@import "admin/templates/_template-service.scss";
+@import "admin/templates/_template-design.scss";
+@import "admin/templates/_template-settings.scss";
+@import "admin/templates/_template-complete.scss";
+@import "admin/templates/_template-listings.scss";
+
+// Opt-ins
+@import "optins.scss";
+
+// Triggers
+@import "admin/triggers/_tabs.scss";
+@import "admin/triggers/_contents.scss";
+
+
+// Provider specific style
+@import "admin/providers/_sendy.scss";

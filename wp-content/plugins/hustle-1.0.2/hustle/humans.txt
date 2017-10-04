@@ -1,0 +1,18 @@
+/* TEAM */
+	Developer: Sam Najian
+	Contact: sam [at] incsub [dot] com
+	Twitter: @samnajian
+	Location: Tehran, Iran
+
+	Developer: Leighton Sapir
+	Contact: leigh [at] incsub [dot] com
+	Twitter: @shiasapir
+	Location: Cuenca, Ecuador
+
+    Developer: Emmanuel Laborin
+    Contact: emmanuel [at] incsub [dot] com
+    Twitter: @laborin
+    Location: Hermosillo, Mexico
+
+
+384027-1474926993

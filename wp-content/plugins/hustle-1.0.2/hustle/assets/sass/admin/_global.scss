@@ -1,0 +1,312 @@
+.wpmud {
+	* {
+		box-sizing: border-box;
+		text-rendering: geometricPrecision;
+	    -moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	}
+	label {
+		cursor: auto;
+	}
+	.dashicons-warning,
+	.dashicons-editor-help{
+		cursor: pointer;
+		color: #ff0000;
+	}
+}
+
+.wpmud #header {
+	
+	.main-title-alternative {
+		font: 400 30px/35px "Roboto Condensed", "Roboto", sans-serif;
+	}
+	
+}
+
+.wpmud .dev-box {
+	
+	&.can-close {
+		
+		.box-title h3 {
+			float: left;
+		}
+		
+	}
+
+	&.closed {
+		padding-bottom: 0;
+	}
+	
+	.box-title {
+		
+		.title-alternative {
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: -0.4px;
+		}
+		
+	}
+	
+}
+
+.wpmud {
+	.dev-box-gem {
+		margin-bottom: 30px;
+	}
+}
+
+.wpmud .wpoi-entry-content {
+	
+	margin-top: 30px;
+	
+	// Text styles
+	
+	h2 {
+		margin: 0 0 20px;
+		font: 400 30px/35px "Roboto Condensed", "Roboto", sans-serif;
+		letter-spacing: -0.4px;
+		text-transform: uppercase;
+	}
+	
+	p {
+		font: 300 16px/26px "Roboto", sans-serif;
+	}
+	
+	// Text Alignment
+	
+	&.wpoi-entry-content-left,
+	&.wpoi-entry-content-left * {
+		text-align: left;
+	}
+	
+	&.wpoi-entry-content-center,
+	&.wpoi-entry-content-center * {
+		text-align: center;
+	}
+	
+	&.wpoi-entry-content-right,
+	&.wpoi-entry-content-right * {
+		text-align: right;
+	}
+	
+}
+
+// Cards
+
+.wpmud .wpoi-card {
+	
+	padding: 20px 30px;
+	background: #FFF;
+	box-shadow: 0 2px 0 #E9E9E9;
+	
+	.wpoi-card-block {
+		
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #EEE;
+		
+		&:last-child {
+			border-bottom: 0;
+		}
+		
+		&.wpoi-card-block-invisible {
+			border-bottom: 0;
+		}
+		
+		h3 {
+			margin: 0;
+			color: #777771;
+			font: 600 16px/26px "Roboto Condensed", "Roboto", sans-serif;
+			letter-spacing: -0.36px;
+			text-align: left;
+		}
+		
+		h6 {
+			margin: 0;
+			color: #333;
+			font: 400 14px/20px "Roboto", sans-serif;
+			text-align: left;
+		}
+		
+		p small {
+			color: #777;
+			font: 400 12px/20px "Roboto", sans-serif;
+		}
+		
+		label {
+			cursor: pointer;
+			margin: 0 0 5px 0;
+			padding: 0;
+			color: #777771;
+			font: 400 15px/18px "Roboto", sans-serif;
+			display: inline-block;
+		}
+		
+		input, textarea, select {
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"]::-webkit-input-placeholder {
+			color: #777771;
+			color: rgba(119, 119, 113, 0.6);
+			font: 400 15px/18px "Roboto", sans-serif;
+		}
+		
+	}
+	
+	&.disabled {
+		form {
+			opacity: 0.5;
+			input[type="text"],
+			.select-container,
+			.list-results li,
+			.button, a {
+				cursor: default;
+			}
+		}
+	}
+	
+}
+
+// Wrapper
+.wpmud .wpoi-box-content-block {
+	display: block;
+	margin-bottom: 30px;
+	@media (max-width: 1300px) {
+		margin-bottom: 25px;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.wpmud .wpoi-wrapper {
+	position: relative;
+	display: block;
+	.wpoi-element-block {
+		display: block;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.wpoi-element-inline {
+		display: inline-block;
+	}
+}
+
+// Opt-in Form Elements
+.wpmud .wpoi-form-elements-wrap {
+	display: block;
+	@media (max-width: 1300px) {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	.wpoi-form-elements {
+		display: inline-block;
+		margin-right: 30px;
+		margin-bottom: 5px;
+		@media (max-width: 1300px) {
+			min-width: 50%;
+			flex: 1;
+			align-self: flex-start;
+			margin-right: 0;
+			margin-bottom: 0;
+			padding: 5px;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.wpmud .wpoi-toggle-mask {
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	text-align: right;
+	.wpoi-toggle-mask-element {
+		display: inline-block;
+		vertical-align: text-top;
+		margin-right: 17px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	.wpoi-toggle-block {
+		display: block;
+		text-align: right;
+		&.inactive {
+			opacity: 0.5;
+		}
+		p, .toggle {
+			display: inline-block;
+		}
+		p {
+			margin-right: 5px;
+			margin-bottom: 0;
+			color: #777771;
+			font: 400 15px/23px "Roboto", sans-serif;
+		}
+		.toggle {
+			margin-top: -3px;
+		}
+	}
+	.open {
+		position: relative;
+		top: 0;
+		right: 0;
+		i {
+			vertical-align: text-top;
+		}
+	}
+}
+
+// ERROR ICON
+.wpoi-error {
+	input[type="text"],
+	.list-value {
+		border-color: red;
+	}
+}
+.wpoi-error-input {
+	position: relative;
+	.dashicons-warning {
+		position: absolute;
+		right: 15px;
+		bottom: 30px;
+	}
+}
+.wpoi-error-select {
+	position: relative;
+	.dashicons-warning {
+		position: absolute;
+		z-index: 2;
+		right: 38px;
+		bottom: 22px;
+	}
+}
+.dashicons-warning.wpoi-icon-info,
+.dashicons-editor-help.wpoi-icon-info {
+	color: #b8cdd5;
+	margin: 0 5px;
+	line-height: 18px;
+}
+.after_content .dashicons-warning.wpoi-icon-info,
+.after_content .dashicons-editor-help.wpoi-icon-info{
+	margin-top:3px;
+	margin-left: 5px;
+}
+.wpoi-tooltip[tooltip]:after{
+	text-transform:none;
+	font: 400 15px/20px "Roboto", sans-serif;
+}
+
+
+// Making sure dash notice button keep the default box-sizing
+#wpmu-install-dashboard .wpmu-button{
+	box-sizing: content-box;
+}

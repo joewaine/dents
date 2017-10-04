@@ -1,0 +1,2341 @@
+# Copyright (C) 2017 HayyaBuild
+# This file is distributed under the same license as the HayyaBuild package.
+msgid ""
+msgstr ""
+"Project-Id-Version: HayyaBuild 3.0\n"
+"Report-Msgid-Bugs-To: https://codecanyon.net/item/hayyabuild-responsive-header-and-footer-builder/15315666/comments\n"
+"POT-Creation-Date: 2017-05-20 22:27:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hassan Matoog <>\n"
+"Language-Team: ZintaThemes <>\n"
+
+#: admin/class-hayyabuild-help.php:44
+msgid "Version"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:49
+msgid "Contact Us"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:79
+msgid "Help"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:61 admin/class-hayyabuild-list.php:63
+msgid "Published"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:68 admin/class-hayyabuild-list.php:70
+msgid "Draft"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:75 admin/class-hayyabuild-list.php:77
+msgid "Deactivated"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:87 admin/class-hayyabuild-list.php:207
+msgid "All"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:88 admin/class-hayyabuild-list.php:208
+msgid "Headers"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:89 admin/class-hayyabuild-list.php:209
+msgid "Pages Content"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:90 admin/class-hayyabuild-list.php:210
+msgid "Footers"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:111
+msgid "Pages List: "
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:140 admin/class-hayyabuild-list.php:230
+#: admin/class-hayyabuild-list.php:257
+msgid "Type: "
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:143
+msgid "Edit"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:145
+msgid "Deactivate"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:147 admin/class-hayyabuild-main.php:472
+#: admin/class-hayyabuild-main.php:481
+msgid "Publish"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:148
+msgid "Deactive"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:150
+msgid "Activate"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:151 admin/class-hayyabuild-list.php:153
+msgid "Delete"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:155
+msgid "Export"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:202
+msgid "Templates List"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:228 admin/class-hayyabuild-list.php:302
+msgid "Create"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:244
+msgid "Create from template"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:283
+msgid "Pages"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:289 admin/class-hayyabuild-main.php:113
+msgid "All pages"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:290 admin/class-hayyabuild-main.php:114
+msgid "Pages list"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:126
+msgid "Pages List"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:145 admin/class-hayyabuild-view.php:174
+msgid "Modules list"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:162
+msgid "Settings"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:169
+msgid "Background type"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:174
+#: includes/modules/hb_search/hb_search.php:139
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:196
+msgid "Transparent"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:174
+#: includes/modules/hb_image/hb_image.php:119
+msgid "Image"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:174
+msgid "Video"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:174
+msgid "Color"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:186
+msgid "Background image"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:190
+msgid "Image URL"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:192 admin/class-hayyabuild-main.php:266
+msgid "Select"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:199
+msgid "Background repeat"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:204
+msgid "Repeat"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:204
+msgid "Repeat X"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:204
+msgid "Repeat Y"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:204
+msgid "No repeat"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:216
+msgid "Background size"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:221
+msgid "Auto"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:221
+msgid "Length"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:221
+msgid "Cover"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:221
+msgid "Contain"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:221
+msgid "Initial"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:233
+msgid "Background Effects"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:240
+msgid "Fixed Background"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:241 admin/class-hayyabuild-main.php:303
+msgid "Parallax Effect"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:260
+msgid "Background Video"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:264
+msgid "Video URL"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:273
+msgid "Fixed Video"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:285
+msgid "Background color"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:295 admin/class-hayyabuild-view.php:315
+msgid "Scroll Effects"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:302
+msgid "Sticky"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:304
+msgid "Opacity Effect"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:305
+msgid "Scale In"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:306
+msgid "Scale Out"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:324
+msgid "Smooth scroll"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:337
+msgid "Scroll speed"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:352
+msgid "Text color"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:383
+msgid "Border Color"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:392
+msgid "Margin"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:398
+msgid "Border"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:404
+msgid "Padding"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:411
+msgid "Select header Background."
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:425 admin/class-hayyabuild-settings.php:229
+msgid "CSS Editor"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:466
+msgid "Update"
+msgstr ""
+
+#: admin/class-hayyabuild-main.php:484
+msgid "Save as Draft"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:63
+msgid "The database has been successfully updated"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:65
+msgid "EROR08: Someting happen, Can’t update database."
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:94
+msgid "Include libraries"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:100
+msgid ""
+"<strong>Please Don’t deactivate anything that you don’t know</strong>.<br/"
+">You can disable one of these libraries if you are alrady use it in your "
+"theme."
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:107
+msgid "CSS libraries"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:112
+msgid "Include Bootstrap library"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:125
+msgid "Include Font Awesome"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:140
+msgid "JavaScript libraries"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:145
+msgid "Include ScrollMagic"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:158
+msgid "Include NiceScroll"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:176
+msgid "Active/Deactivate Modules"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:182
+msgid ""
+"<strong>Please Don’t deactivate anything that you don’t know</strong>.<br/"
+">You can disable one of these modules if you have a problem in builder page."
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:192
+msgid "All Modules"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:235
+msgid "This CSS code will appear in all pages."
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:260
+msgid "Save"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:52
+msgid "This list is empty!"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:55
+msgid "Your Headers and Footers will appear here"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:81
+msgid "Add New"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:85
+msgid "Back"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:93
+msgid "New Header"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:98
+msgid "New Content"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:103
+msgid "New Footer"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:108
+msgid "New from Template"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:127
+msgid "Import HayyaBuild Content"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:133
+msgid "Import"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:136
+msgid "File"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:144
+msgid "Include pages list"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:146
+msgid "No"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:149
+#: includes/modules/bs_alert/bs_alert.php:144
+#: includes/modules/bs_button/bs_button.php:167
+#: includes/modules/bs_progress/bs_progress.php:151
+#: includes/modules/bs_progress/bs_progress.php:159
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:157
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:163
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:169
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:181
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:187
+#: includes/modules/hb_gobottom/hb_gobottom.php:123
+#: includes/modules/hb_search/hb_search.php:147
+#: includes/modules/hb_search/hb_search.php:155
+#: includes/modules/hb_social/hb_social.php:137
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:149
+#: includes/modules/wp_archives/wp_archives.php:133
+#: includes/modules/wp_archives/wp_archives.php:141
+#: includes/modules/wp_categories/wp_categories.php:133
+#: includes/modules/wp_categories/wp_categories.php:141
+#: includes/modules/wp_categories/wp_categories.php:149
+msgid "Yes"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:272
+msgid "visibility Options"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:276
+msgid "Visible on extra small devices, phones < 768px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:280
+msgid "Visible on medium devices, desktops ≥ 992px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:286
+msgid "Visible on small devices, tablets ≥ 768px "
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:290
+msgid "Visible on large devices, desktops ≥ 1200px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:296
+msgid "Hidden on extra small devices, phones < 768px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:300
+msgid "Hidden on medium devices, desktops ≥ 992px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:306
+msgid "Hidden on small devices, tablets ≥ 768px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:310
+msgid "Hidden on large devices, desktops ≥ 1200px"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:318
+msgid "Select Effects Duration"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:327
+msgid "Don’t Reverse Scrolling Effects"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:333
+msgid "Scale Out Effect"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:337
+msgid "Scale In Effect"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:343
+msgid "Slide Left"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:347
+msgid "Slide Right"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:353
+msgid "Slide UP"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:357
+msgid "Slide DOWN"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:363
+msgid "Left Rotation"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:367
+msgid "Right Rotation"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:373
+msgid "Fade IN"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:377
+msgid "Fade OUT"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:383
+msgid "Parallax Background (UP)"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:387
+msgid "Parallax Background (DOWN)"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:392
+msgid "Other Options"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:396
+msgid "Background primary style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:400
+msgid "Text primary style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:406
+msgid "Background success style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:410
+msgid "Text success style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:416
+msgid "Background default style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:420
+msgid "Text default style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:426
+msgid "Text muted style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:430
+msgid "Text small style"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:436
+msgid "Text align left"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:440
+msgid "Text align right"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:446
+msgid "Text align center"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:450
+msgid "Text align justify"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:456
+msgid "Pull left"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:460
+msgid "Pull right"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:465
+msgid "Extra classes"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:205
+msgid "ERROR: This header, content or footer is not found"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:207
+#: includes/class-hayyabuild-admin.php:360
+#: includes/class-hayyabuild-admin.php:390
+msgid "SUCCESS: Database has been updated"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:248
+msgid "Containers"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:248
+msgid "Contents"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:248
+msgid "Plugins"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:248
+msgid "Bootstrap"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:362
+msgid "ERROR01: Someting happen, Can’t update database"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:372
+msgid "ERROR02: Someting happen, Can’t update database"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:392
+msgid "ERROR03: Someting happen, Can’t update database"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:428
+msgid "SUCCESS: Item has been successfully deactivated"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:429
+msgid "ERROR04: Someting happen, Can’t deactivated this item."
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:440
+msgid "SUCCESS: Item has been successfully deleted"
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:442
+msgid "ERROR05: Someting happen, Can’t delete this item."
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:529
+msgid "ERROR06: Someting happen, Can’t update database."
+msgstr ""
+
+#: includes/class-hayyabuild-admin.php:532
+msgid "ERROR07: Someting happen, Can’t update database."
+msgstr ""
+
+#: includes/class-hayyabuild-modules.php:388
+msgid "Same window"
+msgstr ""
+
+#: includes/class-hayyabuild-modules.php:388
+msgid "New window"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:119
+msgid "Alert Box"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:120
+msgid "Provide contextual feedback messages"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:125
+#: includes/modules/bs_button/bs_button.php:125
+#: includes/modules/bs_labels/bs_labels.php:125
+#: includes/modules/bs_navbar/bs_navbar.php:125
+#: includes/modules/bs_panel/bs_panel.php:123
+#: includes/modules/bs_progress/bs_progress.php:125
+#: includes/modules/bs_well/bs_well.php:125
+#: includes/modules/hb_text/hb_text.php:118
+#: includes/modules/hb_text/hb_text.php:124
+msgid "Text"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:126
+#: includes/modules/bs_labels/bs_labels.php:126
+#: includes/modules/bs_navbar/bs_navbar.php:126
+#: includes/modules/bs_progress/bs_progress.php:126
+#: includes/modules/bs_well/bs_well.php:126
+#: includes/modules/hb_text/hb_text.php:125
+msgid "Text content."
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:130
+#: includes/modules/bs_panel/bs_panel.php:134
+#: includes/modules/bs_progress/bs_progress.php:135
+msgid "Select theme"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:131
+#: includes/modules/bs_panel/bs_panel.php:135
+#: includes/modules/bs_progress/bs_progress.php:136
+msgid "Select bootstrap alert theme."
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:133
+#: includes/modules/bs_button/bs_button.php:135
+#: includes/modules/bs_panel/bs_panel.php:139
+#: includes/modules/bs_progress/bs_progress.php:140
+msgid "Success"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:134
+#: includes/modules/bs_button/bs_button.php:136
+#: includes/modules/bs_panel/bs_panel.php:140
+#: includes/modules/bs_progress/bs_progress.php:141
+msgid "Info"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:135
+#: includes/modules/bs_button/bs_button.php:137
+#: includes/modules/bs_panel/bs_panel.php:141
+#: includes/modules/bs_progress/bs_progress.php:142
+msgid "Warning"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:136
+#: includes/modules/bs_button/bs_button.php:138
+#: includes/modules/bs_panel/bs_panel.php:142
+#: includes/modules/bs_progress/bs_progress.php:137
+#: includes/modules/bs_progress/bs_progress.php:143
+msgid "Danger"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:141
+msgid "Dismissible alerts"
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:142
+msgid "Build on any alert with close button."
+msgstr ""
+
+#: includes/modules/bs_alert/bs_alert.php:149
+#: includes/modules/hb_icon/hb_icon.php:111
+#: includes/modules/hb_icon/hb_icon.php:117
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:119
+msgid "Bootstrap Button"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:120
+msgid "Insert a bootstrap button"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:126
+msgid "Buttom text."
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:130
+msgid "Button Style"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:131
+msgid "Select bootstrap buttom style."
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:133
+#: includes/modules/bs_button/bs_button.php:146
+#: includes/modules/bs_panel/bs_panel.php:137
+#: includes/modules/bs_well/bs_well.php:134
+#: includes/modules/hb_div/hb_div.php:121
+#: includes/modules/hb_pageContent/hb_pageContent.php:121
+msgid "Default"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:134
+#: includes/modules/bs_panel/bs_panel.php:138
+msgid "Primary"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:139
+#: includes/modules/bs_button/bs_button.php:155
+#: includes/modules/hb_headingtext/hb_headingtext.php:135
+#: includes/modules/hb_icon/hb_icon.php:131
+#: includes/modules/hb_image/hb_image.php:133
+msgid "Link"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:144
+msgid "Button size"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:147
+#: includes/modules/bs_well/bs_well.php:136
+msgid "Large"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:148
+msgid "Medium"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:149
+#: includes/modules/bs_well/bs_well.php:135
+msgid "Small"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:150
+msgid "XSmall"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:156
+msgid "Button link (url)."
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:160
+msgid "Buttom icon"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:164
+msgid "Put icon at right"
+msgstr ""
+
+#: includes/modules/bs_button/bs_button.php:165
+msgid "Put icon at the right of the text."
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:111
+msgid "Responsive embed"
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:112
+msgid "Allow browsers to determine video"
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:117
+msgid "Embed Code"
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:122
+msgid "Aspect ratio"
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:125
+msgid "16:9 aspect ratio"
+msgstr ""
+
+#: includes/modules/bs_embed/bs_embed.php:126
+msgid "4:3 aspect ratio"
+msgstr ""
+
+#: includes/modules/bs_jumbotron/bs_jumbotron.php:119
+msgid "Jumbotron"
+msgstr ""
+
+#: includes/modules/bs_jumbotron/bs_jumbotron.php:120
+msgid "A lightweight, flexible component"
+msgstr ""
+
+#: includes/modules/bs_jumbotron/bs_jumbotron.php:125
+msgid "\"Text\""
+msgstr ""
+
+#: includes/modules/bs_jumbotron/bs_jumbotron.php:126
+msgid "\"Text content.\""
+msgstr ""
+
+#: includes/modules/bs_labels/bs_labels.php:119
+msgid "Bootstrap Labels"
+msgstr ""
+
+#: includes/modules/bs_labels/bs_labels.php:120
+msgid "Insert bootstrap label"
+msgstr ""
+
+#: includes/modules/bs_navbar/bs_navbar.php:119
+msgid "Nav Bar"
+msgstr ""
+
+#: includes/modules/bs_navbar/bs_navbar.php:120
+msgid "Bootstarp navbar element"
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:111
+msgid "Bootstrap Panel"
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:112
+msgid "put your DOM in a box"
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:117
+msgid "Header Text"
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:119
+msgid "Keep it empty to hide panel header."
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:124
+msgid "Insert text."
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:128
+msgid "Footer Text"
+msgstr ""
+
+#: includes/modules/bs_panel/bs_panel.php:130
+msgid "Keep it empty to hide panel footer."
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:119
+msgid "Progress bar"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:120
+msgid "Provide up-to-date feedback"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:130
+msgid "Progress width"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:131
+msgid "Progress width ( percentage )."
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:139
+#: includes/modules/hb_smenu/hb_smenu.php:147
+msgid "None"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:148
+msgid "Striped ?"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:149
+msgid ""
+"Uses a gradient to create a striped effect. Not available in IE9 and below."
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:156
+msgid "Animated"
+msgstr ""
+
+#: includes/modules/bs_progress/bs_progress.php:157
+msgid "Animate the stripes right to left. Not available in IE9 and below."
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:119
+msgid "Bootstrap Well"
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:120
+msgid "Bootstrap well"
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:130
+msgid "Padding control"
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:131
+msgid "Control padding and rounded corners."
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:132
+msgid "\"Small\""
+msgstr ""
+
+#: includes/modules/bs_well/bs_well.php:132
+msgid "\"Large\""
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:134
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:135
+msgid "customize the form and the mail contents flexibly with simple markup"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:152
+msgid "Select Form"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:153
+msgid "You have to create a forms."
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:158
+msgid "Form Title"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:175
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:158
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:146
+#: includes/modules/hb_menu/hb_menu.php:174
+#: includes/modules/hb_mobilemenu/mobilemenu.php:159
+#: includes/modules/hb_pageContent/hb_pageContent.php:141
+#: includes/modules/hb_revslider/hb_revslider.php:156
+#: includes/modules/hb_search/hb_search.php:184
+#: includes/modules/hb_smenu/hb_smenu.php:182
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:223
+#: includes/modules/wp_archives/wp_archives.php:203
+#: includes/modules/wp_calendar/wp_calendar.php:197
+#: includes/modules/wp_categories/wp_categories.php:214
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:196
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:196
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:193
+msgid "Module name"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:176
+msgid "Form ID"
+msgstr ""
+
+#: includes/modules/hb_ContactForm7/hb_ContactForm7.php:177
+msgid "Form title"
+msgstr ""
+
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:118
+msgid "Layer Slider"
+msgstr ""
+
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:119
+msgid "Responsive Wordpress Slider Plugin"
+msgstr ""
+
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:139
+#: includes/modules/hb_revslider/hb_revslider.php:136
+msgid "Select Slider"
+msgstr ""
+
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:140
+msgid "You have to create sliders."
+msgstr ""
+
+#: includes/modules/hb_LayerSlider/hb_LayerSlider.php:159
+msgid "Slider ID"
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:113
+msgid "Breadcrumb Menu"
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:114
+msgid "Add WordPress breadcrumb menu"
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:124
+msgid "Home Title"
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:125
+msgid ""
+"You can type text or use icon <br> Example for using icon: &lt;i class=\\"
+"\"fa fa-home\\\"&gt;&lt;/i&gt;."
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:129
+msgid "Separator icon"
+msgstr ""
+
+#: includes/modules/hb_breadcrumb/hb_breadcrumb.php:319
+msgid "Page"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:113
+msgid "Conditional Box"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:114
+msgid "You can use this box to display content under a specific conditions."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:122
+msgid "Logged in user"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:123
+msgid "Show or hide this box when the current visitor is a logged in."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:125
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:135
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:145
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:155
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:165
+msgid "Show in any case"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:126
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:136
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:146
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:156
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:166
+msgid "Show"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:127
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:137
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:147
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:157
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:167
+msgid "Hide"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:132
+msgid "Front page"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:133
+msgid "Show or hide this box when the current page is main URL."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:142
+msgid "Posts index"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:143
+msgid "Show or hide this box when the current page is blog posts index."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:152
+msgid "Single Post page"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:153
+msgid "Show or hide this box when Post page is being displayed."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:162
+msgid "Author page"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:163
+msgid "Show or hide this box when any Author page is being displayed."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:172
+msgid "Show in pages"
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:173
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:178
+msgid "Add pages ID’s and separate them with comma (,) ."
+msgstr ""
+
+#: includes/modules/hb_conditionalBox/hb_conditionalBox.php:177
+msgid "Hide from pages"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:111
+msgid "Content Box"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:112
+msgid "Insert content box."
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:118
+#: includes/modules/hb_pageContent/hb_pageContent.php:118
+msgid "DIV width"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:119
+msgid "Make this DIV as a contanier or a container-fluid"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:122
+#: includes/modules/hb_pageContent/hb_pageContent.php:122
+msgid "Container"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:123
+#: includes/modules/hb_pageContent/hb_pageContent.php:123
+msgid "Container Fluid"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:128
+#: includes/modules/hb_gobottom/hb_gobottom.php:127
+#: includes/modules/hb_gotop/hb_gotop.php:122
+msgid "Text align"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:130
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:127
+#: includes/modules/hb_gobottom/hb_gobottom.php:129
+#: includes/modules/hb_gotop/hb_gotop.php:124
+#: includes/modules/hb_menu/hb_menu.php:144
+#: includes/modules/hb_mobilemenu/mobilemenu.php:138
+#: includes/modules/hb_smenu/hb_smenu.php:156
+#: includes/modules/hb_social/hb_social.php:121
+msgid "Left"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:131
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:128
+#: includes/modules/hb_gobottom/hb_gobottom.php:130
+#: includes/modules/hb_gotop/hb_gotop.php:125
+#: includes/modules/hb_menu/hb_menu.php:145
+#: includes/modules/hb_mobilemenu/mobilemenu.php:139
+#: includes/modules/hb_smenu/hb_smenu.php:157
+#: includes/modules/hb_social/hb_social.php:122
+msgid "Center"
+msgstr ""
+
+#: includes/modules/hb_div/hb_div.php:132
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:129
+#: includes/modules/hb_gobottom/hb_gobottom.php:131
+#: includes/modules/hb_gotop/hb_gotop.php:126
+#: includes/modules/hb_menu/hb_menu.php:146
+#: includes/modules/hb_mobilemenu/mobilemenu.php:140
+#: includes/modules/hb_smenu/hb_smenu.php:158
+#: includes/modules/hb_social/hb_social.php:123
+msgid "Right"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:121
+msgid "Facebook timeline"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:122
+msgid "Add latest facebook posts to your website"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:127
+msgid "Facebook Page URL"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:128
+msgid "Facebook Page URL."
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:132
+msgid "Tabs"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:133
+msgid "timeline"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:137
+#: includes/modules/hb_googleMap/hb_googleMap.php:162
+#: includes/modules/hb_image/hb_image.php:138
+msgid "Width"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:138
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:162
+msgid "Box width."
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:146
+#: includes/modules/hb_image/hb_image.php:143
+msgid "Height"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:147
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:171
+msgid "Box height."
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:155
+msgid "Use Small Header"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:156
+msgid "Use Small Header."
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:161
+msgid "Hide Cover Photo"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:162
+msgid "Hide Cover Photo."
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:167
+msgid "Show Friends Faces"
+msgstr ""
+
+#: includes/modules/hb_facebookTimeline/hb_facebookTimeline.php:168
+msgid "Show Friends Faces."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:121
+msgid "Facebook Like Button"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:122
+msgid "Add facebook like button to your WordPress"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:127
+msgid "Action Type"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:128
+msgid ""
+"The verb to display on the button.<br/>Can be either <b>like</b> or "
+"<b>recommend</b>."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:130
+msgid "Like"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:131
+msgid "Recommend"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:136
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:137
+msgid ""
+"The color scheme used by the plugin for <br/>any text outside of the button "
+"itself."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:139
+#: includes/modules/hb_search/hb_search.php:137
+msgid "Light"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:140
+#: includes/modules/hb_search/hb_search.php:138
+msgid "Dark"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:145
+msgid "URL "
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:146
+msgid "The absolute URL of the page that will be liked."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:150
+msgid "Button Layout"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:151
+msgid "Selects one of the different layouts that are available for the plugin."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:153
+msgid "Standard"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:154
+msgid "Button"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:155
+msgid "Button Count"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:156
+msgid "Box Count"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:161
+msgid "Box width"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:170
+msgid "Box height"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:179
+msgid "Share Button"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:180
+msgid "Specifies whether to include a share button beside the Like button."
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:185
+msgid "Show Faces"
+msgstr ""
+
+#: includes/modules/hb_fbLikeButton/hb_fbLikeButton.php:186
+msgid ""
+"Specifies whether to display profile photos below the button (standard "
+"layout only)."
+msgstr ""
+
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:119
+msgid "Fixed Box"
+msgstr ""
+
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:120
+msgid "Insert fixed DIV"
+msgstr ""
+
+#: includes/modules/hb_fixeddiv/hb_fixeddiv.php:125
+msgid "Text Align"
+msgstr ""
+
+#: includes/modules/hb_gobottom/hb_gobottom.php:111
+msgid "Go Down"
+msgstr ""
+
+#: includes/modules/hb_gobottom/hb_gobottom.php:112
+msgid "Insert go down link"
+msgstr ""
+
+#: includes/modules/hb_gobottom/hb_gobottom.php:117
+#: includes/modules/hb_gotop/hb_gotop.php:117
+msgid "Select icon"
+msgstr ""
+
+#: includes/modules/hb_gobottom/hb_gobottom.php:118
+msgid ""
+"Just keep it empty to set this icon ( <i class=\\\"fa fa-angle-double-down\\"
+"\"></i> )."
+msgstr ""
+
+#: includes/modules/hb_gobottom/hb_gobottom.php:122
+msgid "Animate this link ?"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:113
+msgid "Google Map"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:114
+msgid "Create Google Map"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:121
+msgid "Latitude"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:122
+msgid "Inter latitude for your place."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:127
+msgid "Longitude"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:128
+msgid "Enter longitude for your place."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:133
+msgid "Map Zoom"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:140
+msgid "Place Content Text"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:141
+msgid "Enter Place Content Text."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:146
+msgid "Content Text"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:147
+#: includes/modules/hb_googleMap/hb_googleMap.php:148
+msgid "Insert content text to the map.<br/>You can use HTML code"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:152
+msgid "Content Position"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:153
+msgid "Select the content position."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:155
+msgid "Top Left"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:156
+msgid "Top Right"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:163
+msgid "Map width."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:168
+msgid "Map height"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:169
+msgid "Map height."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:174
+msgid "Map Type"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:175
+msgid "Select map type."
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:177
+msgid "hybrid"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:178
+msgid "roadmap"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:179
+msgid "satellite"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:180
+msgid "terain"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:185
+msgid "Map Overlay Color"
+msgstr ""
+
+#: includes/modules/hb_googleMap/hb_googleMap.php:186
+msgid "Select map overlay Color."
+msgstr ""
+
+#: includes/modules/hb_gotop/hb_gotop.php:111
+msgid "Go Top"
+msgstr ""
+
+#: includes/modules/hb_gotop/hb_gotop.php:112
+msgid "Insert go to top link"
+msgstr ""
+
+#: includes/modules/hb_gotop/hb_gotop.php:118
+msgid ""
+"Just keep it empty to set this icon ( <i class=\\\"fa fa-angle-double-up\\"
+"\"></i> )."
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:110
+#: includes/modules/hb_headingtext/hb_headingtext.php:116
+msgid "Heading Text"
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:111
+msgid "Insert Heading Text"
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:117
+#: includes/modules/hb_menu/hb_menu.php:138
+#: includes/modules/hb_smenu/hb_smenu.php:140
+#: includes/modules/wp_archives/wp_archives.php:153
+#: includes/modules/wp_archives/wp_archives.php:159
+#: includes/modules/wp_archives/wp_archives.php:165
+#: includes/modules/wp_archives/wp_archives.php:171
+#: includes/modules/wp_calendar/wp_calendar.php:146
+#: includes/modules/wp_calendar/wp_calendar.php:152
+#: includes/modules/wp_calendar/wp_calendar.php:158
+#: includes/modules/wp_calendar/wp_calendar.php:164
+#: includes/modules/wp_categories/wp_categories.php:161
+#: includes/modules/wp_categories/wp_categories.php:167
+#: includes/modules/wp_categories/wp_categories.php:173
+#: includes/modules/wp_categories/wp_categories.php:179
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:145
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:151
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:157
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:163
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:145
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:151
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:157
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:163
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:142
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:148
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:154
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:160
+msgid "You can use HTML code."
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:118
+msgid "Insert Text."
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:122
+msgid "Heading Tag"
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:123
+msgid "Select Heading tag."
+msgstr ""
+
+#: includes/modules/hb_headingtext/hb_headingtext.php:136
+msgid "Heading text link."
+msgstr ""
+
+#: includes/modules/hb_html/hb_html.php:111
+msgid "HTML Box"
+msgstr ""
+
+#: includes/modules/hb_html/hb_html.php:112
+msgid "HTML code on header or footer"
+msgstr ""
+
+#: includes/modules/hb_html/hb_html.php:117
+msgid "Raw html"
+msgstr ""
+
+#: includes/modules/hb_html/hb_html.php:118
+msgid "Enter your HTML content"
+msgstr ""
+
+#: includes/modules/hb_html/hb_html.php:119
+msgid "<p>I am raw html block.<br/>Click edit button to change this html</p>"
+msgstr ""
+
+#: includes/modules/hb_icon/hb_icon.php:112
+msgid "Insert icon with many features"
+msgstr ""
+
+#: includes/modules/hb_icon/hb_icon.php:119
+msgid "You can use bootstrap icons or fontawesome."
+msgstr ""
+
+#: includes/modules/hb_icon/hb_icon.php:123
+msgid "Icon size"
+msgstr ""
+
+#: includes/modules/hb_icon/hb_icon.php:124
+msgid "Font size of icon in px."
+msgstr ""
+
+#: includes/modules/hb_icon/hb_icon.php:132
+msgid "Icon link (url)."
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:120
+msgid "Insert Image file"
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:125
+msgid "Select Image"
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:129
+msgid "ALT text"
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:134
+msgid "Image link (URL)."
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:139
+msgid ""
+"Image width. keep it empty for auto width.<br/>Examples: 100px, 80%, 20em"
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:144
+msgid ""
+"Image height. keep it empty for auto height.<br/>Examples: 100px, 80%, 20em"
+msgstr ""
+
+#: includes/modules/hb_image/hb_image.php:159
+msgid "Please Select Image file"
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:113
+#: includes/modules/hb_menu/hb_menu.php:175
+#: includes/modules/hb_mobilemenu/mobilemenu.php:160
+#: includes/modules/hb_smenu/hb_smenu.php:183
+msgid "Menu"
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:114
+msgid "Create Wordpress menu"
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:130
+#: includes/modules/hb_mobilemenu/mobilemenu.php:130
+#: includes/modules/hb_smenu/hb_smenu.php:132
+msgid "Select Menu"
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:131
+#: includes/modules/hb_mobilemenu/mobilemenu.php:131
+#: includes/modules/hb_smenu/hb_smenu.php:133
+msgid "You have to create a menu."
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:137
+#: includes/modules/hb_menu/hb_menu.php:176
+#: includes/modules/hb_smenu/hb_smenu.php:139
+msgid "Menu Title"
+msgstr ""
+
+#: includes/modules/hb_menu/hb_menu.php:142
+#: includes/modules/hb_mobilemenu/mobilemenu.php:136
+#: includes/modules/hb_smenu/hb_smenu.php:154
+msgid "Menu align"
+msgstr ""
+
+#: includes/modules/hb_mobilemenu/mobilemenu.php:113
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/modules/hb_mobilemenu/mobilemenu.php:114
+msgid "Create Wordpress mobile menu"
+msgstr ""
+
+#: includes/modules/hb_pageContent/hb_pageContent.php:111
+msgid "Page Content"
+msgstr ""
+
+#: includes/modules/hb_pageContent/hb_pageContent.php:112
+msgid "Insert Page Content"
+msgstr ""
+
+#: includes/modules/hb_pageContent/hb_pageContent.php:119
+msgid "Make this ceontent as a contanier or a container-fluid"
+msgstr ""
+
+#: includes/modules/hb_revslider/hb_revslider.php:118
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/modules/hb_revslider/hb_revslider.php:119
+msgid "Responsive WordPress Plugin Slider Revolution"
+msgstr ""
+
+#: includes/modules/hb_revslider/hb_revslider.php:137
+msgid "You have to create a sliders."
+msgstr ""
+
+#: includes/modules/hb_revslider/hb_revslider.php:157
+msgid "Slider alias"
+msgstr ""
+
+#: includes/modules/hb_row/hb_row.php:110
+msgid "Row"
+msgstr ""
+
+#: includes/modules/hb_row/hb_row.php:111
+msgid "One row to implement a Bootstrap grid layout."
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:120
+msgid "Search Box"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:121
+msgid "Sample search form"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:133
+msgid "Search Style"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:134
+msgid "Select search box theme."
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:136
+msgid "none"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:144
+msgid "Expand on Hover"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:145
+msgid "Search will expand when hover over the icon."
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:152
+msgid "Float to right"
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:153
+msgid "Float to right."
+msgstr ""
+
+#: includes/modules/hb_search/hb_search.php:203
+msgid "Search"
+msgstr ""
+
+#: includes/modules/hb_separator/hb_separator.php:110
+msgid "Separator"
+msgstr ""
+
+#: includes/modules/hb_separator/hb_separator.php:111
+msgid "Horizontal separator line"
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:113
+msgid "Simple Menu"
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:114
+msgid "Create Simple Wordpress Menu"
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:144
+msgid "Menu Style"
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:145
+msgid "Select menu style or keep it without styling to use your style."
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:148
+msgid "Vertical Menu"
+msgstr ""
+
+#: includes/modules/hb_smenu/hb_smenu.php:149
+msgid "Horizontal Menu"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:113
+msgid "Social Menu"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:114
+msgid "Create social menu"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:119
+msgid "Align"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:128
+msgid "Icone Size"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:135
+msgid "Enable icone shadow"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:142
+msgid "Facebook"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:143
+msgid "Link to youe facebook page."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:147
+msgid "Twitter"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:148
+msgid "Link to youe twitter."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:152
+msgid "Google Plus"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:153
+msgid "Link to youe Google Plus."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:157
+msgid "Linkedin"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:158
+msgid "Link to youe Linkedin."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:162
+msgid "Youtube"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:163
+msgid "Link to youe youtube."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:167
+msgid "Vimeo"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:168
+msgid "Link to youe Vimeo."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:172
+msgid "Instagram"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:173
+msgid "Link to youe Instagram."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:177
+msgid "Pinterest"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:178
+msgid "Link to youe Pinterest."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:182
+msgid "Flickr"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:183
+msgid "Link to youe flickr."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:187
+msgid "Github"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:188
+msgid "Link to youe Github."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:192
+msgid "VK"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:193
+msgid "Link to youe VK."
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:197
+msgid "Tumblr"
+msgstr ""
+
+#: includes/modules/hb_social/hb_social.php:198
+msgid "Link to youe Tumblr."
+msgstr ""
+
+#: includes/modules/hb_text/hb_text.php:119
+msgid "A block of text with WYSIWYG editor"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:113
+msgid "Twitter Button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:114
+msgid "Add twitter button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:119
+msgid "Choose a button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:120
+msgid "Select twitter button type."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:122
+msgid "Follow button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:123
+msgid "Share link"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:124
+msgid "Hashtag Button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:125
+msgid "Mention Button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:130
+msgid "Twitter username or hashtag"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:131
+msgid ""
+"add twitter username for follow button or hashtag for hashtag button (don’t "
+"add @ or #)."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:135
+msgid "Large button"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:136
+msgid "Use a large button."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:138
+msgid "large"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:146
+msgid "Show count"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:147
+msgid "Show number of followers."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:154
+msgid "Share URL "
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:155
+msgid "Insert share URL."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:159
+msgid "Share text"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:160
+msgid "Share text."
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:185
+msgid "Follow @"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:192
+msgid "Tweet"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:200
+msgid "Tweet #"
+msgstr ""
+
+#: includes/modules/hb_twitterButton/hb_twitterButton.php:207
+msgid "Tweet to @"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:113
+msgid "Twitter Timeline"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:114
+msgid "Add latest tweets to your website"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:119
+msgid "Timeline template"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:120
+msgid "Choose Timeline template type."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:122
+msgid "List template"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:123
+msgid "Grid template"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:128
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:224
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:129
+msgid "twitter URL.<br/>you can use collections URL"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:133
+msgid "Widget width"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:134
+msgid "Widget width."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:143
+msgid "Widget height"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:144
+msgid "Widget height."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:152
+msgid "Number of tweets"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:153
+msgid ""
+"Display a specific number of items between 1 and 20 by customizing your "
+"embed HTML."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:161
+msgid "No header"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:162
+msgid "Hides the timeline header."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:164
+msgid "Hides header"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:169
+msgid "No footer"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:170
+msgid "Hides the timeline footer."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:172
+msgid "Hides footer"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:177
+msgid "No borders"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:178
+msgid ""
+"Removes all borders within the widget including borders surrounding the "
+"widget area and separating Tweets."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:180
+msgid "Removes all borders"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:185
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:188
+msgid "No scrollbar"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:186
+msgid ""
+"Crops and hides the main timeline scrollbar, if visible.<br/>Please consider "
+"that hiding standard user interface components can affect the accessibility "
+"of your website."
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:193
+msgid "Transparent background"
+msgstr ""
+
+#: includes/modules/hb_twitterTimeline/hb_twitterTimeline.php:194
+msgid "Removes the widget’s background color."
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:121
+msgid "Wordpress Archives"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:122
+msgid "Wordpress Archives widget"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:130
+#: includes/modules/wp_categories/wp_categories.php:130
+msgid "Posts Count"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:131
+#: includes/modules/wp_categories/wp_categories.php:131
+msgid "Display number of posts in each archive."
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:138
+msgid "Archives Dropdown"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:139
+#: includes/modules/wp_categories/wp_categories.php:147
+msgid "Display as drop-down list."
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:146
+#: includes/modules/wp_calendar/wp_calendar.php:139
+#: includes/modules/wp_categories/wp_categories.php:154
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:138
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:138
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:135
+msgid "Widget Title"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:147
+#: includes/modules/wp_calendar/wp_calendar.php:140
+#: includes/modules/wp_categories/wp_categories.php:155
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:139
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:139
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:136
+msgid "Use a Plain Text."
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:152
+#: includes/modules/wp_calendar/wp_calendar.php:145
+#: includes/modules/wp_categories/wp_categories.php:160
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:144
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:144
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:141
+msgid "Before Starting Title"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:158
+#: includes/modules/wp_calendar/wp_calendar.php:151
+#: includes/modules/wp_categories/wp_categories.php:166
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:150
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:150
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:147
+msgid "After Ending Title"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:164
+#: includes/modules/wp_calendar/wp_calendar.php:157
+#: includes/modules/wp_categories/wp_categories.php:172
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:156
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:156
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:153
+msgid "Before Starting Widget"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:170
+#: includes/modules/wp_calendar/wp_calendar.php:163
+#: includes/modules/wp_categories/wp_categories.php:178
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:162
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:162
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:159
+msgid "After Ending Widget"
+msgstr ""
+
+#: includes/modules/wp_archives/wp_archives.php:204
+#: includes/modules/wp_calendar/wp_calendar.php:198
+#: includes/modules/wp_categories/wp_categories.php:215
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:197
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:197
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:194
+msgid "Title"
+msgstr ""
+
+#: includes/modules/wp_calendar/wp_calendar.php:120
+msgid "Wordpress Calendar"
+msgstr ""
+
+#: includes/modules/wp_calendar/wp_calendar.php:121
+msgid "Wordpress Calendar Widget"
+msgstr ""
+
+#: includes/modules/wp_categories/wp_categories.php:121
+msgid "Categories widget"
+msgstr ""
+
+#: includes/modules/wp_categories/wp_categories.php:122
+msgid "Displays a list of categories"
+msgstr ""
+
+#: includes/modules/wp_categories/wp_categories.php:138
+msgid "Subcategories Inside Parent"
+msgstr ""
+
+#: includes/modules/wp_categories/wp_categories.php:139
+msgid "Display sub-categories as nested items inside the parent category."
+msgstr ""
+
+#: includes/modules/wp_categories/wp_categories.php:146
+msgid "Categories Dropdown"
+msgstr ""
+
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:121
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:122
+msgid "Display to a list of recent comments"
+msgstr ""
+
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:130
+msgid "Number of comments"
+msgstr ""
+
+#: includes/modules/wp_recent_comments/wp_recent_comments.php:131
+msgid "Number of comments to show (at most 15). Default: 5."
+msgstr ""
+
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:121
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:122
+msgid "Display to a list of recent posts"
+msgstr ""
+
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:130
+msgid "Number of posts"
+msgstr ""
+
+#: includes/modules/wp_recent_posts/wp_recent_posts.php:131
+msgid "Number of posts to show (at most 15). Default: 5."
+msgstr ""
+
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:121
+msgid "Tag Cloud"
+msgstr ""
+
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:122
+msgid "Wordpress tag cloud widget"
+msgstr ""
+
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:130
+msgid "Cloud Taxonomy"
+msgstr ""
+
+#: includes/modules/wp_tag_cloud/wp_tag_cloud.php:131
+msgid "The taxonomy the cloud will draw tags from. default: post_tag."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "HayyaBuild"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://hayyabuild.zintathemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"HayyaBuild is a powerful and straightforward backend drag-and-drop WordPress "
+"plugin that offers responsive headers, pages content and footers builder."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ZintaThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.zintathemes.com"
+msgstr ""

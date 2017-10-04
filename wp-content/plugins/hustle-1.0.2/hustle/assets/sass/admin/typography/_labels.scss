@@ -1,0 +1,35 @@
+.wpmud label {
+	cursor: text;
+	&.wpoi-label-bold {
+		margin-bottom: 10px;
+		padding: 0;
+		color: #777;
+		font: bold 14px/16px "Roboto Condensed", "Roboto", sans-serif;
+		letter-spacing: -0.2px;
+		text-transform: uppercase;
+	}
+}
+
+.wpmud .wpoi-wrapper {
+	label {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		color: #777771;
+		font: 400 15px/20px "Roboto", sans-serif;
+		strong {
+			font-weight: bold;
+		}
+		span {
+			opacity: 0.5;
+		}
+	}
+}
+
+
+.wpmud {
+	input[type="radio"] + label,
+	input[type="checkbox"] + label {
+		cursor: pointer;
+	}
+}

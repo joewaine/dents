@@ -1,0 +1,94 @@
+Version 1.5.3
+- fixed unnecessary box-shadow on custom checkboxes and radio buttons
+- added 7 new skins
+- fixed minor tranlation issue
+- added TRPHONE as a static translatable custom field
+
+Version 1.5.2
+- changed icon H2 element to SPAN
+
+Version 1.5.1
+- fixed minor escaping issue with the contacts' details
+- fixed auto-reply issue
+
+Version 1.5
+- added option to specify any number of email address for the contacts (comma separated list, added as CC in the email)
+
+Version 1.4.1
+- minor improvements frontend styles
+- fixed SSL issue
+- fixed demo contacts delete issue
+- reconstructed the entire admin area
+- reconstructed documentation
+- added Custom CSS feature
+- added ZIP Updater
+
+Version 1.4
+- added custom fields (text, textarea, select, checkbox, radio button, hidden field)
+- minor visibility improvements
+- fixed floating admin bar issue
+- updated documentation
+
+Version 1.3.9
+- added option to set font weight for name, title, description, input fields and submit button (overwrite theme default)
+- added option to set font color for the entire contact form and submit button (overwrite theme default)
+- added option to set the background color for the entire contact form, submit button and submit button hover (overwrite theme default)
+- minor style improvements on the frontend
+
+Version 1.3.8
+- fixed minor visibility issues
+
+Version 1.3.7
+- added sender URL to message body
+
+Version 1.3.6
+- improved frontend style
+
+Version 1.3.5
+- added 10 new skins
+- added transparent background to image captcha
+- added full height slide option
+
+Version 1.3.4
+- added YouTube icon
+- fixed autoreply email address bug on admin
+
+Version 1.3.3
+- added option to specify target div for background animation
+
+Version 1.3.2
+- added option to use single contact without subject (hide subject selector)
+- improved mail sending
+
+Version 1.3.1
+- added option to install demo contacts
+
+Version 1.3
+- added 10 background animations
+- improved mail sending
+- improved display on large screens
+- fixed minor visibility bugs
+- updated documentation
+
+Version 1.2.2
+- fixed custom icon bug
+
+Version 1.2.1
+- fixed minor bug with cookies
+
+Version 1.2
+- fixed minor visibility issues with light style
+- fixed www domain prefix email sender bug
+- decreased minimal character length of the name field to 2
+
+Version 1.1
+- added option to set font family (Google Fonts)
+- added option to set name font size
+- added option to set title font size
+- added option to set description font size
+- added option to set fields font size
+- added option to set button font size
+- updated documentation
+
+Version 1.0
+Initial Release

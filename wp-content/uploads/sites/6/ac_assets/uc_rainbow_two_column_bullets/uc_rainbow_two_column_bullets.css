@@ -1,0 +1,115 @@
+
+.uc_rainbow_two_column_bullets *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_rainbow_two_column_bullets .uc_container_holder{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	line-height:16px;
+	color:#ffffff;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row
+{
+	padding:25px 17px 25px 17px;
+	overflow:hidden;
+	position:relative;
+	text-align:left;
+	width:100%;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row .uc_icon_holder
+{
+	width:65px;
+	height:65px;
+	font-size:21px;
+	float:left;
+	text-align:center;
+	line-height:65px;
+	position:relative;
+	z-index:5;
+}
+
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row .uc_content_box
+{
+	float:left;
+	width:calc( 100% - 70px) ;
+	padding-top:4px;
+	padding-left:20px;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row .uc_content_box h2
+{
+	font-size:16px;
+	font-weight:600;
+	margin-bottom:7px;
+	text-transform:uppercase;
+}
+
+.uc_rainbow_two_column_bullets .uc_top_border
+{
+	position:absolute;
+	left:46px;
+	top:0px;
+	width:2px;
+	border-left:2px dashed;
+	height:100%;
+	display:block;
+	z-index:1;
+}
+
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row:last-child .uc_top_border
+{
+	top:-5px;
+	height:50%;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_column_bullets_row:first-child .uc_top_border
+{
+	top:30px;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_left
+{
+	float:left;
+	width:50%;
+
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_left .uc_content_box
+{
+   text-align:right;
+   padding-right:20px;
+   padding-left:0px;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_right
+{
+	float:right;
+	width:50%;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_left .uc_icon_holder
+{
+	float:right;
+}
+
+.uc_rainbow_two_column_bullets .uc_rainbow_two_left .uc_top_border
+{
+	right:46px;
+	left:inherit;
+}
+
+@media only screen and (max-width: 640px) {
+  
+	.uc_rainbow_two_column_bullets .uc_rainbow_two_right,.uc_rainbow_two_column_bullets .uc_rainbow_two_left{ width:100%;}
+
+}

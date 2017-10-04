@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "hustle";
+	src: url("../fonts/hustle.eot");
+	src: url("../fonts/hustle.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/hustle.woff") format("woff"),
+		 url("../fonts/hustle.ttf") format("truetype"),
+		 url("../fonts/hustle.svg#hustle") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: "hustle";
+	content: attr(data-icon);
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	speak: none;
+	line-height: 1;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+[class^="i-"]:before,
+[class*=" i-"]:before {
+	font-family: "hustle";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	speak: none;
+	line-height: 1;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.i-beer:before {
+  content: "\61";
+}
+.i-cake:before {
+  content: "\62";
+}
+.i-bug:before {
+  content: "\63";
+}
+.i-check:before {
+  content: "\64";
+}
+.i-email:before {
+  content: "\65";
+}
+.i-cap:before {
+  content: "\66";
+}
+.i-gift:before {
+  content: "\67";
+}
+.i-heart:before {
+  content: "\68";
+}
+.i-glass:before {
+  content: "\69";
+}
+.i-paw:before {
+  content: "\6a";
+}
+.i-pencil:before {
+  content: "\6b";
+}
+.i-paint:before {
+  content: "\6c";
+}
+.i-music:before {
+  content: "\6d";
+}
+.i-rocket:before {
+  content: "\6e";
+}
+.i-thumb:before {
+  content: "\6f";
+}
+.i-user:before {
+  content: "\70";
+}
+.i-umbrella:before {
+  content: "\71";
+}
+.i-star:before {
+  content: "\72";
+}
+.i-leaf:before {
+  content: "\73";
+}
+.i-coffee:before {
+  content: "\74";
+}
+.i-truck:before {
+  content: "\75";
+}
+.i-tree:before {
+  content: "\76";
+}
+.i-trophy:before {
+  content: "\77";
+}
+.i-suitcase:before {
+  content: "\79";
+}
+.i-error:before {
+  content: "\78";
+}

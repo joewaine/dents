@@ -1,0 +1,43 @@
+// Overlay Mask
+.wpoi-overlay-mask {
+	position: fixed;
+	z-index: 999;
+	&.wpoi-animate {
+		width: 100%;
+		max-width: 100%;
+		height: 100%;
+		max-height: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		transform: translate(0,0);
+	}
+	.wpoi-popup-overlay {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: 0.8;
+	}
+}
+
+.inc_optin {
+	// NSA Message
+	.wpoi-nsa {
+		display: block;
+		padding: 5px 10px;
+		text-align: center;
+		.inc_opt_never_see_again {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			cursor: pointer;
+			font: 600 12px/20px "Open Sans", sans-serif;
+			transition: 0.15s ease;
+		}
+	}
+}

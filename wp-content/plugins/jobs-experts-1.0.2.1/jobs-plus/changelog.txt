@@ -1,0 +1,58 @@
+Jobs+ Change Log
+
+==1.0==
+Initial Release
+==1.0.1
+Fix bug require to refresh permalink
+==1.0.1.1
+Ability to change currency in setting
+==1.0.1.2
+Add Message Add-On
+Fix currency issue in post job page
+Fix some translate issue
+Fix bug widget title not save
+Fix native contact page go 404 after send contact
+==1.0.1.3
+Fix security issues for my jobs/my profiles page
+==1.0.1.4
+Fix bug jobs page show no jobs when active Advanced Search
+Add helper filters
+Fix WYISWYG button styling
+Fix bug can contact job poster when no expert profile
+Fix bug can not assign job owner in backend
+Update PM to latest release
+Add ability for developer can add additions fields, CRUD and validation support for additions fields
+Separate view file, can replace native view and custom theme
+Ability for update field name, example job_title=>Job Name
+Attachment now need permission for upload
+Improve assets processing
+Grunt Support
+==1.0.1.5
+Fix Private Message add-on not store db version properly
+==1.0.1.6
+Fix search job widget price slider
+Add ability for admin can on/off job discussion
+Fix blank shortcode instruction in settings
+==1.0.1.7
+New addon - Exert Location
+Use WP Media for uploader
+Fix: conflict with Advanced Custom Field
+Fix: Social & Skill js bug
+==1.0.1.8
+Some more hooks & filters
+Fix bug extend jobs expired date
+Fix bug job search widget wrong parameter
+Fix bug expert widget not assign profile to owner
+Add MarketPress integration (wallets)
+Add charging when saving new expert profile
+Add charging when saving new job
+Fix bug recent job widget not showing
+Some other minor bugs fix
+==1.0.1.9
+Show notification when user deactivate MarketPress plugin while MarketPress integration add-on still enable
+==1.0.2.0
+Integration with MarketPress 3.0
+==1.0.2.1
+Fix backward issue with MarketPress 2.9
+
+

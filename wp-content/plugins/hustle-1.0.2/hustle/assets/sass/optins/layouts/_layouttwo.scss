@@ -1,0 +1,33 @@
+.wpoi-hustle.wpoi-layout-two {
+	&.wpoi-layout-two .wpoi-medium {
+		div:not(.noimage) form {
+			flex-direction: column;
+			&.wpoi-fields-joined .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 1px;
+			}
+			&.wpoi-fields-separated .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+			.wpoi-button {
+				flex: 0 36px;
+			}
+		}
+	}
+	// Image Only
+	.nocontent:not(.noimage) {
+		.wpoi-form {
+			border-radius: inherit;
+		}
+	}
+	// Has MCG
+	form.hasmcg {
+		> .wpoi-provider-args {
+			border-radius: 0;
+			> .wpoi-container > .wpoi-element:last-child {
+				border-radius: 0;
+			}
+		}
+	}
+}

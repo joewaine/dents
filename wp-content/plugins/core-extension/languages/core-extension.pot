@@ -1,0 +1,3430 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: TWC Theme Extension Plugin\n"
+"POT-Creation-Date: 2015-08-14 16:09+0300\n"
+"PO-Revision-Date: 2015-08-14 16:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: core-extension.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: config/map.php:11
+msgid "CSS Animation"
+msgstr ""
+
+#: config/map.php:15
+msgid "No"
+msgstr ""
+
+#: config/map.php:16
+msgid "Top to bottom"
+msgstr ""
+
+#: config/map.php:17
+msgid "Bottom to top"
+msgstr ""
+
+#: config/map.php:18
+msgid "Left to right"
+msgstr ""
+
+#: config/map.php:19
+msgid "Right to left"
+msgstr ""
+
+#: config/map.php:20
+msgid "Appear from center"
+msgstr ""
+
+#: config/map.php:22
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: config/map.php:23 config/map.php:54 config/map.php:74 config/map.php:1598
+#: config/map.php:1611 config/map.php:1726 config/map.php:1735
+#: config/map.php:2136 config/map.php:2659 config/map.php:2671
+#: config/map.php:2681 config/map.php:3012 config/map.php:3020
+#: config/map.php:3917 config/map.php:4194 config/map.php:4276
+#: config/map.php:4673
+msgid "Misc"
+msgstr ""
+
+#: config/map.php:28
+msgid "CSS Animation Delay"
+msgstr ""
+
+#: config/map.php:59
+msgid "Icon Animation"
+msgstr ""
+
+#: config/map.php:63 config/map.php:2645 config/map.php:2666
+msgid "No animation"
+msgstr ""
+
+#: config/map.php:64 config/map.php:2649
+msgid "To full opacity"
+msgstr ""
+
+#: config/map.php:65 config/map.php:2646 config/map.php:2667
+msgid "Scale up"
+msgstr ""
+
+#: config/map.php:66 config/map.php:1607 config/map.php:2650
+msgid "Bounce"
+msgstr ""
+
+#: config/map.php:67 config/map.php:2651
+msgid "Shake"
+msgstr ""
+
+#: config/map.php:68 config/map.php:2652
+msgid "Swing"
+msgstr ""
+
+#: config/map.php:69 config/map.php:2653
+msgid "Tada"
+msgstr ""
+
+#: config/map.php:70 config/map.php:2654
+msgid "Wobble"
+msgstr ""
+
+#: config/map.php:71 config/map.php:2655
+msgid "Pulse"
+msgstr ""
+
+#: config/map.php:73
+msgid ""
+"Select type of animation for the icon when element is hovered. Note: Works "
+"only in modern browsers."
+msgstr ""
+
+#: config/map.php:80 config/map.php:538
+msgid "Row"
+msgstr ""
+
+#: config/map.php:86 config/map.php:852 config/map.php:918 config/map.php:1108
+#: config/map.php:1167 config/map.php:1407 config/map.php:1496
+#: config/map.php:1630 config/map.php:2027 config/map.php:2160
+#: config/map.php:2225 config/map.php:2287 config/map.php:2437
+#: config/map.php:2694 config/map.php:2761 config/map.php:2845
+#: config/map.php:3033 config/map.php:3159 config/map.php:3356
+#: config/map.php:3651 config/map.php:3927 config/map.php:4204
+#: config/map.php:4286 config/map.php:4683 config/map.php:4755
+#: config/map.php:4920
+msgid "Premium"
+msgstr ""
+
+#: config/map.php:86 config/map.php:852 config/map.php:918 config/map.php:1108
+#: config/map.php:1167 config/map.php:1407 config/map.php:1496
+#: config/map.php:1630 config/map.php:1746 config/map.php:2027
+#: config/map.php:2063 config/map.php:2072 config/map.php:2081
+#: config/map.php:2089 config/map.php:2160 config/map.php:2225
+#: config/map.php:2287 config/map.php:2437 config/map.php:2571
+#: config/map.php:2578 config/map.php:2586 config/map.php:2593
+#: config/map.php:2599 config/map.php:2694 config/map.php:2761
+#: config/map.php:2845 config/map.php:3033 config/map.php:3111
+#: config/map.php:3159 config/map.php:3356 config/map.php:3651
+#: config/map.php:3659 config/map.php:3666 config/map.php:3682
+#: config/map.php:3698 config/map.php:3715 config/map.php:3732
+#: config/map.php:3749 config/map.php:3766 config/map.php:3783
+#: config/map.php:3927 config/map.php:3976 config/map.php:3983
+#: config/map.php:3989 config/map.php:3996 config/map.php:4204
+#: config/map.php:4212 config/map.php:4219 config/map.php:4286
+#: config/map.php:4683 config/map.php:4755 config/map.php:4920
+msgid "Content"
+msgstr ""
+
+#: config/map.php:88 config/map.php:545
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: config/map.php:92
+msgid "Full width content"
+msgstr ""
+
+#: config/map.php:94 config/map.php:1188 config/map.php:2191
+#: config/map.php:3018 config/map.php:3239 config/map.php:3382
+#: config/map.php:3458 config/map.php:3465 config/map.php:3472
+#: config/map.php:3479 config/map.php:3486 config/map.php:3549
+#: config/map.php:4092 config/map.php:4100 config/map.php:4108
+#: config/map.php:4580 config/map.php:4807 config/map.php:4826
+#: config/map.php:4960 config/map.php:4967 config/map.php:4974
+#: config/map.php:4981 config/map.php:4988
+msgid "Yes, please"
+msgstr ""
+
+#: config/map.php:98
+msgid "Row auto height"
+msgstr ""
+
+#: config/map.php:102
+msgid ""
+"Choose automatic row height based on height of its content (default "
+"behaviour) and fixed height (great for landing pages with image or video "
+"background)."
+msgstr ""
+
+#: config/map.php:106 config/map.php:549 config/map.php:721 config/map.php:3062
+msgid "Height"
+msgstr ""
+
+#: config/map.php:109 config/map.php:552
+msgid ""
+"Set the height that the row should take on the screen.\n"
+"\t\t\t\t\t\t\t\t\tYou can enter values in <code>px</code> to set absolute "
+"height or in <code>%</code> to set the height relative to the screen size."
+msgstr ""
+
+#: config/map.php:115
+msgid "Vertical align"
+msgstr ""
+
+#: config/map.php:120
+msgid "Choose how the row content should be vertically aligned"
+msgstr ""
+
+#: config/map.php:125 config/map.php:557
+msgid "Padding top"
+msgstr ""
+
+#: config/map.php:128 config/map.php:560
+msgid "The padding-top property sets the top padding (space) of an element."
+msgstr ""
+
+#: config/map.php:132 config/map.php:564
+msgid "Padding bottom"
+msgstr ""
+
+#: config/map.php:135 config/map.php:567
+msgid ""
+"The padding-bottom property sets the bottom padding (space) of an element."
+msgstr ""
+
+#: config/map.php:139
+msgid "Row divider"
+msgstr ""
+
+#: config/map.php:141 config/map.php:1901
+msgid "None"
+msgstr ""
+
+#: config/map.php:142
+msgid "Solid line top"
+msgstr ""
+
+#: config/map.php:143
+msgid "Inner shadow top"
+msgstr ""
+
+#: config/map.php:144
+msgid "Inner shadow bottom"
+msgstr ""
+
+#: config/map.php:145
+msgid "Divider separates current row from content element above"
+msgstr ""
+
+#: config/map.php:149
+msgid "Content fade-out animation"
+msgstr ""
+
+#: config/map.php:151
+msgid "Enable content parallax fade-out effect during the scroll"
+msgstr ""
+
+#: config/map.php:152 config/map.php:221 config/map.php:239 config/map.php:257
+#: config/map.php:343 config/map.php:427 config/map.php:482 config/map.php:618
+#: config/map.php:627 config/map.php:645 config/map.php:754 config/map.php:789
+#: config/map.php:1358
+msgid "Enable"
+msgstr ""
+
+#: config/map.php:156 config/map.php:577 config/map.php:706
+msgid "Font Color"
+msgstr ""
+
+#: config/map.php:158 config/map.php:169 config/map.php:179 config/map.php:581
+#: config/map.php:591
+msgid "Typography"
+msgstr ""
+
+#: config/map.php:162 config/map.php:2817
+msgid "Font weight"
+msgstr ""
+
+#: config/map.php:164 config/map.php:175 config/map.php:587 config/map.php:731
+#: config/map.php:1196
+msgid "Inherit"
+msgstr ""
+
+#: config/map.php:165
+msgid "Normal"
+msgstr ""
+
+#: config/map.php:166
+msgid "Lighter"
+msgstr ""
+
+#: config/map.php:167
+msgid "Bold"
+msgstr ""
+
+#: config/map.php:168
+msgid "Bolder"
+msgstr ""
+
+#: config/map.php:173 config/map.php:585
+msgid "Row text align"
+msgstr ""
+
+#: config/map.php:176 config/map.php:588 config/map.php:732 config/map.php:875
+#: config/map.php:1197 config/map.php:1331 config/map.php:1724
+#: config/map.php:2134 config/map.php:2605 config/map.php:2744
+#: config/map.php:3181
+msgid "Left"
+msgstr ""
+
+#: config/map.php:177 config/map.php:589 config/map.php:733 config/map.php:877
+#: config/map.php:1723 config/map.php:2133 config/map.php:2746
+#: config/map.php:3183
+msgid "Center"
+msgstr ""
+
+#: config/map.php:178 config/map.php:590 config/map.php:734 config/map.php:876
+#: config/map.php:1198 config/map.php:1332 config/map.php:1725
+#: config/map.php:2135 config/map.php:2606 config/map.php:2745
+#: config/map.php:3182
+msgid "Right"
+msgstr ""
+
+#: config/map.php:183 config/map.php:571 config/map.php:738 config/map.php:889
+#: config/map.php:947 config/map.php:1141 config/map.php:1393
+#: config/map.php:1482 config/map.php:1615 config/map.php:1732
+#: config/map.php:2011 config/map.php:2143 config/map.php:2195
+#: config/map.php:2271 config/map.php:2423 config/map.php:2678
+#: config/map.php:2803 config/map.php:2905 config/map.php:3097
+#: config/map.php:3144 config/map.php:3335 config/map.php:3639
+#: config/map.php:3914 config/map.php:4191 config/map.php:4273
+#: config/map.php:4670 config/map.php:4742 config/map.php:4906
+#: config/map.php:5021
+msgid "Extra class name"
+msgstr ""
+
+#: config/map.php:185 config/map.php:573 config/map.php:740 config/map.php:891
+#: config/map.php:949 config/map.php:1143 config/map.php:1395
+#: config/map.php:1484 config/map.php:1617 config/map.php:1734
+#: config/map.php:2013 config/map.php:2145 config/map.php:2197
+#: config/map.php:2273 config/map.php:2425 config/map.php:2680
+#: config/map.php:2805 config/map.php:3099 config/map.php:3146
+#: config/map.php:3641 config/map.php:3916 config/map.php:4193
+#: config/map.php:4275 config/map.php:4672 config/map.php:4744
+#: config/map.php:4908 config/map.php:5023
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: config/map.php:189
+msgid "Add ID to section"
+msgstr ""
+
+#: config/map.php:191
+msgid ""
+"This ID is used to make one page menu or scroll to anchor. Please give "
+"unique ID to each row, if using menu for one page style."
+msgstr ""
+
+#: config/map.php:195 config/map.php:595 config/map.php:1579
+#: config/map.php:2625 config/map.php:2922 config/map.php:3821
+#: config/map.php:4018 config/map.php:4322 config/map.php:4480
+msgid "Background color"
+msgstr ""
+
+#: config/map.php:197 config/map.php:207 config/map.php:214 config/map.php:223
+#: config/map.php:232 config/map.php:241 config/map.php:250 config/map.php:259
+#: config/map.php:271 config/map.php:280 config/map.php:290 config/map.php:301
+#: config/map.php:308 config/map.php:315 config/map.php:322 config/map.php:329
+#: config/map.php:336 config/map.php:345 config/map.php:354
+msgid "Background"
+msgstr ""
+
+#: config/map.php:201
+msgid "Background type"
+msgstr ""
+
+#: config/map.php:206
+msgid "Choose the type of background attachment for this row."
+msgstr ""
+
+#: config/map.php:211 config/map.php:601
+msgid "Background image"
+msgstr ""
+
+#: config/map.php:218 config/map.php:615
+msgid "Parallax background"
+msgstr ""
+
+#: config/map.php:220 config/map.php:342 config/map.php:617
+msgid "Enable parallax effect during the scroll"
+msgstr ""
+
+#: config/map.php:227
+msgid "Background image parallax speed"
+msgstr ""
+
+#: config/map.php:230
+msgid ""
+"You can change the speed of parallax effect by altering the decimal number.  "
+"A lower number means slower, higher means faster, and 0.20 is the default."
+msgstr ""
+
+#: config/map.php:236 config/map.php:624
+msgid "Scale background"
+msgstr ""
+
+#: config/map.php:238 config/map.php:626
+msgid "Enable image scaling effect during the scroll."
+msgstr ""
+
+#: config/map.php:245
+msgid "Background image scaling speed"
+msgstr ""
+
+#: config/map.php:248
+msgid ""
+"You can change the speed of scaling effect by altering the decimal number.  "
+"A lower number means slower, higher means faster, and 0.20 is the default."
+msgstr ""
+
+#: config/map.php:254 config/map.php:642
+msgid "Full background cover"
+msgstr ""
+
+#: config/map.php:256 config/map.php:644
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area."
+msgstr ""
+
+#: config/map.php:263 config/map.php:651
+msgid "Background repeat"
+msgstr ""
+
+#: config/map.php:269 config/map.php:657
+msgid ""
+"The background-repeat property sets if/how a background image will be "
+"repeated."
+msgstr ""
+
+#: config/map.php:275 config/map.php:663
+msgid "Background position"
+msgstr ""
+
+#: config/map.php:278 config/map.php:666
+msgid ""
+"The background-position property sets the starting position of a background "
+"image."
+msgstr ""
+
+#: config/map.php:284 config/map.php:672
+msgid "Background attachment"
+msgstr ""
+
+#: config/map.php:288 config/map.php:675
+msgid ""
+"The background-attachment property sets whether a background image is fixed "
+"or scrolls with the rest of the page."
+msgstr ""
+
+#: config/map.php:294
+msgid "Video source"
+msgstr ""
+
+#: config/map.php:299
+msgid "Choose the source for the background video."
+msgstr ""
+
+#: config/map.php:305
+msgid "Link to video (mp4)"
+msgstr ""
+
+#: config/map.php:312
+msgid "Link to video (webm)"
+msgstr ""
+
+#: config/map.php:319
+msgid "Link to video (ogv)"
+msgstr ""
+
+#: config/map.php:326
+msgid "Link to Vimeo video"
+msgstr ""
+
+#: config/map.php:333
+msgid "Link to Youtube video"
+msgstr ""
+
+#: config/map.php:340
+msgid "Parallax video background"
+msgstr ""
+
+#: config/map.php:349
+msgid "Background video parallax speed"
+msgstr ""
+
+#: config/map.php:352
+msgid ""
+"You can change the speed of parallax and scaling effect by altering the "
+"decimal number.  A lower number means slower, higher means faster, and 0.20 "
+"is the default."
+msgstr ""
+
+#: config/map.php:358 config/map.php:607 config/map.php:2093
+#: config/map.php:3327 config/map.php:3631 config/map.php:3966
+#: config/map.php:4723 config/map.php:4880
+msgid "Overlay color"
+msgstr ""
+
+#: config/map.php:360 config/map.php:609
+msgid ""
+"Select color of overlay over the background image. Use 'Alpha' option to set "
+"the opacity of the overlay."
+msgstr ""
+
+#: config/map.php:362 config/map.php:383 config/map.php:390 config/map.php:399
+msgid "Overlay"
+msgstr ""
+
+#: config/map.php:366
+msgid "Pattern overlay"
+msgstr ""
+
+#: config/map.php:382
+msgid ""
+"Select pattern for background overlay or choose \"Upload custom pattern\" to "
+"upload your own."
+msgstr ""
+
+#: config/map.php:387
+msgid "Upload your custom pattern"
+msgstr ""
+
+#: config/map.php:394
+msgid "Pattern overlay opacity"
+msgstr ""
+
+#: config/map.php:397
+msgid "Set opacity of background overlay pattern in the range from 0 to 1."
+msgstr ""
+
+#: config/map.php:403
+msgid "Row columns"
+msgstr ""
+
+#: config/map.php:405
+msgid ""
+"When enabled, all columns are made 100% wide and stacked above each other"
+msgstr ""
+
+#: config/map.php:406
+msgid ""
+"Make this row content 100% width in Tablet Portrait (on screen sizes smaller "
+"than 979px)"
+msgstr ""
+
+#: config/map.php:407 config/map.php:420 config/map.php:830
+msgid "Responsiveness"
+msgstr ""
+
+#: config/map.php:411
+msgid "Hide this row on screen sizes:"
+msgstr ""
+
+#: config/map.php:424
+msgid "Top slope decoration"
+msgstr ""
+
+#: config/map.php:426
+msgid "Enable slope decoration at the top of the row."
+msgstr ""
+
+#: config/map.php:428 config/map.php:438 config/map.php:448 config/map.php:457
+#: config/map.php:465 config/map.php:475 config/map.php:483 config/map.php:493
+#: config/map.php:503 config/map.php:512 config/map.php:520 config/map.php:530
+#: config/map.php:755 config/map.php:765 config/map.php:774 config/map.php:782
+#: config/map.php:790 config/map.php:800 config/map.php:809 config/map.php:817
+msgid "Decoration"
+msgstr ""
+
+#: config/map.php:432
+msgid "Top slope position"
+msgstr ""
+
+#: config/map.php:436
+msgid ""
+"Set the position of top slope decoration. Inside positioning will create a "
+"slope within the current row, while outside positioning will make it cover "
+"the previous row."
+msgstr ""
+
+#: config/map.php:442 config/map.php:759
+msgid "Top slope direction"
+msgstr ""
+
+#: config/map.php:446 config/map.php:473 config/map.php:528
+msgid "Set the direction of top slope decoration."
+msgstr ""
+
+#: config/map.php:452
+msgid "Top slope height"
+msgstr ""
+
+#: config/map.php:455
+msgid "Set the height of top slope height."
+msgstr ""
+
+#: config/map.php:461
+msgid "Top slope background color"
+msgstr ""
+
+#: config/map.php:463
+msgid "Consider using the color of your current/previous row."
+msgstr ""
+
+#: config/map.php:469
+msgid "Top slope stack order"
+msgstr ""
+
+#: config/map.php:479
+msgid "Bottom slope decoration"
+msgstr ""
+
+#: config/map.php:481
+msgid "Enable slope decoration at the bottom of the row."
+msgstr ""
+
+#: config/map.php:487
+msgid "Bottom slope position"
+msgstr ""
+
+#: config/map.php:491
+msgid ""
+"Set the position of bottom slope decoration. Inside positioning will create "
+"a slope within the current row, while outside positioning will make it cover "
+"the next row."
+msgstr ""
+
+#: config/map.php:497
+msgid "Bottom slope direction"
+msgstr ""
+
+#: config/map.php:501
+msgid "Set the direction of bottom slope decoration."
+msgstr ""
+
+#: config/map.php:507
+msgid "Bottom slope height"
+msgstr ""
+
+#: config/map.php:510
+msgid "Set the height of bottom slope height."
+msgstr ""
+
+#: config/map.php:516
+msgid "Bottom slope background color"
+msgstr ""
+
+#: config/map.php:518
+msgid "Consider using the color of your current/next row."
+msgstr ""
+
+#: config/map.php:524
+msgid "Bottom slope stack order"
+msgstr ""
+
+#: config/map.php:579 config/map.php:708
+msgid "Select font color"
+msgstr ""
+
+#: config/map.php:597 config/map.php:603 config/map.php:611 config/map.php:620
+#: config/map.php:629 config/map.php:638 config/map.php:647 config/map.php:659
+#: config/map.php:668 config/map.php:677
+msgid "Background &amp; Animation"
+msgstr ""
+
+#: config/map.php:633
+msgid "Parallax speed"
+msgstr ""
+
+#: config/map.php:636
+msgid ""
+"You can change the speed by altering the decimal number.  A lower number "
+"means slower, higher means faster, and 0.20 is the default."
+msgstr ""
+
+#: config/map.php:685
+msgid "1 column - 1/12"
+msgstr ""
+
+#: config/map.php:686
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: config/map.php:687
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: config/map.php:688
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: config/map.php:689
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: config/map.php:690
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: config/map.php:691
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: config/map.php:692
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: config/map.php:693
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: config/map.php:694
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: config/map.php:695
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: config/map.php:696
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: config/map.php:699
+msgid "Column"
+msgstr ""
+
+#: config/map.php:713
+msgid "Column height"
+msgstr ""
+
+#: config/map.php:717
+msgid ""
+"Choose automatic column height based on height of its content (default "
+"behaviour) or fixed height."
+msgstr ""
+
+#: config/map.php:724
+msgid "Set the height in pixels that the column should take on the screen."
+msgstr ""
+
+#: config/map.php:729
+msgid "Column text align"
+msgstr ""
+
+#: config/map.php:744
+msgid "Css"
+msgstr ""
+
+#: config/map.php:747
+msgid "Design options"
+msgstr ""
+
+#: config/map.php:751
+msgid "Left slope decoration"
+msgstr ""
+
+#: config/map.php:753
+msgid "Enable slope decoration on the left of the column."
+msgstr ""
+
+#: config/map.php:763
+msgid "Set the direction of left slope decoration."
+msgstr ""
+
+#: config/map.php:769
+msgid "Left slope width"
+msgstr ""
+
+#: config/map.php:772
+msgid "Set the width of left slope decoration."
+msgstr ""
+
+#: config/map.php:778
+msgid "Left slope background color"
+msgstr ""
+
+#: config/map.php:780
+msgid "Consider using the background color of current column."
+msgstr ""
+
+#: config/map.php:786
+msgid "Right slope decoration"
+msgstr ""
+
+#: config/map.php:788
+msgid "Enable slope decoration on the right of the column."
+msgstr ""
+
+#: config/map.php:794
+msgid "Right slope direction"
+msgstr ""
+
+#: config/map.php:798
+msgid "Set the direction of right slope decoration."
+msgstr ""
+
+#: config/map.php:804
+msgid "Right slope width"
+msgstr ""
+
+#: config/map.php:807
+msgid "Set the width of right slope decoration."
+msgstr ""
+
+#: config/map.php:813
+msgid "Right slope background color"
+msgstr ""
+
+#: config/map.php:815
+msgid "Consider using the color the current column."
+msgstr ""
+
+#: config/map.php:821 config/map.php:3054
+msgid "Width"
+msgstr ""
+
+#: config/map.php:824 config/map.php:832
+msgid "Width & Responsiveness"
+msgstr ""
+
+#: config/map.php:825
+msgid "Select column width."
+msgstr ""
+
+#: config/map.php:833
+msgid ""
+"Adjust column for different screen sizes. Control width, offset and "
+"visibility settings."
+msgstr ""
+
+#: config/map.php:847
+msgid "Custom Tabs"
+msgstr ""
+
+#: config/map.php:854
+msgid "Tabbed content"
+msgstr ""
+
+#: config/map.php:858 config/map.php:925 config/map.php:1114
+#: config/map.php:1412 config/map.php:1501
+msgid "Widget title"
+msgstr ""
+
+#: config/map.php:860 config/map.php:927 config/map.php:1116
+#: config/map.php:1503
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: config/map.php:864 config/map.php:931
+msgid "Tabs style"
+msgstr ""
+
+#: config/map.php:866 config/map.php:933 config/map.php:1122
+#: config/map.php:2036
+msgid "Classic"
+msgstr ""
+
+#: config/map.php:867 config/map.php:934 config/map.php:1123
+#: config/map.php:3815 config/map.php:4003
+msgid "Minimalistic"
+msgstr ""
+
+#: config/map.php:868
+msgid "Underscored"
+msgstr ""
+
+#: config/map.php:869 config/map.php:935 config/map.php:1124
+msgid "Set the style of tabs section."
+msgstr ""
+
+#: config/map.php:873
+msgid "Tab headings alignment"
+msgstr ""
+
+#: config/map.php:881
+msgid "Auto rotate tabs"
+msgstr ""
+
+#: config/map.php:883 config/map.php:941
+msgid "Disable"
+msgstr ""
+
+#: config/map.php:885
+msgid "Auto rotate tabs each X seconds."
+msgstr ""
+
+#: config/map.php:902 config/map.php:960
+msgid "Tab 1"
+msgstr ""
+
+#: config/map.php:903 config/map.php:961
+msgid "Tab 2"
+msgstr ""
+
+#: config/map.php:912
+msgid "Custom Tour"
+msgstr ""
+
+#: config/map.php:921
+msgid "Vertical tabbed content"
+msgstr ""
+
+#: config/map.php:939
+msgid "Auto rotate slides"
+msgstr ""
+
+#: config/map.php:943
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: config/map.php:968
+msgid "Tab"
+msgstr ""
+
+#: config/map.php:976 config/map.php:1647 config/map.php:2567
+#: config/map.php:2851 config/map.php:3042 config/map.php:5051
+#: include/portfolio_post_type.php:117
+msgid "Title"
+msgstr ""
+
+#: config/map.php:978
+msgid "Tab title."
+msgstr ""
+
+#: config/map.php:982 config/map.php:1211 config/map.php:1754
+#: config/map.php:2292 config/map.php:2443 config/map.php:3670
+#: config/map.php:4354
+msgid "Icon library"
+msgstr ""
+
+#: config/map.php:984 config/map.php:1213 config/map.php:2294
+msgid "No Icon"
+msgstr ""
+
+#: config/map.php:985 config/map.php:1214 config/map.php:1756
+#: config/map.php:2295 config/map.php:2445 config/map.php:3672
+#: config/map.php:4356
+msgid "Font Awesome"
+msgstr ""
+
+#: config/map.php:986 config/map.php:1215 config/map.php:1757
+#: config/map.php:2296 config/map.php:2446 config/map.php:3673
+#: config/map.php:4357
+msgid "Open Iconic"
+msgstr ""
+
+#: config/map.php:987 config/map.php:1216 config/map.php:1758
+#: config/map.php:2297 config/map.php:2447 config/map.php:3674
+#: config/map.php:4358
+msgid "Typicons"
+msgstr ""
+
+#: config/map.php:988 config/map.php:1217 config/map.php:1759
+#: config/map.php:2298 config/map.php:2448 config/map.php:3675
+#: config/map.php:4359
+msgid "Entypo"
+msgstr ""
+
+#: config/map.php:989 config/map.php:1218 config/map.php:1760
+#: config/map.php:2299 config/map.php:2449 config/map.php:3676
+#: config/map.php:4360
+msgid "Linecons"
+msgstr ""
+
+#: config/map.php:990 config/map.php:1219 config/map.php:1761
+#: config/map.php:2300 config/map.php:2450 config/map.php:3677
+#: config/map.php:4361
+msgid "Simple Line Icons"
+msgstr ""
+
+#: config/map.php:994 config/map.php:1223 config/map.php:1765
+#: config/map.php:2304 config/map.php:2454 config/map.php:3681
+#: config/map.php:4365
+msgid "Select icon library."
+msgstr ""
+
+#: config/map.php:998 config/map.php:1013 config/map.php:1029
+#: config/map.php:1045 config/map.php:1061 config/map.php:1077
+#: config/map.php:1228 config/map.php:1244 config/map.php:1261
+#: config/map.php:1278 config/map.php:1295 config/map.php:1312
+#: config/map.php:1743 config/map.php:1769 config/map.php:1784
+#: config/map.php:1800 config/map.php:1816 config/map.php:1831
+#: config/map.php:1847 config/map.php:2308 config/map.php:2323
+#: config/map.php:2339 config/map.php:2355 config/map.php:2371
+#: config/map.php:2387 config/map.php:2455 config/map.php:2459
+#: config/map.php:2471 config/map.php:2475 config/map.php:2488
+#: config/map.php:2492 config/map.php:2505 config/map.php:2509
+#: config/map.php:2522 config/map.php:2526 config/map.php:2539
+#: config/map.php:2543 config/map.php:2556 config/map.php:2563
+#: config/map.php:2608 config/map.php:2621 config/map.php:2628
+#: config/map.php:2636 config/map.php:3686 config/map.php:3702
+#: config/map.php:3719 config/map.php:3736 config/map.php:3753
+#: config/map.php:3770 config/map.php:4367 config/map.php:4371
+#: config/map.php:4383 config/map.php:4387 config/map.php:4400
+#: config/map.php:4404 config/map.php:4417 config/map.php:4421
+#: config/map.php:4434 config/map.php:4438 config/map.php:4451
+#: config/map.php:4455 config/map.php:4468 config/map.php:4476
+#: config/map.php:4484 config/map.php:4492 config/map.php:4501
+#: config/map.php:4894 config/map.php:4902
+msgid "Icon"
+msgstr ""
+
+#: config/map.php:1009 config/map.php:1025 config/map.php:1041
+#: config/map.php:1057 config/map.php:1073 config/map.php:1089
+#: config/map.php:1239 config/map.php:1256 config/map.php:1273
+#: config/map.php:1290 config/map.php:1307 config/map.php:1324
+#: config/map.php:1780 config/map.php:1796 config/map.php:1812
+#: config/map.php:1843 config/map.php:1859 config/map.php:2319
+#: config/map.php:2335 config/map.php:2351 config/map.php:2367
+#: config/map.php:2383 config/map.php:2399 config/map.php:2470
+#: config/map.php:2487 config/map.php:2504 config/map.php:2521
+#: config/map.php:2538 config/map.php:2555 config/map.php:3697
+#: config/map.php:3714 config/map.php:3731 config/map.php:3748
+#: config/map.php:3765 config/map.php:3782 config/map.php:4382
+#: config/map.php:4399 config/map.php:4416 config/map.php:4433
+#: config/map.php:4450 config/map.php:4467
+msgid "Select icon from library."
+msgstr ""
+
+#: config/map.php:1093
+msgid "Tab ID"
+msgstr ""
+
+#: config/map.php:1103
+msgid "Custom Accordion"
+msgstr ""
+
+#: config/map.php:1110
+msgid "Collapsible content panels"
+msgstr ""
+
+#: config/map.php:1120
+msgid "Accordion style"
+msgstr ""
+
+#: config/map.php:1128
+msgid "Active section"
+msgstr ""
+
+#: config/map.php:1130
+msgid ""
+"Enter section number to be active on load or enter false to collapse all "
+"sections."
+msgstr ""
+
+#: config/map.php:1134
+msgid "Allow collapsible all"
+msgstr ""
+
+#: config/map.php:1136
+msgid "Select checkbox to allow all sections to be collapsible."
+msgstr ""
+
+#: config/map.php:1137
+msgid "Allow"
+msgstr ""
+
+#: config/map.php:1151
+msgid "Add section"
+msgstr ""
+
+#: config/map.php:1155
+msgid "Section 1"
+msgstr ""
+
+#: config/map.php:1156
+msgid "Section 2"
+msgstr ""
+
+#: config/map.php:1164
+msgid "Custom Button"
+msgstr ""
+
+#: config/map.php:1169
+msgid "Eye catching button"
+msgstr ""
+
+#: config/map.php:1173 config/map.php:1863 config/map.php:2409
+#: config/map.php:2597 config/map.php:3796 config/map.php:4065
+#: config/map.php:4513 config/map.php:4602
+msgid "URL (Link)"
+msgstr ""
+
+#: config/map.php:1178 config/map.php:1182 config/map.php:3804
+#: config/map.php:4114 config/map.php:4505 config/map.php:4585
+#: include/templates/shortcodes/vc_button.php:26
+msgid "Text on the button"
+msgstr ""
+
+#: config/map.php:1186
+msgid "Full width button?"
+msgstr ""
+
+#: config/map.php:1189
+msgid "Button takes full width of its container."
+msgstr ""
+
+#: config/map.php:1190 config/map.php:1207 config/map.php:1224
+#: config/map.php:1240 config/map.php:1257 config/map.php:1274
+#: config/map.php:1291 config/map.php:1308 config/map.php:1325
+#: config/map.php:1335 config/map.php:1343 config/map.php:1351
+#: config/map.php:4791 config/map.php:4801 config/map.php:4819
+#: config/map.php:4829 config/map.php:4842 config/map.php:4856
+msgid "Layout"
+msgstr ""
+
+#: config/map.php:1194
+msgid "Button alignment"
+msgstr ""
+
+#: config/map.php:1202
+msgid "Button size"
+msgstr ""
+
+#: config/map.php:1204
+msgid "Regular size"
+msgstr ""
+
+#: config/map.php:1205 config/map.php:1704 config/map.php:2735
+msgid "Medium"
+msgstr ""
+
+#: config/map.php:1206 config/map.php:1639 config/map.php:1705
+#: config/map.php:2736
+msgid "Large"
+msgstr ""
+
+#: config/map.php:1329 config/map.php:2603
+msgid "Icon position"
+msgstr ""
+
+#: config/map.php:1333
+msgid ""
+"Choose position of the icon relative to button text. Ignore if no icon "
+"chosen."
+msgstr ""
+
+#: config/map.php:1339 config/map.php:1984
+msgid "Margin left"
+msgstr ""
+
+#: config/map.php:1347 config/map.php:1996
+msgid "Margin right"
+msgstr ""
+
+#: config/map.php:1355
+msgid "Ghost button style?"
+msgstr ""
+
+#: config/map.php:1357
+msgid "Border and text in selected color with transparent background"
+msgstr ""
+
+#: config/map.php:1359 config/map.php:1376 config/map.php:1387
+#: config/map.php:2033 config/map.php:2166 config/map.php:3089
+#: config/map.php:3492 config/map.php:4994
+msgid "Style"
+msgstr ""
+
+#: config/map.php:1363 config/map.php:1869 config/map.php:2825
+msgid "Color"
+msgstr ""
+
+#: config/map.php:1365 config/map.php:1434 config/map.php:1539
+#: config/map.php:1871 config/map.php:1916
+msgid "Theme accent color"
+msgstr ""
+
+#: config/map.php:1366 config/map.php:1874 config/map.php:1919
+msgid "White"
+msgstr ""
+
+#: config/map.php:1367 config/map.php:1435 config/map.php:1540
+#: config/map.php:1873 config/map.php:1918
+msgid "Grey"
+msgstr ""
+
+#: config/map.php:1368 config/map.php:1436 config/map.php:1541
+#: config/map.php:1875 config/map.php:1920
+msgid "Blue"
+msgstr ""
+
+#: config/map.php:1369 config/map.php:1437 config/map.php:1542
+#: config/map.php:1876 config/map.php:1921
+msgid "Green"
+msgstr ""
+
+#: config/map.php:1370 config/map.php:1438 config/map.php:1543
+#: config/map.php:1877 config/map.php:1922
+msgid "Orange"
+msgstr ""
+
+#: config/map.php:1371 config/map.php:1439 config/map.php:1544
+#: config/map.php:1878 config/map.php:1923
+msgid "Red"
+msgstr ""
+
+#: config/map.php:1372
+msgid "Pink"
+msgstr ""
+
+#: config/map.php:1373 config/map.php:1440 config/map.php:1545
+#: config/map.php:1872 config/map.php:1917
+msgid "Black"
+msgstr ""
+
+#: config/map.php:1374 config/map.php:1441 config/map.php:1546
+#: config/map.php:1879 config/map.php:1924
+msgid "Yellow"
+msgstr ""
+
+#: config/map.php:1375 config/map.php:3873
+msgid "Button color"
+msgstr ""
+
+#: config/map.php:1380
+msgid "Corner rounding"
+msgstr ""
+
+#: config/map.php:1382
+msgid "Sharp"
+msgstr ""
+
+#: config/map.php:1383
+msgid "Slightly rounded"
+msgstr ""
+
+#: config/map.php:1384
+msgid "Heavily rounded"
+msgstr ""
+
+#: config/map.php:1385
+msgid "Round"
+msgstr ""
+
+#: config/map.php:1386
+msgid "Button border radius"
+msgstr ""
+
+#: config/map.php:1404
+msgid "Progress Bar"
+msgstr ""
+
+#: config/map.php:1408
+msgid "Animated progress bar"
+msgstr ""
+
+#: config/map.php:1414
+msgid "What text use as a widget title. Leave blank if no title is needed."
+msgstr ""
+
+#: config/map.php:1418
+msgid "Chart values"
+msgstr ""
+
+#: config/map.php:1420
+msgid ""
+"Input graph values, labels and bar colors (if you want some bars be of "
+"different color than the rest) here. Divide them with \"|\" and separate the "
+"bars with linebreaks (Enter).</br>\n"
+"\t\t\t\t\t\t\tExample: 90|Design|#f47177"
+msgstr ""
+
+#: config/map.php:1426 config/map.php:1523
+msgid "Units"
+msgstr ""
+
+#: config/map.php:1428 config/map.php:1525
+msgid ""
+"Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
+"unit will be appended to the graph title."
+msgstr ""
+
+#: config/map.php:1432 config/map.php:1537
+msgid "Bar color"
+msgstr ""
+
+#: config/map.php:1442 config/map.php:1547 config/map.php:1880
+#: config/map.php:1925
+msgid "Custom Color"
+msgstr ""
+
+#: config/map.php:1443
+msgid "Select bar color."
+msgstr ""
+
+#: config/map.php:1448
+msgid "Bar custom color"
+msgstr ""
+
+#: config/map.php:1450
+msgid "Select custom color for bars."
+msgstr ""
+
+#: config/map.php:1455 config/map.php:1563
+msgid "Track color"
+msgstr ""
+
+#: config/map.php:1457
+msgid ""
+"Select track background color for bars or leave empty for transparent track "
+"background."
+msgstr ""
+
+#: config/map.php:1461
+msgid "Bar height"
+msgstr ""
+
+#: config/map.php:1464
+msgid "Set the bar height. Dont't forget to add <code>px</code>."
+msgstr ""
+
+#: config/map.php:1468
+msgid "Label position"
+msgstr ""
+
+#: config/map.php:1470
+msgid "Below the bar"
+msgstr ""
+
+#: config/map.php:1471
+msgid "Inside the bar"
+msgstr ""
+
+#: config/map.php:1472
+msgid "Choose where you want the label and units to be displayed."
+msgstr ""
+
+#: config/map.php:1476
+msgid "Options"
+msgstr ""
+
+#: config/map.php:1478
+msgid "Add Stripes?"
+msgstr ""
+
+#: config/map.php:1478
+msgid "Add animation? Will be visible with striped bars."
+msgstr ""
+
+#: config/map.php:1492
+msgid "Pie chart"
+msgstr ""
+
+#: config/map.php:1497
+msgid "Animated pie chart"
+msgstr ""
+
+#: config/map.php:1508
+msgid "Pie value"
+msgstr ""
+
+#: config/map.php:1510
+msgid "Input graph value here. Choose range between 0 and 100."
+msgstr ""
+
+#: config/map.php:1516
+msgid "Pie label"
+msgstr ""
+
+#: config/map.php:1518
+msgid "Input integer value for label. If empty \"Pie value\" will be used."
+msgstr ""
+
+#: config/map.php:1529
+msgid "Chart size"
+msgstr ""
+
+#: config/map.php:1532
+msgid ""
+"Set the size of pie chart. Don't forget to add <code>px</code> If left "
+"empty, chart will take full width of its container."
+msgstr ""
+
+#: config/map.php:1533 config/map.php:1550 config/map.php:1559
+#: config/map.php:1567 config/map.php:1575 config/map.php:1583
+#: config/map.php:1591 config/map.php:1883 config/map.php:1894
+#: config/map.php:1910 config/map.php:1933 config/map.php:1944
+#: config/map.php:1953 config/map.php:1964 config/map.php:1976
+#: config/map.php:1988 config/map.php:2000 config/map.php:2813
+#: config/map.php:2821 config/map.php:2829 config/map.php:3473
+#: config/map.php:3480 config/map.php:3488 config/map.php:3497
+#: config/map.php:3506 config/map.php:3515 config/map.php:3524
+#: config/map.php:3532 config/map.php:3817 config/map.php:3825
+#: config/map.php:3833 config/map.php:3840 config/map.php:3847
+#: config/map.php:3855 config/map.php:3862 config/map.php:3869
+#: config/map.php:3877 config/map.php:3885 config/map.php:3894
+#: config/map.php:3907 config/map.php:4005 config/map.php:4014
+#: config/map.php:4021 config/map.php:4028 config/map.php:4036
+#: config/map.php:4048 config/map.php:4719 config/map.php:4727
+#: config/map.php:4738 config/map.php:4975 config/map.php:4982
+#: config/map.php:4990 config/map.php:4999 config/map.php:5008
+#: config/map.php:5017
+msgid "Design"
+msgstr ""
+
+#: config/map.php:1548
+msgid "Select pie chart color."
+msgstr ""
+
+#: config/map.php:1555
+msgid "Custom color"
+msgstr ""
+
+#: config/map.php:1566
+msgid "Set the color of the track underneath the pie."
+msgstr ""
+
+#: config/map.php:1571
+msgid "Stroke width"
+msgstr ""
+
+#: config/map.php:1574
+msgid ""
+"Set the width of the line. The number represents percentage of the total pie "
+"chart size."
+msgstr ""
+
+#: config/map.php:1582
+msgid "Set the background fill color. Leave empty for transparent background."
+msgstr ""
+
+#: config/map.php:1587
+msgid "Label color"
+msgstr ""
+
+#: config/map.php:1590
+msgid ""
+"Set the text color for the label. If left empty, bar color will be used."
+msgstr ""
+
+#: config/map.php:1595
+msgid "Bar animation duration"
+msgstr ""
+
+#: config/map.php:1602
+msgid "Bar animation easing"
+msgstr ""
+
+#: config/map.php:1604
+msgid "Linear"
+msgstr ""
+
+#: config/map.php:1605
+msgid "Ease Out"
+msgstr ""
+
+#: config/map.php:1606
+msgid "Ease In Out"
+msgstr ""
+
+#: config/map.php:1608
+msgid "Ease Out Back"
+msgstr ""
+
+#: config/map.php:1627
+msgid "Styled Heading"
+msgstr ""
+
+#: config/map.php:1632
+msgid "Eye catching headings"
+msgstr ""
+
+#: config/map.php:1636
+msgid "Heading text size"
+msgstr ""
+
+#: config/map.php:1638
+msgid "Regular"
+msgstr ""
+
+#: config/map.php:1640
+msgid "Extra large"
+msgstr ""
+
+#: config/map.php:1641
+msgid "Super large"
+msgstr ""
+
+#: config/map.php:1642 config/map.php:1703 config/map.php:2734
+msgid "Small"
+msgstr ""
+
+#: config/map.php:1643 config/map.php:1651 config/map.php:1659
+#: config/map.php:1668 config/map.php:1676
+msgid "Text"
+msgstr ""
+
+#: config/map.php:1655
+msgid "Title color"
+msgstr ""
+
+#: config/map.php:1663
+msgid "Sub-title"
+msgstr ""
+
+#: config/map.php:1667
+msgid "Subtitle will be positioned under main title"
+msgstr ""
+
+#: config/map.php:1672
+msgid "Subtitle color"
+msgstr ""
+
+#: config/map.php:1680
+msgid "Line divider in heading"
+msgstr ""
+
+#: config/map.php:1682
+msgid "No divider"
+msgstr ""
+
+#: config/map.php:1683
+msgid "Between title and subtitle"
+msgstr ""
+
+#: config/map.php:1684
+msgid "Below subtitle"
+msgstr ""
+
+#: config/map.php:1685 config/map.php:1697 config/map.php:1708
+#: config/map.php:1717 config/map.php:2691
+msgid "Divider"
+msgstr ""
+
+#: config/map.php:1689
+msgid "Type of divider"
+msgstr ""
+
+#: config/map.php:1691
+msgid "Narrow"
+msgstr ""
+
+#: config/map.php:1692
+msgid "Narrow thick"
+msgstr ""
+
+#: config/map.php:1693
+msgid "Wide"
+msgstr ""
+
+#: config/map.php:1694
+msgid "Wide thick"
+msgstr ""
+
+#: config/map.php:1695 config/map.php:2704
+msgid "TiLT branded"
+msgstr ""
+
+#: config/map.php:1701 config/map.php:2732
+msgid "Size of divider"
+msgstr ""
+
+#: config/map.php:1706 config/map.php:2737
+msgid "Extra-large"
+msgstr ""
+
+#: config/map.php:1712 config/map.php:2708
+msgid "Divider color"
+msgstr ""
+
+#: config/map.php:1721 config/map.php:2131 config/map.php:2742
+msgid "Alignment"
+msgstr ""
+
+#: config/map.php:1748
+msgid "Icon from icon library"
+msgstr ""
+
+#: config/map.php:1865
+msgid "Add link to icon."
+msgstr ""
+
+#: config/map.php:1881
+msgid "Icon color."
+msgstr ""
+
+#: config/map.php:1887 config/map.php:1937
+msgid "Custom Icon Color"
+msgstr ""
+
+#: config/map.php:1889
+msgid "Select custom icon color."
+msgstr ""
+
+#: config/map.php:1898
+msgid "Background Style"
+msgstr ""
+
+#: config/map.php:1902 config/map.php:2615
+msgid "Circle"
+msgstr ""
+
+#: config/map.php:1903 config/map.php:2617
+msgid "Square"
+msgstr ""
+
+#: config/map.php:1904
+msgid "Rounded"
+msgstr ""
+
+#: config/map.php:1905
+msgid "Outline Circle"
+msgstr ""
+
+#: config/map.php:1906
+msgid "Outline Square"
+msgstr ""
+
+#: config/map.php:1907
+msgid "Outline Rounded"
+msgstr ""
+
+#: config/map.php:1909
+msgid "Background style for icon."
+msgstr ""
+
+#: config/map.php:1914
+msgid "Background Color"
+msgstr ""
+
+#: config/map.php:1927
+msgid "Background color."
+msgstr ""
+
+#: config/map.php:1939
+msgid "Select custom icon background color."
+msgstr ""
+
+#: config/map.php:1948
+msgid "Size"
+msgstr ""
+
+#: config/map.php:1952
+msgid "Icon size."
+msgstr ""
+
+#: config/map.php:1957
+msgid "Display"
+msgstr ""
+
+#: config/map.php:1960
+msgid "Block"
+msgstr ""
+
+#: config/map.php:1961
+msgid "Inline-block"
+msgstr ""
+
+#: config/map.php:1963 config/map.php:1975
+msgid "Select icon alignment."
+msgstr ""
+
+#: config/map.php:1968
+msgid "Icon alignment"
+msgstr ""
+
+#: config/map.php:1971
+msgid "Align left"
+msgstr ""
+
+#: config/map.php:1972
+msgid "Align right"
+msgstr ""
+
+#: config/map.php:1973
+msgid "Align center"
+msgstr ""
+
+#: config/map.php:2023
+msgid "Team"
+msgstr ""
+
+#: config/map.php:2029
+msgid "Staff members"
+msgstr ""
+
+#: config/map.php:2035 config/map.php:4004
+msgid "Modern"
+msgstr ""
+
+#: config/map.php:2037
+msgid "Modest"
+msgstr ""
+
+#: config/map.php:2041
+msgid "Team member photo"
+msgstr ""
+
+#: config/map.php:2045
+msgid "Recommended minimum width: 450px"
+msgstr ""
+
+#: config/map.php:2046 config/map.php:2054 config/map.php:3165
+#: config/map.php:3933 config/map.php:3937 config/map.php:3944
+#: config/map.php:3953 config/map.php:3962 config/map.php:3970
+#: include/portfolio_post_type.php:118
+msgid "Image"
+msgstr ""
+
+#: config/map.php:2050 config/map.php:3412
+msgid "Image height"
+msgstr ""
+
+#: config/map.php:2052
+msgid ""
+"Enter image height in pixels (e.g. <code>300</code>). If left empty, the "
+"image will be square."
+msgstr ""
+
+#: config/map.php:2058
+msgid "Name"
+msgstr ""
+
+#: config/map.php:2067
+msgid "Position"
+msgstr ""
+
+#: config/map.php:2071
+msgid "e.g. \"Senior Developer\""
+msgstr ""
+
+#: config/map.php:2076
+msgid "Quote / motto text (optional)"
+msgstr ""
+
+#: config/map.php:2079
+msgid "Will be displayed when the element is hovered"
+msgstr ""
+
+#: config/map.php:2085
+msgid "Additional text information (optional)"
+msgstr ""
+
+#: config/map.php:2088
+msgid "Write a short description about this person."
+msgstr ""
+
+#: config/map.php:2095
+msgid ""
+"Image overlay background color. Leave empty to use \"Theme accent color\"."
+msgstr ""
+
+#: config/map.php:2096 config/map.php:2103 config/map.php:2110
+#: config/map.php:2118 config/map.php:2126
+msgid "Color palette"
+msgstr ""
+
+#: config/map.php:2100
+msgid "Overlay text color"
+msgstr ""
+
+#: config/map.php:2102
+msgid "If left empty white color will be applied."
+msgstr ""
+
+#: config/map.php:2107
+msgid "Color of team member name"
+msgstr ""
+
+#: config/map.php:2109 config/map.php:2117 config/map.php:2125
+msgid "If left empty color from default palette will be applied."
+msgstr ""
+
+#: config/map.php:2115
+msgid "Color of team member position"
+msgstr ""
+
+#: config/map.php:2123
+msgid "Color of team member information text"
+msgstr ""
+
+#: config/map.php:2154
+msgid "Testimonials"
+msgstr ""
+
+#: config/map.php:2162
+msgid "Quote slider"
+msgstr ""
+
+#: config/map.php:2168
+msgid "Centered simple"
+msgstr ""
+
+#: config/map.php:2169
+msgid "Centered with quotation marks"
+msgstr ""
+
+#: config/map.php:2170
+msgid "Left-aligned with left border"
+msgstr ""
+
+#: config/map.php:2171
+msgid "Styled bubble"
+msgstr ""
+
+#: config/map.php:2175 config/map.php:3426 config/map.php:3434
+#: config/map.php:3442 config/map.php:3452 config/map.php:3459
+#: config/map.php:3466 config/map.php:4936 config/map.php:4944
+#: config/map.php:4954 config/map.php:4961 config/map.php:4968
+msgid "Animation"
+msgstr ""
+
+#: config/map.php:2177
+msgid "Fade"
+msgstr ""
+
+#: config/map.php:2178 include/classes/content_slide.php:2
+msgid "Slide"
+msgstr ""
+
+#: config/map.php:2182
+msgid "Slide show speed"
+msgstr ""
+
+#: config/map.php:2185
+msgid "Set the speed of the slideshow cycling, in seconds"
+msgstr ""
+
+#: config/map.php:2189
+msgid "Hide paging control?"
+msgstr ""
+
+#: config/map.php:2206
+msgid "Add navigation link"
+msgstr ""
+
+#: config/map.php:2206
+msgid "Add testimonial"
+msgstr ""
+
+#: config/map.php:2220
+msgid "Testimonial"
+msgstr ""
+
+#: config/map.php:2229
+msgid "Author image"
+msgstr ""
+
+#: config/map.php:2234
+msgid "Author name"
+msgstr ""
+
+#: config/map.php:2242
+msgid "Author info"
+msgstr ""
+
+#: config/map.php:2245
+msgid "e.g. \"Senior Designer\" or  \"Happy Customer\""
+msgstr ""
+
+#: config/map.php:2250
+msgid "Testimonial/Quote text"
+msgstr ""
+
+#: config/map.php:2253
+msgid "<p>I am testimonial text. Click edit button to change this text.</p>"
+msgstr ""
+
+#: config/map.php:2257
+msgid "Primary text color"
+msgstr ""
+
+#: config/map.php:2260
+msgid "Set the main text color for the quote."
+msgstr ""
+
+#: config/map.php:2264
+msgid "Secondary text color"
+msgstr ""
+
+#: config/map.php:2267
+msgid "Set the secondary text color for decoration and author name."
+msgstr ""
+
+#: config/map.php:2282
+msgid "List Item"
+msgstr ""
+
+#: config/map.php:2286
+msgid "List with custom icon"
+msgstr ""
+
+#: config/map.php:2403
+msgid "List icon color"
+msgstr ""
+
+#: config/map.php:2405 config/map.php:2562
+msgid "Leave empty to use \"Theme accent color\""
+msgstr ""
+
+#: config/map.php:2414
+msgid "List item text"
+msgstr ""
+
+#: config/map.php:2417
+msgid "I am a list item"
+msgstr ""
+
+#: config/map.php:2434
+msgid "Service"
+msgstr ""
+
+#: config/map.php:2439
+msgid "Service info with custom icon"
+msgstr ""
+
+#: config/map.php:2560 config/map.php:3283 config/map.php:3580
+#: config/map.php:3844 config/map.php:4472 config/map.php:4898
+msgid "Icon color"
+msgstr ""
+
+#: config/map.php:2570
+msgid "Your service title"
+msgstr ""
+
+#: config/map.php:2575 config/map.php:3859 config/map.php:3980
+#: config/map.php:4305
+msgid "Heading color"
+msgstr ""
+
+#: config/map.php:2577 config/map.php:3861 config/map.php:3982
+#: config/map.php:4307
+msgid "Leave empty to use default heading color"
+msgstr ""
+
+#: config/map.php:2582
+msgid "Service description"
+msgstr ""
+
+#: config/map.php:2585
+msgid "I am service box text. Click edit button to change this text."
+msgstr ""
+
+#: config/map.php:2590
+msgid "Description color"
+msgstr ""
+
+#: config/map.php:2592
+msgid "Leave empty to use default description color"
+msgstr ""
+
+#: config/map.php:2607
+msgid "Top"
+msgstr ""
+
+#: config/map.php:2612
+msgid "Icon container shape"
+msgstr ""
+
+#: config/map.php:2614
+msgid "Icon without container"
+msgstr ""
+
+#: config/map.php:2616
+msgid "Rounded square"
+msgstr ""
+
+#: config/map.php:2618
+msgid "Rhomb"
+msgstr ""
+
+#: config/map.php:2619
+msgid "Hexagon"
+msgstr ""
+
+#: config/map.php:2620
+msgid "Choose the shape of icon container."
+msgstr ""
+
+#: config/map.php:2627 config/map.php:3823 config/map.php:4020
+#: config/map.php:4132 config/map.php:4248 config/map.php:4324
+#: config/map.php:4482 config/map.php:4528 config/map.php:4611
+msgid "Leave empty for transparent background."
+msgstr ""
+
+#: config/map.php:2633 config/map.php:3837 config/map.php:4025
+#: config/map.php:4254 config/map.php:4328 config/map.php:4488
+msgid "Border color"
+msgstr ""
+
+#: config/map.php:2635 config/map.php:3839 config/map.php:4027
+#: config/map.php:4140 config/map.php:4256 config/map.php:4330
+#: config/map.php:4490 config/map.php:4535 config/map.php:4619
+msgid "Leave empty if you do not need a border."
+msgstr ""
+
+#: config/map.php:2642 config/map.php:2664
+msgid "Animation on hover"
+msgstr ""
+
+#: config/map.php:2647 config/map.php:2668
+msgid "Breathing"
+msgstr ""
+
+#: config/map.php:2648
+msgid "Sonar"
+msgstr ""
+
+#: config/map.php:2657 config/map.php:2669
+msgid ""
+"Choose icon animation on mouse hover event. <br/>\n"
+"\t\t\t\t\t\t\t\t\tSonar effect will only be visible if you set border or "
+"background color."
+msgstr ""
+
+#: config/map.php:2696
+msgid "Horizontal divider"
+msgstr ""
+
+#: config/map.php:2700
+msgid "Type"
+msgstr ""
+
+#: config/map.php:2702
+msgid "Simple line"
+msgstr ""
+
+#: config/map.php:2703
+msgid "Line with \"To top\" button"
+msgstr ""
+
+#: config/map.php:2714
+msgid "Divider width"
+msgstr ""
+
+#: config/map.php:2717
+msgid ""
+"Width of divider line. Enter <code>px</code> or <code>%</code> in the end "
+"for the value to be in pixels or percentages, respectively. <br />\n"
+"\t\t\t\t\t\t\t\t\t\t<strong>Example:</strong> <code>200px</code> or "
+"<code>50%</code>"
+msgstr ""
+
+#: config/map.php:2723
+msgid "Divider line thickness"
+msgstr ""
+
+#: config/map.php:2726
+msgid ""
+"Thickness of divider line. Enter <code>px</code> in the end for a fixed "
+"thickness in pixels. <br />\n"
+"\t\t\t\t\t\t\t\t\t\t<strong>Example:</strong> <code>3px</code>"
+msgstr ""
+
+#: config/map.php:2758
+msgid "Count To"
+msgstr ""
+
+#: config/map.php:2763
+msgid "Animated numerical data"
+msgstr ""
+
+#: config/map.php:2767
+msgid "Value you want to begin at"
+msgstr ""
+
+#: config/map.php:2774
+msgid "Value you want to arrive at"
+msgstr ""
+
+#: config/map.php:2782
+msgid "Duration in milliseconds"
+msgstr ""
+
+#: config/map.php:2789
+msgid "Interval"
+msgstr ""
+
+#: config/map.php:2792
+msgid "How often the element should be updated"
+msgstr ""
+
+#: config/map.php:2796
+msgid "Decimals"
+msgstr ""
+
+#: config/map.php:2799
+msgid "The number of decimal places to show"
+msgstr ""
+
+#: config/map.php:2809
+msgid "Font size"
+msgstr ""
+
+#: config/map.php:2812
+msgid "Choose the size of the number."
+msgstr ""
+
+#: config/map.php:2820
+msgid "Choose the weight of the number."
+msgstr ""
+
+#: config/map.php:2828
+msgid "Set the text color of the counter."
+msgstr ""
+
+#: config/map.php:2840
+msgid "Pricing"
+msgstr ""
+
+#: config/map.php:2847
+msgid "Customizable pricing boxes"
+msgstr ""
+
+#: config/map.php:2854
+msgid "State the name of this pricing plan."
+msgstr ""
+
+#: config/map.php:2855
+msgid "Standard Pack"
+msgstr ""
+
+#: config/map.php:2859
+msgid "Currency"
+msgstr ""
+
+#: config/map.php:2862
+msgid "Enter currency symbol or text, e.g., $ or USD."
+msgstr ""
+
+#: config/map.php:2863
+msgid "$"
+msgstr ""
+
+#: config/map.php:2867
+msgid "Price (nominal)"
+msgstr ""
+
+#: config/map.php:2870
+msgid "State the nominal (e.g. in dollars) price of this plan."
+msgstr ""
+
+#: config/map.php:2871
+msgid "10"
+msgstr ""
+
+#: config/map.php:2875
+msgid "Price (composite)"
+msgstr ""
+
+#: config/map.php:2878
+msgid "State the composite (e.g. in cents) price of this plan."
+msgstr ""
+
+#: config/map.php:2879
+msgid "99"
+msgstr ""
+
+#: config/map.php:2883
+msgid "Time"
+msgstr ""
+
+#: config/map.php:2886
+msgid "Choose time span for you plan, e.g., 'monthly', 'per week' or '/yr'."
+msgstr ""
+
+#: config/map.php:2891
+msgid "Meta"
+msgstr ""
+
+#: config/map.php:2894
+msgid "A short precising desciption or slogan for the plan."
+msgstr ""
+
+#: config/map.php:2895
+msgid "Most popular choice"
+msgstr ""
+
+#: config/map.php:2899
+msgid ""
+"Add URL to the whole pricing box (optional). <br/>\n"
+"\t\t\t\t\t\t\t\tUsers will be redirected via this link when they click on "
+"the box."
+msgstr ""
+
+#: config/map.php:2907
+msgid ""
+"If you wish to style particular content element differently, use this field "
+"to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: config/map.php:2911
+msgid "Select style"
+msgstr ""
+
+#: config/map.php:2917
+msgid "Choose one of four available pricing box styles."
+msgstr ""
+
+#: config/map.php:2918 config/map.php:2926 config/map.php:2935
+#: config/map.php:2943 config/map.php:2951 config/map.php:2958
+#: config/map.php:2966
+msgid "Appearance"
+msgstr ""
+
+#: config/map.php:2925
+msgid "Set background color for the body of this pricing box."
+msgstr ""
+
+#: config/map.php:2930
+msgid "Header background color"
+msgstr ""
+
+#: config/map.php:2933
+msgid "Set background color for the header of this pricing box."
+msgstr ""
+
+#: config/map.php:2939
+msgid "Header text color"
+msgstr ""
+
+#: config/map.php:2942
+msgid "Set color for text inside box header area."
+msgstr ""
+
+#: config/map.php:2947 config/map.php:4216 config/map.php:4316
+msgid "Text color"
+msgstr ""
+
+#: config/map.php:2950
+msgid "Set text color for pricing box content."
+msgstr ""
+
+#: config/map.php:2955
+msgid "Border color (optional)"
+msgstr ""
+
+#: config/map.php:2957
+msgid "Add an outer border to this pricing box. Leave empty for no border."
+msgstr ""
+
+#: config/map.php:2962
+msgid "Pricing box padding left and right"
+msgstr ""
+
+#: config/map.php:2964
+msgid "0px"
+msgstr ""
+
+#: config/map.php:2965
+msgid "Set left and right padding of the pricing box."
+msgstr ""
+
+#: config/map.php:2972
+msgid "Add badge to this box"
+msgstr ""
+
+#: config/map.php:2973 config/map.php:2981 config/map.php:2990
+#: config/map.php:2999
+msgid "Badge"
+msgstr ""
+
+#: config/map.php:2977
+msgid "Badge background color"
+msgstr ""
+
+#: config/map.php:2979
+msgid "Set background color for the badge."
+msgstr ""
+
+#: config/map.php:2985
+msgid "Badge text color"
+msgstr ""
+
+#: config/map.php:2988
+msgid "Set text color for the badge."
+msgstr ""
+
+#: config/map.php:2994
+msgid "Badge text"
+msgstr ""
+
+#: config/map.php:2996
+msgid "Best Offer"
+msgstr ""
+
+#: config/map.php:2997
+msgid ""
+"What do you want your badge to shout? , E.g., 'Hot Offer', or 'Save 20%'."
+msgstr ""
+
+#: config/map.php:3003
+msgid "Hover effect"
+msgstr ""
+
+#: config/map.php:3011
+msgid "Enable and choose a hover effect."
+msgstr ""
+
+#: config/map.php:3016
+msgid "Always active? (by default only on hover state)"
+msgstr ""
+
+#: config/map.php:3019
+msgid "Use this option, if you want to accentuate one of the boxes."
+msgstr ""
+
+#: config/map.php:3030
+msgid "Popover"
+msgstr ""
+
+#: config/map.php:3035
+msgid "Tooltip with custom content"
+msgstr ""
+
+#: config/map.php:3044
+msgid "Set the title of tooltip. If left empty, title bar will not be shown."
+msgstr ""
+
+#: config/map.php:3048
+msgid "Popover text"
+msgstr ""
+
+#: config/map.php:3050
+msgid "Add custom tooltip content."
+msgstr ""
+
+#: config/map.php:3057
+msgid ""
+"Enter width you want this popover to be or leave <code>auto</code> value for "
+"auto width.<br/>\n"
+"\t\t\t\t\t\t\t\t\tExample: <code>300</code>"
+msgstr ""
+
+#: config/map.php:3065
+msgid ""
+"Enter width you want this popover to be or leave <code>auto</code> value for "
+"auto height.<br/>\n"
+"\t\t\t\t\t\t\t\t\tExample: <code>300</code>"
+msgstr ""
+
+#: config/map.php:3070
+msgid "Placement"
+msgstr ""
+
+#: config/map.php:3077
+msgid "Choose where you want this tooltip to be shown"
+msgstr ""
+
+#: config/map.php:3081
+msgid "Trigger"
+msgstr ""
+
+#: config/map.php:3085
+msgid "Choose action on which this tooltip should be triggered"
+msgstr ""
+
+#: config/map.php:3093
+msgid "What style do you prefer?"
+msgstr ""
+
+#: config/map.php:3108
+msgid "FAQ"
+msgstr ""
+
+#: config/map.php:3112
+msgid "Toggle element for Q&A block"
+msgstr ""
+
+#: config/map.php:3118 config/map.php:3120
+#: include/templates/shortcodes/vc_toggle.php:4
+msgid "Toggle title"
+msgstr ""
+
+#: config/map.php:3121
+msgid "Toggle block title."
+msgstr ""
+
+#: config/map.php:3127
+msgid "Toggle content"
+msgstr ""
+
+#: config/map.php:3129
+msgid "<p>Toggle content goes here, click edit button to change this text.</p>"
+msgstr ""
+
+#: config/map.php:3130
+msgid "Toggle block content."
+msgstr ""
+
+#: config/map.php:3134
+msgid "Default state"
+msgstr ""
+
+#: config/map.php:3137
+msgid "Closed"
+msgstr ""
+
+#: config/map.php:3138
+msgid "Open"
+msgstr ""
+
+#: config/map.php:3140
+msgid "Select \"Open\" if you want toggle to be open by default."
+msgstr ""
+
+#: config/map.php:3156
+msgid "Magic Image"
+msgstr ""
+
+#: config/map.php:3161
+msgid "Magic multifunctional image"
+msgstr ""
+
+#: config/map.php:3168 config/map.php:3936
+msgid "Select image from media library."
+msgstr ""
+
+#: config/map.php:3172 config/map.php:3941
+msgid "Image size"
+msgstr ""
+
+#: config/map.php:3174 config/map.php:3943
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height)). Leave parameter empty to use \"thumbnail\" by "
+"default."
+msgstr ""
+
+#: config/map.php:3178
+msgid "Image alignment"
+msgstr ""
+
+#: config/map.php:3185
+msgid "Select image alignment."
+msgstr ""
+
+#: config/map.php:3189 config/map.php:3898 config/map.php:4040
+#: config/map.php:4343
+msgid "Shadow decoration"
+msgstr ""
+
+#: config/map.php:3191 config/map.php:3900 config/map.php:4042
+#: config/map.php:4345
+msgid "No shadow"
+msgstr ""
+
+#: config/map.php:3192 config/map.php:3901 config/map.php:4043
+#: config/map.php:4346
+msgid "Light shadow"
+msgstr ""
+
+#: config/map.php:3193 config/map.php:3902 config/map.php:4044
+#: config/map.php:4347
+msgid "Medium shadow"
+msgstr ""
+
+#: config/map.php:3194 config/map.php:3903 config/map.php:4045
+#: config/map.php:4348
+msgid "Dark shadow"
+msgstr ""
+
+#: config/map.php:3196
+msgid "Add shadow to image border."
+msgstr ""
+
+#: config/map.php:3200 config/map.php:3528 config/map.php:3889
+#: config/map.php:4032 config/map.php:4146 config/map.php:4179
+#: config/map.php:4262 config/map.php:4335 config/map.php:4496
+#: config/map.php:4540 config/map.php:4569 config/map.php:4625
+#: config/map.php:4658
+msgid "Corner radius"
+msgstr ""
+
+#: config/map.php:3203 config/map.php:3531 config/map.php:3892
+#: config/map.php:4035 config/map.php:4149 config/map.php:4265
+#: config/map.php:4338 config/map.php:4499 config/map.php:4543
+#: config/map.php:4628
+msgid ""
+"Enter preferred border radius. Don't forget to add <code>px</code> or <code>"
+"%</code>."
+msgstr ""
+
+#: config/map.php:3207 config/map.php:4052
+msgid "Add link to image"
+msgstr ""
+
+#: config/map.php:3209 config/map.php:3538 config/map.php:4054
+msgid "Choose where the link will lead"
+msgstr ""
+
+#: config/map.php:3216 config/map.php:3224 config/map.php:3233
+#: config/map.php:3241 config/map.php:3252 config/map.php:3266
+#: config/map.php:3279 config/map.php:3287 config/map.php:3297
+#: config/map.php:3304 config/map.php:3543 config/map.php:3551
+#: config/map.php:3562 config/map.php:3576 config/map.php:3584
+#: config/map.php:3598 config/map.php:3608 config/map.php:3792
+#: config/map.php:3800 config/map.php:3808 config/map.php:4061
+#: config/map.php:4069 config/map.php:4077 config/map.php:4086
+#: config/map.php:4094 config/map.php:4102 config/map.php:4110
+msgid "Link"
+msgstr ""
+
+#: config/map.php:3220 config/map.php:4073
+msgid "Insert link to the content"
+msgstr ""
+
+#: config/map.php:3223
+msgid ""
+"You can add link to <strong>Youtube</strong> video or <strong>Vimeo</strong> "
+"video."
+msgstr ""
+
+#: config/map.php:3228 config/map.php:4081
+msgid "Gallery images"
+msgstr ""
+
+#: config/map.php:3232 config/map.php:3368 config/map.php:4085
+#: config/map.php:4766
+msgid "Select images from media library."
+msgstr ""
+
+#: config/map.php:3237 config/map.php:3547
+msgid "Enable zoom effect on popup opening/closing?"
+msgstr ""
+
+#: config/map.php:3245
+msgid "Add icon based on link destination?"
+msgstr ""
+
+#: config/map.php:3251 config/map.php:3561
+msgid "Icon will be added on top of the picture."
+msgstr ""
+
+#: config/map.php:3256 config/map.php:3566
+msgid "Position of the icon"
+msgstr ""
+
+#: config/map.php:3258 config/map.php:3568
+msgid "Choose the position where the icon should appear."
+msgstr ""
+
+#: config/map.php:3270
+msgid "Size of the icon"
+msgstr ""
+
+#: config/map.php:3272
+msgid "Choose how big the icon should be"
+msgstr ""
+
+#: config/map.php:3291
+msgid "How the link should be added?"
+msgstr ""
+
+#: config/map.php:3293
+msgid "You can add link to the whole picture or to the icon only."
+msgstr ""
+
+#: config/map.php:3301 config/map.php:3588
+msgid "Image link"
+msgstr ""
+
+#: config/map.php:3308 config/map.php:3612 config/map.php:4861
+msgid "Add effect on image hover"
+msgstr ""
+
+#: config/map.php:3314 config/map.php:3323 config/map.php:3331
+#: config/map.php:3618 config/map.php:3627 config/map.php:3635
+#: config/map.php:4867 config/map.php:4876 config/map.php:4884
+msgid "Hover"
+msgstr ""
+
+#: config/map.php:3318 config/map.php:3622 config/map.php:3957
+#: config/map.php:4871
+msgid "Add color overlay?"
+msgstr ""
+
+#: config/map.php:3337
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: config/map.php:3341
+msgid "CSS box"
+msgstr ""
+
+#: config/map.php:3344
+msgid "Design Options"
+msgstr ""
+
+#: config/map.php:3353
+msgid "Slider / Carousel"
+msgstr ""
+
+#: config/map.php:3358
+msgid "Animated slider or carousel with images"
+msgstr ""
+
+#: config/map.php:3365 config/map.php:4763
+msgid "Images"
+msgstr ""
+
+#: config/map.php:3372 config/map.php:4811
+msgid "Items shown per view"
+msgstr ""
+
+#: config/map.php:3375
+msgid ""
+"Set the default number of items displayed at a time in a row.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tEntering <code>1</code> will make this element a slider"
+msgstr ""
+
+#: config/map.php:3380 config/map.php:4824
+msgid "Enable responsiveness?"
+msgstr ""
+
+#: config/map.php:3383 config/map.php:4827
+msgid ""
+"Enables you to set the number of items per view displayed on each screen "
+"size.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tNumber of items shown on large screen will be the "
+"default number of items."
+msgstr ""
+
+#: config/map.php:3388 config/map.php:4833
+msgid "Items per view on Tablet"
+msgstr ""
+
+#: config/map.php:3391 config/map.php:4841
+msgid "768px - 1024px"
+msgstr ""
+
+#: config/map.php:3396 config/map.php:4847
+msgid "Items per view on Mobile"
+msgstr ""
+
+#: config/map.php:3399 config/map.php:4855
+msgid "smaller than 768px"
+msgstr ""
+
+#: config/map.php:3404
+msgid "Image width"
+msgstr ""
+
+#: config/map.php:3407
+msgid ""
+"Set custom image width in pixels to be used for image resizing.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tIf left empty, real image width will be used (may result "
+"in carousel images having different height)."
+msgstr ""
+
+#: config/map.php:3415
+msgid ""
+"Set custom image height in pixels to be used for image resizing.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tIf left empty, real image height will be used (may "
+"result in carousel images having different height)."
+msgstr ""
+
+#: config/map.php:3420 config/map.php:4930
+msgid "Slide transition"
+msgstr ""
+
+#: config/map.php:3424 config/map.php:4934
+msgid "Choose preferred transition between slides."
+msgstr ""
+
+#: config/map.php:3430 config/map.php:4940
+msgid "Slide speed"
+msgstr ""
+
+#: config/map.php:3433 config/map.php:4943
+msgid "Slide speed in milliseconds."
+msgstr ""
+
+#: config/map.php:3438
+msgid "Slide step"
+msgstr ""
+
+#: config/map.php:3441
+msgid ""
+"Define how many item columns should be swiped on each carousel swipe. Useful "
+"for items per column >1."
+msgstr ""
+
+#: config/map.php:3446
+msgid "Carousel autoplay speed"
+msgstr ""
+
+#: config/map.php:3449 config/map.php:4951
+msgid ""
+"Set time of carousel autoplay in milliseconds. Higher number means longer "
+"interval. Leave empty to disable autoplay.<br/>\n"
+"\t\t\t\t\t\t\t\t\tExample: <code>3000</code> for 3 second interval.\n"
+"\t\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: config/map.php:3456 config/map.php:4958
+msgid "Stop on hover?"
+msgstr ""
+
+#: config/map.php:3463 config/map.php:4965
+msgid "Disable mouse drag?"
+msgstr ""
+
+#: config/map.php:3470 config/map.php:4972
+msgid "Hide navigation buttons?"
+msgstr ""
+
+#: config/map.php:3477 config/map.php:4979
+msgid "Hide pagination?"
+msgstr ""
+
+#: config/map.php:3484 config/map.php:4986
+msgid "Hide pagination and navigation when not hovered?"
+msgstr ""
+
+#: config/map.php:3487 config/map.php:4989
+msgid ""
+"If not checked, navigation and pagination will be hidden when mouse leaves "
+"the element."
+msgstr ""
+
+#: config/map.php:3496 config/map.php:4998
+msgid "Choose the preferred style."
+msgstr ""
+
+#: config/map.php:3501 config/map.php:5003
+msgid "Color style"
+msgstr ""
+
+#: config/map.php:3505 config/map.php:5007
+msgid "Choose the preferred color style."
+msgstr ""
+
+#: config/map.php:3510 config/map.php:5012
+msgid "Navigation position"
+msgstr ""
+
+#: config/map.php:3514 config/map.php:5016
+msgid "Choose the preferred positioning for navigation arrows."
+msgstr ""
+
+#: config/map.php:3519
+msgid "Space between carousel items"
+msgstr ""
+
+#: config/map.php:3522
+msgid ""
+"Carousel items will have empty space around them equal to this amount of "
+"pixels.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tExample: <code>5</code>."
+msgstr ""
+
+#: config/map.php:3536
+msgid "Add links to images"
+msgstr ""
+
+#: config/map.php:3555 config/map.php:4888
+msgid "Add an icon based on link destination?"
+msgstr ""
+
+#: config/map.php:3591
+msgid ""
+"Enter page addresses to which the image links should lead. Each link should "
+"be entered on a new line and line number should correspond to index of an "
+"image in the slider.</br>\n"
+"\t\t\t\t\t\t\t\t\t\t<code><strong>Example:</strong></br>\n"
+"\t\t\t\t\t\t\t\t\t\t</br>\n"
+"\t\t\t\t\t\t\t\t\t\thttp://www.google.com</br>\n"
+"\t\t\t\t\t\t\t\t\t\thttp://www.facebook.com</br>\n"
+"\t\t\t\t\t\t\t\t\t\thttp://www.linkedin.com</br>\n"
+"\t\t\t\t\t\t\t\t\t\tetc...</code>"
+msgstr ""
+
+#: config/map.php:3602
+msgid "How the link should open?"
+msgstr ""
+
+#: config/map.php:3648
+msgid "Info Box"
+msgstr ""
+
+#: config/map.php:3653
+msgid "Animated information box"
+msgstr ""
+
+#: config/map.php:3657 config/map.php:3974 config/map.php:4300
+msgid "Heading"
+msgstr ""
+
+#: config/map.php:3663 config/map.php:3987 config/map.php:4210
+msgid "Text content"
+msgstr ""
+
+#: config/map.php:3787
+msgid "Add link to this info box?"
+msgstr ""
+
+#: config/map.php:3789
+msgid "Don't add link"
+msgstr ""
+
+#: config/map.php:3790
+msgid "Add button with link"
+msgstr ""
+
+#: config/map.php:3791
+msgid "Add link to the whole info box"
+msgstr ""
+
+#: config/map.php:3798 config/map.php:4067
+msgid "Add link to the whole info box."
+msgstr ""
+
+#: config/map.php:3806 config/map.php:4116
+msgid ""
+"Enter the text to be displayed on the button, e.g. \"Read more\" or \"Buy now"
+"\"."
+msgstr ""
+
+#: config/map.php:3812
+msgid "Info box style"
+msgstr ""
+
+#: config/map.php:3814
+msgid "Basic"
+msgstr ""
+
+#: config/map.php:3816
+msgid "Flipbox"
+msgstr ""
+
+#: config/map.php:3829
+msgid "Different back side background color"
+msgstr ""
+
+#: config/map.php:3831
+msgid "Leave empty to use the main background color."
+msgstr ""
+
+#: config/map.php:3846
+msgid "Leave empty to use default icon color"
+msgstr ""
+
+#: config/map.php:3851
+msgid "Icon container color"
+msgstr ""
+
+#: config/map.php:3853
+msgid "Leave empty for transparent container background"
+msgstr ""
+
+#: config/map.php:3866
+msgid "Content color"
+msgstr ""
+
+#: config/map.php:3868 config/map.php:3995
+msgid "Leave empty to use default content color"
+msgstr ""
+
+#: config/map.php:3875
+msgid "Leave empty to use default button color"
+msgstr ""
+
+#: config/map.php:3881
+msgid "Accent color"
+msgstr ""
+
+#: config/map.php:3883
+msgid "Accent color is applied to certain info box elements on box hover"
+msgstr ""
+
+#: config/map.php:3905 config/map.php:4047
+msgid "Add shadow to info box border."
+msgstr ""
+
+#: config/map.php:3924
+msgid "Image Box"
+msgstr ""
+
+#: config/map.php:3929
+msgid "Image box with text"
+msgstr ""
+
+#: config/map.php:3948
+msgid "Add effect on image box hover"
+msgstr ""
+
+#: config/map.php:3993
+msgid "Text content color"
+msgstr ""
+
+#: config/map.php:4000
+msgid "Image box style"
+msgstr ""
+
+#: config/map.php:4002
+msgid "Standard"
+msgstr ""
+
+#: config/map.php:4009
+msgid "Text-align"
+msgstr ""
+
+#: config/map.php:4076
+msgid ""
+"You can add link to <strong>Youtube</strong> video, <strong>Vimeo</strong> "
+"video or <strong>Google Maps</strong>."
+msgstr ""
+
+#: config/map.php:4090
+msgid "Add trigger to image?"
+msgstr ""
+
+#: config/map.php:4098
+msgid "Add trigger to heading?"
+msgstr ""
+
+#: config/map.php:4106
+msgid "Add trigger button?"
+msgstr ""
+
+#: config/map.php:4118 config/map.php:4126 config/map.php:4134
+#: config/map.php:4142 config/map.php:4151 config/map.php:4509
+#: config/map.php:4515 config/map.php:4522 config/map.php:4529
+#: config/map.php:4536 config/map.php:4544
+msgid "Button"
+msgstr ""
+
+#: config/map.php:4122 config/map.php:4155 config/map.php:4519
+#: config/map.php:4548 config/map.php:4594 config/map.php:4634
+msgid "Button text color"
+msgstr ""
+
+#: config/map.php:4124 config/map.php:4521 config/map.php:4596
+msgid "Leave empty for default text color."
+msgstr ""
+
+#: config/map.php:4130 config/map.php:4163 config/map.php:4526
+#: config/map.php:4555 config/map.php:4609 config/map.php:4642
+msgid "Button background color"
+msgstr ""
+
+#: config/map.php:4138 config/map.php:4171 config/map.php:4533
+#: config/map.php:4562 config/map.php:4617 config/map.php:4650
+msgid "Button border color"
+msgstr ""
+
+#: config/map.php:4157 config/map.php:4550 config/map.php:4636
+msgid "Leave empty for default state text color."
+msgstr ""
+
+#: config/map.php:4159 config/map.php:4167 config/map.php:4175
+#: config/map.php:4185 config/map.php:4551 config/map.php:4558
+#: config/map.php:4565 config/map.php:4574
+msgid "Button Hover"
+msgstr ""
+
+#: config/map.php:4165 config/map.php:4557 config/map.php:4644
+msgid "Leave empty for default state background color."
+msgstr ""
+
+#: config/map.php:4173 config/map.php:4564 config/map.php:4652
+msgid "Leave empty for default state border color."
+msgstr ""
+
+#: config/map.php:4182 config/map.php:4572 config/map.php:4661
+msgid ""
+"Enter preferred border radius. Don't forget to add <code>px</code> or <code>"
+"%</code></br>\n"
+"\t\t\t\t\t\t\t\t\t\tLeave empty for default state corner radius."
+msgstr ""
+
+#: config/map.php:4201 config/map.php:4227 config/map.php:4235
+#: config/map.php:4242 config/map.php:4250 config/map.php:4258
+#: config/map.php:4267
+msgid "Dropcaps"
+msgstr ""
+
+#: config/map.php:4206
+msgid "Text block with a drop cap"
+msgstr ""
+
+#: config/map.php:4218
+msgid "Leave empty to use default text color"
+msgstr ""
+
+#: config/map.php:4223
+msgid "Size of drop cap"
+msgstr ""
+
+#: config/map.php:4226
+msgid "Enter the number of rows that the drop cap should take"
+msgstr ""
+
+#: config/map.php:4231
+msgid "Drop cap style"
+msgstr ""
+
+#: config/map.php:4233
+msgid "Without container"
+msgstr ""
+
+#: config/map.php:4234
+msgid "With container"
+msgstr ""
+
+#: config/map.php:4239
+msgid "Drop cap color"
+msgstr ""
+
+#: config/map.php:4241
+msgid "Leave empty to make drop cap the same color as text"
+msgstr ""
+
+#: config/map.php:4246
+msgid "Container background color"
+msgstr ""
+
+#: config/map.php:4283
+msgid "Promo Box"
+msgstr ""
+
+#: config/map.php:4288
+msgid "Callout banner with text and button"
+msgstr ""
+
+#: config/map.php:4292
+msgid "Promo box style"
+msgstr ""
+
+#: config/map.php:4294
+msgid "Simple"
+msgstr ""
+
+#: config/map.php:4295
+msgid "Boxed"
+msgstr ""
+
+#: config/map.php:4296
+msgid "Centered"
+msgstr ""
+
+#: config/map.php:4311
+msgid "Description"
+msgstr ""
+
+#: config/map.php:4318
+msgid "Leave empty to use default text color."
+msgstr ""
+
+#: config/map.php:4350
+msgid "Adds shadow to promo box border."
+msgstr ""
+
+#: config/map.php:4474
+msgid "Leave empty to use default color."
+msgstr ""
+
+#: config/map.php:4508 config/map.php:4588
+msgid "This text will be displayed on the button."
+msgstr ""
+
+#: config/map.php:4578
+msgid "Add second button"
+msgstr ""
+
+#: config/map.php:4581 config/map.php:4590 config/map.php:4598
+#: config/map.php:4605 config/map.php:4613 config/map.php:4621
+#: config/map.php:4630
+msgid "Button 2"
+msgstr ""
+
+#: config/map.php:4638 config/map.php:4646 config/map.php:4654
+#: config/map.php:4664
+msgid "Button 2 Hover"
+msgstr ""
+
+#: config/map.php:4680
+msgid "Modal Window"
+msgstr ""
+
+#: config/map.php:4685
+msgid "Modal window with overlay"
+msgstr ""
+
+#: config/map.php:4692
+msgid "Modal window ID"
+msgstr ""
+
+#: config/map.php:4695
+msgid ""
+"Add <strong>ID</strong> to this modal window. The element triggering this "
+"modal shoud have <code>#modal-</code> in front of this ID in the URL.</br>\n"
+"\t\t\t\t\t\t\t\t\t E.g. if your modal window ID is <code>description</code>, "
+"your trigger element URL should be <code>#modal-description</code>."
+msgstr ""
+
+#: config/map.php:4700
+msgid "Modal window heading"
+msgstr ""
+
+#: config/map.php:4703
+msgid "This text will be displayed in modal window header."
+msgstr ""
+
+#: config/map.php:4707
+msgid "Maximum width"
+msgstr ""
+
+#: config/map.php:4710
+msgid ""
+"Enter maximum width you want this modal window to take. Don't forget to add "
+"<code>px</code> or <code>%</code>."
+msgstr ""
+
+#: config/map.php:4714
+msgid "Background overlay effect"
+msgstr ""
+
+#: config/map.php:4731
+msgid "Animation effect"
+msgstr ""
+
+#: config/map.php:4752
+msgid "Image Gallery"
+msgstr ""
+
+#: config/map.php:4757
+msgid "Responsive image gallery grid"
+msgstr ""
+
+#: config/map.php:4770
+msgid "Space between images"
+msgstr ""
+
+#: config/map.php:4773
+msgid ""
+"Images will have empty space around them equal to this amount of pixels.<br/"
+">\n"
+"\t\t\t\t\t\t\t\t\t\tExample: <code>5</code>."
+msgstr ""
+
+#: config/map.php:4778
+msgid "Image border color"
+msgstr ""
+
+#: config/map.php:4781
+msgid ""
+"Choose the color of the border around each of the gallery items. Leave empty "
+"for no border."
+msgstr ""
+
+#: config/map.php:4785
+msgid "Custom image width"
+msgstr ""
+
+#: config/map.php:4788
+msgid ""
+"Set custom width in pixels to be used for image resizing. Example: "
+"<code>400</code></br>\n"
+"\t\t\t\t\t\t\t\t\t\tLeave empty to use the default value of <strong>300px</"
+"strong>.</br>\n"
+"\t\t\t\t\t\t\t\t\t\t<strong>Notice:</strong> your image size must not be "
+"smaller than the value used for resizing."
+msgstr ""
+
+#: config/map.php:4795
+msgid "Custom image height"
+msgstr ""
+
+#: config/map.php:4798
+msgid ""
+"Set custom height in pixels to be used for image resizing. Example: "
+"<code>400</code></br>\n"
+"\t\t\t\t\t\t\t\t\t\tLeave empty to use the default value of <strong>300px</"
+"strong>.</br>\n"
+"\t\t\t\t\t\t\t\t\t\t<strong>Notice:</strong> your image size must not be "
+"smaller than the value used for resizing."
+msgstr ""
+
+#: config/map.php:4805
+msgid "Open image gallery in popup when user clicks on an image?"
+msgstr ""
+
+#: config/map.php:4820
+msgid "Set the default number of items in a row."
+msgstr ""
+
+#: config/map.php:4893
+msgid "Icon will be added on top of the image."
+msgstr ""
+
+#: config/map.php:4917
+msgid "Content Slider"
+msgstr ""
+
+#: config/map.php:4922
+msgid "Slider with shortcode elements inside"
+msgstr ""
+
+#: config/map.php:4948
+msgid "Slider autoplay speed"
+msgstr ""
+
+#: config/map.php:5034
+msgid "Slide-1"
+msgstr ""
+
+#: config/map.php:5035
+msgid "Slide-2"
+msgstr ""
+
+#: config/map.php:5042
+msgid "Content Slide"
+msgstr ""
+
+#: config/map.php:5053
+msgid "Slide title."
+msgstr ""
+
+#: config/map.php:5057
+msgid "Slide ID"
+msgstr ""
+
+#: core-extension.php:50
+msgid ""
+"<strong>TWC Theme Core Extend</strong> requires Visual Composer plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: include/portfolio_post_type.php:6
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: include/portfolio_post_type.php:7
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: include/portfolio_post_type.php:8
+msgid "Portfolio"
+msgstr ""
+
+#: include/portfolio_post_type.php:9
+msgid "Parent Item:"
+msgstr ""
+
+#: include/portfolio_post_type.php:10
+msgid "All Items"
+msgstr ""
+
+#: include/portfolio_post_type.php:11
+msgid "View Item"
+msgstr ""
+
+#: include/portfolio_post_type.php:12
+msgid "Add New Item"
+msgstr ""
+
+#: include/portfolio_post_type.php:13
+msgid "Add New"
+msgstr ""
+
+#: include/portfolio_post_type.php:14
+msgid "Edit Item"
+msgstr ""
+
+#: include/portfolio_post_type.php:15
+msgid "Update Item"
+msgstr ""
+
+#: include/portfolio_post_type.php:16
+msgid "Search Item"
+msgstr ""
+
+#: include/portfolio_post_type.php:17
+msgid "Not found"
+msgstr ""
+
+#: include/portfolio_post_type.php:18
+msgid "Not found in Trash"
+msgstr ""
+
+#: include/portfolio_post_type.php:21
+msgid "portfolio-item"
+msgstr ""
+
+#: include/portfolio_post_type.php:22
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: include/portfolio_post_type.php:53
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: include/portfolio_post_type.php:54
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:55
+msgid "Search Categories"
+msgstr ""
+
+#: include/portfolio_post_type.php:56
+msgid "All Categories"
+msgstr ""
+
+#: include/portfolio_post_type.php:57
+msgid "Parent Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:58
+msgid "Parent Category:"
+msgstr ""
+
+#: include/portfolio_post_type.php:59
+msgid "Edit Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:60
+msgid "Update Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:61
+msgid "Add New Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:62
+msgid "New Category Name"
+msgstr ""
+
+#: include/portfolio_post_type.php:63
+msgid "Category"
+msgstr ""
+
+#: include/portfolio_post_type.php:79
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:80
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: include/portfolio_post_type.php:81
+msgid "Search Tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:82
+msgid "Popular Tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:83
+msgid "All Tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:86
+msgid "Edit Tag"
+msgstr ""
+
+#: include/portfolio_post_type.php:87
+msgid "Update Tag"
+msgstr ""
+
+#: include/portfolio_post_type.php:88
+msgid "Add New Tag"
+msgstr ""
+
+#: include/portfolio_post_type.php:89
+msgid "New Tag Name"
+msgstr ""
+
+#: include/portfolio_post_type.php:90
+msgid "Separate tags with commas"
+msgstr ""
+
+#: include/portfolio_post_type.php:91
+msgid "Add or remove tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:92
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:93
+msgid "No tags found."
+msgstr ""
+
+#: include/portfolio_post_type.php:94 include/portfolio_post_type.php:120
+msgid "Tags"
+msgstr ""
+
+#: include/portfolio_post_type.php:119
+msgid "Categories"
+msgstr ""
+
+#: include/portfolio_post_type.php:121
+msgid "Date"
+msgstr ""
+
+#: include/templates/shortcodes/vc_custom_tab.php:9
+#: include/templates/shortcodes/vc_tab.php:25
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "TWC Theme Extension Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themeforest.net/user/TheWhiteCollars"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extension for Theme and Visual Composer features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TheWhiteCollars"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://whitecollars.co/"
+msgstr ""

@@ -1,0 +1,68 @@
+.wpoi-layout-three {
+	.nocontent {
+		> .wpoi-element:not(.wpoi-form) {
+			> .wpoi-container {
+				.wpoi-element:not(.wpoi-image) {
+					display: none;
+				}
+			}
+		}
+	}
+	.nocontent:not(.noimage) {
+		.wpoi-image {
+			border-radius: inherit;
+		}
+	}
+	.nocontent.noimage {
+		> .wpoi-element:nth-child(1) {
+			display: none;
+		}
+		.wpoi-aside-x {
+			flex: 1;
+		}
+	}
+	// MCG Styles
+	form {
+		.wpoi-provider-args {
+			> .wpoi-container >.wpoi-element:nth-child(2) > .wpoi-container {
+				flex-direction: column;
+			}
+			.wpoi-col {
+				.wpoi-button {
+					&.wpoi-button-big {
+						flex: 0 36px;
+					}
+				}
+			}
+		}
+		&.wpoi-fields-joined .wpoi-provider-args {
+			> .wpoi-container >.wpoi-element:nth-child(2) > .wpoi-container > .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 1px;
+			}
+		}
+		&.wpoi-fields-separated .wpoi-provider-args {
+			> .wpoi-container >.wpoi-element:nth-child(2) > .wpoi-container > .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	// Has MCG
+	form.hasmcg {
+		> .wpoi-provider-args {
+			border-radius: 0;
+			> .wpoi-container > .wpoi-element:last-child {
+				border-radius: 0;
+			}
+		}
+	}
+	// Small
+	.wpoi-small {
+		form.wpoi-col {
+			> .wpoi-element {
+				height: inherit;
+			}
+		}
+	}
+}

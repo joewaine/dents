@@ -1,0 +1,43 @@
+/*!
+ * HayyaBuild - Wordpress header and Footer builder
+ * Copyright 2016 Zinta, Inc.
+ * 
+ * Revolution Slider admin css file
+ * 
+ */
+ 
+/**
+  * Admin Css 
+  -----------------------------------------------*/
+  
+@CHARSET "UTF-8";
+
+
+.hb_twitterButton {
+	padding-bottom: 10px;
+    margin: 2px 1px !important;
+	background: rgba(85,172,238,.6);
+	border: 1px solid #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    overflow: hidden;
+    /*color: transparent;*/
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+}
+
+.hb_twitterButton:BEFORE {
+    content: "\f081";
+    font-family: 'FontAwesome' !important;
+    font-size:40px !important;
+    display: block;
+    color: white !important;
+}
+
+.hb_twitterButton a.hb_twitter {
+    pointer-events: none;
+    cursor: default;
+    color: #FFFFFF;
+}
+

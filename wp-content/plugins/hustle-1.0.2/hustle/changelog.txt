@@ -1,0 +1,37 @@
+Plugin Name: Hustle
+Author: Sam Najian (Incsub), Leighton Sapir (Incsub), Emmanuel Laborin (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+
+1.0.2 - 2016-09-22
+----------------------------------------------------------------------
+Add: GetResponse integration
+Add: Sendy integration
+Add: New feature to trigger Pop Ups & Slide Ins on click
+Add: New feature to trigger Pop Ups & Slide Ins on AdBlock detection
+Add: New feature to trigger Pop Ups & Slide Ins on User Leave Intent
+Add: Redesigned Trigger interface for Pop Ups & Slide Ins
+Add: Form input animation control options
+
+Fix: Pop Up and Slide In closing-opening animations
+
+
+1.0.1 - 2016-09-08
+----------------------------------------------------------------------
+- Add: Constant Contact integration
+- Add: MailChimp Interest Group integration
+- Add: Image style options
+- Add: Style amendments and field icon animations
+
+- Fix: Conditional adding of templates in frontend
+- Fix: After content not working in Upfront
+- Fix: Styling issues in admin and frontend
+
+
+1.0 - 2016-08-16
+----------------------------------------------------------------------
+- First public release
+
+
+384027-1474926993

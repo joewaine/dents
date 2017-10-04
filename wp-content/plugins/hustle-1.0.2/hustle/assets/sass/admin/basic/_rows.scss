@@ -1,0 +1,24 @@
+.wpmud {
+	.row {
+		&.white {
+			background: #fff;
+		}
+		&.w-border {
+			border-bottom: 1px solid #DCDFE3;
+			&:first-child {
+				border-top: 1px solid #DCDFE3;
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+	.col-half {
+		&.w-border {
+			border-right: 1px solid #DCDFE3;
+			&:last-child {
+				border-right: 0;
+			}
+		}
+	}
+}

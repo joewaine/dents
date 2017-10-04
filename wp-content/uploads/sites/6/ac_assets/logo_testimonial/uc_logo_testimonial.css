@@ -1,0 +1,46 @@
+
+.uc_logo_testimonial *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_logo_box{ background:#ffffff; padding:30px;}
+.uc_logo_testimonial .uc_logo_box{
+	text-align:center;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #414141;
+}
+.uc_logo_testimonial .uc_logo_box .uc_image_box{
+	background:url(exclam_icon.jpg) no-repeat 0 0;
+	width:160px;
+	margin:0 auto;
+}
+.uc_logo_testimonial .uc_logo_box .uc_image_box img{
+	width:80px;
+	height:80px;
+	border-radius: 50%;	
+}
+.uc_logo_testimonial .uc_logo_box p {
+    line-height: 1.5;
+	margin:0;
+    padding: 20px 10px;
+}
+.uc_logo_testimonial .uc_logo_box span{
+	color:#68C5F5;
+	font-size:15px;	
+	font-weight:700;
+	text-decoration:none;
+	margin-bottom:30px;
+	display:block;
+}
+.uc_logo_testimonial .uc_logo_box .uc_footer_logo img{
+	width:auto;
+	height:auto;
+	border-radius: 0%;	
+	margin-bottom:0;
+}

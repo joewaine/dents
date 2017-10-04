@@ -1,0 +1,19 @@
+.wpoi-layout-one {
+	// No Content
+	.nocontent:not(.noimage) {
+		> .wpoi-element:nth-child(1) {
+			.wpoi-aside {
+				flex: 1;
+			}
+		}
+	}
+	// Has MCG
+	form.hasmcg {
+		> .wpoi-provider-args {
+			border-radius: 0;
+			> .wpoi-container > .wpoi-element:last-child {
+				border-radius: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+
+.uc_hover_rotate_social_icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_hover_rotate_social_icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc_hover_rotate_social_icons .uc_list-inline li {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa {
+    font-size: 1.8em;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa {
+    color: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+    width: 50px;
+}
+.uc_hover_rotate_social_icons .uc_social-icons.uc_icon-circle .fa {
+    border-radius: 50%;
+}
+.uc_hover_rotate_social_icons .uc_social-icons.uc_icon-rotate .fa:hover, .uc_social-icons.uc_icon-rotate .fa:active {
+    transform: scale(1.1) rotate(360deg);
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa:hover, .uc_social-icons .fa:active {
+    box-shadow: 1px 1px 3px #333;
+    color: #fff;
+}
+
+
+/*.uc_hover_rotate_social_icons .uc_social-icons .fa-adn {
+    background-color: #504e54;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-android {
+    background-color: #a5c63b;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-apple {
+    background-color: #aeb5c5;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-bitbucket, .uc_hover_rotate_social_icons .uc_social-icons .fa-bitbucket-square {
+    background-color: #003366;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-bitcoin, .uc_hover_rotate_social_icons .uc_social-icons .fa-btc {
+    background-color: #f7931a;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-css3 {
+    background-color: #1572b7;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-dribbble {
+    background-color: #f46899;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-dropbox {
+    background-color: #018bd3;
+}*/
+/*.uc_hover_rotate_social_icons .uc_social-icons .fa-facebook, .uc_hover_rotate_social_icons .uc_social-icons .fa-facebook-square {
+    background-color: #3c599f;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-flickr {
+    background-color: #ff0084;
+}
+.uc_hover_rotate_social_icons .uc_social-icons .fa-foursquare {
+    background-color: #0086be;
+}*/
+
+

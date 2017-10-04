@@ -1,0 +1,21 @@
+.wpmud {
+	.mce-container { // Wysiwyg Text Editor
+		button {
+			height: auto;
+			border: inherit;
+			border-radius: 0;
+			background: inherit;
+			color: inherit;
+			box-shadow: none;
+			&:hover {
+				background-color: inherit !important;
+			}
+		}
+	}
+	.toggle {
+		.toggle-checkbox + .toggle-label:after {
+			position: absolute;
+			left: 0;
+		}
+	}
+}

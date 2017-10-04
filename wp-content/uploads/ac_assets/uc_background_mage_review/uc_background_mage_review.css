@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_background_mage_review *{ 
+ margin:0px;
+  padding:0px;
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+		  
+		  
+.uc_background_mage_review{ max-width:370px;  border-radius:5px; margin:0 auto; position:relative;}
+.uc_background_mage_review .uc_background_mage_review_innner{ text-align:center; padding:25px 0; }
+.uc_background_mage_review .uc_background_mage_review_innner .fa{ color:#eae3e3; font-size:18px; margin:12px 0;}
+.uc_background_mage_review .uc_background_mage_review_innner .star .fa{ font-size:12px; margin:0px;color:#feb913;}
+.uc_background_mage_review .uc_background_mage_review_innner p{ text-align:center;font-family: 'PT Serif', serif; font-size:20px; padding:0 30px; line-height:35px;}
+.uc_background_mage_review .uc_background_mage_review_innner h2{font-family: 'Poppins', sans-serif; font-size:30px; font-weight:600;line-height: 28px; margin:10px 0 0;}
+

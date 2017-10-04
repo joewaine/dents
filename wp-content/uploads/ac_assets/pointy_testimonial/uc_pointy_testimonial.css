@@ -1,0 +1,54 @@
+BODY{ background:#575655;}
+.uc_pointy_testimonial *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_pointy_testimonial .uc_testimonial_box{
+	text-align:center;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+.uc_pointy_testimonial .uc_testimonial_box img{
+	width:70px;
+	height:70px;
+	border-radius: 50%;	
+}
+.uc_pointy_testimonial .uc_testimonial_box h2{
+	color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-transform: uppercase;	
+	font-family: 'Montserrat', sans-serif;
+	padding:0;
+	margin:0 0 10px;
+	font-size:14px;
+}
+.uc_pointy_testimonial .uc_testimonial_box .uc_sppb-testimonial-message::before {
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    bottom: 100%;
+    content: "";
+    display: inline-block;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+	margin-left: -10px;
+}
+.uc_pointy_testimonial .uc_testimonial_box .uc_sppb-testimonial-message{
+	background: rgb(255, 255, 255) none repeat scroll 0 0 padding-box;
+    border-bottom: 3px solid #FF6953;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 30px;
+    position: relative;
+	font-family: 'Poppins', sans-serif;
+}
+
+

@@ -1,0 +1,53 @@
+.uc_shadow_footer
+{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_shadow_footer .uc_footer_block
+{
+	font-family: 'Droid Serif', serif;
+	padding:0px;
+	margin:0px;
+}
+
+.uc_shadow_footer .uc_footer_block 
+{
+	background-color:#FFFFFF;
+	padding:35px 0 55px;
+	width:100%;
+	list-style:none;
+	font-size:16px;
+	line-height:24px;
+	color:#181818;
+	text-align:center;
+	box-sizing:border-box;
+	font-weight:400i;
+	box-shadow:#dfdfdf -1px 5px 51px;
+}
+
+.uc_shadow_footer .uc_footer_block a
+{
+	color:#424242;
+	text-decoration:none;	
+} 
+
+.uc_shadow_footer .uc_footer_block i.uc_icon
+{
+	font-size:32px;
+	margin-bottom:22px;
+}
+
+.uc_shadow_footer .uc_footer_block strong
+{
+	font-size:25px;
+	color:#181818;
+	font-weight:600i;
+	display:block;
+	margin-bottom:20px;
+}
+
+

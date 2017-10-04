@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_hexagon-review *{ 
+ margin:0px;
+  padding:0px;
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+		  
+.clear{ clear:both;}		  
+.uc_hexagon-review{ max-width:362px; margin:0 auto; padding:30px 0px; overflow:hidden;text-align: center; border-radius: 5px;}
+.uc_hexagon-review .uc_hexagon-review_innner{ text-align:center; padding:0 8%;}
+.uc_hexagon-review .uc_hexagon-review_innner p{font-family: 'Karla', sans-serif; font-size:16px; padding:25px 0 0; line-height:24px; font-weight: 400;}
+.uc_hexagon-review .uc_hexagon-review_innner h2{font-family: 'Pacifico', cursive; font-size:30px; font-weight:400;line-height: 28px; margin:20px 0 0;}
+
+.uc_hexagon-review .uc_hexagon-review_innner .star{ text-align:center; margin:5px 0 0;}
+.uc_hexagon-review .uc_hexagon-review_innner .star .fa{ font-size:12px;color:#fdbf2b;}
+
+.uc_hexagon-review .back-bg{ margin: 50px 0; width: 100%;transform:skewy(-5deg); -ms-transform:skewy(-5deg); -webkit-transform:skewy(-5deg);}
+.uc_hexagon-review .uc_hexagon-review_image{  padding:0px; overflow:hidden;}
+
+
+.uc_hexagon-review .uc_hexagon-review_image .testimonial_pic{
+    width: 128px;
+height: 98px;
+position: relative;
+display: inline-block;
+background:url(bg.jpg) no-repeat center center;
+}
+
+.uc_hexagon-review .uc_hexagon-review_image .testimonial_pic span {
+position: absolute;
+display: block;
+border-left: 35px solid red;
+border-right: 35px solid red;
+width:129px;
+}
+
+.uc_hexagon-review .uc_hexagon-review_image .testimonial_pic .top {
+top: 0;
+border-bottom: 50px solid transparent;
+}
+
+.uc_hexagon-review .uc_hexagon-review_image .testimonial_pic .bottom {
+bottom: 0;
+border-top: 50px solid transparent;
+}
+.uc_hexagon-review .uc_hexagon-review_image .fa{ margin: 14% 5% 0; vertical-align:top; color:#fff;font-size: 20px;}
+

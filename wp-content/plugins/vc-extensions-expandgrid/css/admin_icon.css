@@ -1,0 +1,9 @@
+.cq_vc_expandgrid_item {
+    background-image: url(../img/icon_expandgrid_item.png) !important;
+    background-size: 32px;
+}
+.cq_vc_expandgrid {
+    background-image: url(../img/icon_expandgrid.png) !important;
+    background-size: 32px;
+    background-position: 0 0 !important
+}

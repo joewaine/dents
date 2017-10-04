@@ -1,0 +1,113 @@
+
+---Downloaded files---
+The import files for: Stack + Visual Composer Demo Data were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://138.68.62.103/dev
+Data file = /var/www/html/wp-content/uploads/sites/3/2017/08/demo-content-import-file_2017-08-23__16-41-54.xml
+Widget file = /var/www/html/wp-content/uploads/sites/3/2017/08/demo-widgets-import-file_2017-08-23__16-41-54.json
+Customizer file = /var/www/html/wp-content/uploads/sites/3/2017/08/demo-customizer-import-file_2017-08-23__16-41-54.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat 128GB Core i5
+[WARNING] Failed to import product_cat 128GB Wifi + Celluar
+[WARNING] Failed to import product_cat 18MP DSLR Camera
+[WARNING] Failed to import product_cat 256GB Core i5
+[WARNING] Failed to import product_cat 256GB Core i7
+[WARNING] Failed to import product_cat Bluetooth Headphones
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Desktop Speaker
+[WARNING] Failed to import product_cat Digital Radio
+[WARNING] Failed to import product_cat Digital Stylus
+[WARNING] Failed to import product_cat Drawing Tablet
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Wireless Bluetooth
+[WARNING] Failed to import product_cat Albums
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat 128GB Core i5
+[WARNING] Failed to import product_cat 128GB Wifi + Celluar
+[WARNING] Failed to import product_cat 18MP DSLR Camera
+[WARNING] Failed to import product_cat 256GB Core i5
+[WARNING] Failed to import product_cat 256GB Core i7
+[WARNING] Failed to import product_cat Bluetooth Headphones
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Desktop Speaker
+[WARNING] Failed to import product_cat Digital Radio
+[WARNING] Failed to import product_cat Digital Stylus
+[WARNING] Failed to import product_cat Drawing Tablet
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Wireless Bluetooth
+[WARNING] Failed to import product_cat Albums
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search Site - Imported
+Text - Text Widget - Imported
+Tag Cloud - Tags - Imported
+Categories - Categories - Imported
+Archives - Archives - Imported
+
+Page Sidebar : 
+
+Search - Search Site - Imported
+Text - Text Widget - Imported
+
+Shop Sidebar : 
+
+woocommerce_product_categories - Product Categories - Site does not support widget
+woocommerce_top_rated_products - Top Rated Products - Site does not support widget
+woocommerce_recent_reviews - Recent Reviews - Site does not support widget
+
+Footer Column 1 : 
+
+Text - About Us - Imported
+
+Footer Column 2 : 
+
+Stack: Twitter Widget - Recent Updates - Imported
+
+Footer Column 3 : 
+
+Stack: Instagram Widget - Instagram - Imported
+
+Footer Column 4 : 
+
+Text - Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---pt-ocdi/after_import---
+

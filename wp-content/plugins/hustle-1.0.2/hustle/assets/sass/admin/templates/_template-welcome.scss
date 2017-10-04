@@ -1,0 +1,17 @@
+#wpoi-box-dashboard-welcome {
+	
+	> .box-content {
+		
+		display: flex;
+		
+		> .wpoi-float {
+			flex: 1;
+		}
+		
+		>.wpoi-float-left-image-bottom {
+			max-width: 162px;
+		}
+		
+	}
+	
+}

@@ -1,0 +1,74 @@
+
+#site-header #header-container {
+	padding: 0 15px;
+}
+
+#site-logo {
+	left: 15px;
+}
+
+#site-navigation {
+	margin-right: 0;
+}
+
+#container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row-inner {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.blog, body.archive, body.single-post, body.search-results {
+	#container {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+}
+
+.page-header {
+
+	.row-inner {
+		padding: 0 15px;
+	}
+}
+
+#top-bar {
+	padding: 0 15px;
+}
+
+// Boxed layout
+#wrapper.page-boxed {
+
+	#site-header #header-container {
+		padding: 0 30px;
+	}
+
+	.row-inner {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
+	.row-inner.row-inner-full {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+
+	#site-logo {
+		left: 30px;
+	}
+
+	.page-header {
+		.row-inner {
+			padding: 0 30px !important;
+		}
+	}
+
+	#top-bar {
+		padding: 0 30px;
+	}
+}
+
+

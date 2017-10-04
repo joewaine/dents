@@ -1,0 +1,58 @@
+#wpoi-complete-message {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 32px;
+	margin-left: 160px;
+	@include aligncontainer();
+	.wpoi-complete-mask {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		@include opacity(80);
+		background: #376377;
+	}
+	.wpoi-complete-wrap {
+		max-width: 600px;
+		@include absolutealign(both);
+	}
+}
+.wpoi-success-table {
+	width: 100%;
+	margin-bottom: 30px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	th {
+		padding: 0 0 10px 0;
+		border-bottom: 1px solid #DEE1E5;
+		color: #777771;
+		font: bold 15px/18px "Roboto", sans-serif;
+		text-align: center;
+		&:first-child {
+			text-align: left;
+		}
+	}
+	td {
+		padding: 10px 0;
+		border-bottom: 1px solid #DEE1E5;
+		text-align: center;
+		&:first-child {
+			text-align: left;
+		}
+		.success-settings-list {
+			color: #777;
+			font: bold 14px/16px "Roboto Condensed", "Roboto", sans-serif;
+			letter-spacing: -0.2px;
+			text-transform: uppercase;
+		}
+	}
+	tr:last-child td {
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+}

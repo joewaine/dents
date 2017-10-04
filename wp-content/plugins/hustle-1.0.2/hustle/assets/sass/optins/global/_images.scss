@@ -1,0 +1,51 @@
+.wpoi-hustle {
+	.wpoi-image {
+		min-height: 150px;
+		background-repeat: no-repeat;
+		background-position: center;
+		&.wpoi-image-fill {
+			background-size: cover;
+		}
+		&.wpoi-image-fit {
+			background-size: contain;
+		}
+	}
+	.noimage {
+		.wpoi-image {
+			display: none;
+		}
+	}
+}
+
+// Image positions
+.wpoi-hustle {
+	.wpoi-image-right {
+		flex-direction: row-reverse;
+	}
+	.wpoi-image-above {
+		flex-direction: column;
+		.wpoi-image {
+			flex: 0 150px;
+			min-height: 150px;
+		}
+	}
+	.wpoi-image-below {
+		flex-direction: column-reverse;
+		.wpoi-image {
+			flex: 0 150px;
+			min-height: 150px;
+		}
+	}
+}
+
+// Small container
+.wpoi-hustle .wpoi-small {
+	.wpoi-image-right,
+	.wpoi-image-below {
+		flex-direction: column-reverse;
+	}
+	.wpoi-image {
+		flex: 0 150px;
+		min-height: 150px;
+	}
+}

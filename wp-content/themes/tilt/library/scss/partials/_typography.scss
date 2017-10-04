@@ -1,0 +1,91 @@
+
+// font stacks
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+/*
+ i imported this one in the functions file so bones would look sweet.
+ don't forget to remove it for your site.
+*/
+$lato:              'Lato', $sans-serif;
+$raleway:			'Raleway', $sans-serif;
+$montserrat:		'Montserrat', $sans-serif;
+
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+//  -ms-word-wrap: break-word;
+//  word-break: break-word; //non-standart css for webkit
+//  word-wrap: break-word;
+  // cleaning up the ragged lines and breaks
+//  -webkit-hyphens: auto;
+//     -moz-hyphens: auto;
+//          hyphens: auto;
+  // sets a minimum number of characters before and after the break
+//  -webkit-hyphenate-before: 2;
+//   -webkit-hyphenate-after: 3;
+//           hyphenate-lines: 3;
+  // enabling fancy ligatures when available
+//  -webkit-font-feature-settings: "liga", "dlig";
+//   -moz-font-feature-settings: "liga=1, dlig=1";
+//      -ms-font-feature-settings: "liga", "dlig";
+//       -o-font-feature-settings: "liga", "dlig";
+//          font-feature-settings: "liga", "dlig";
+}
+
+
+// H1, H2, H3, H4, H5 STYLES
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	text-rendering: optimizelegibility;
+	font-weight: 600;
+	font-family: $montserrat;
+	letter-spacing: .1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: none;
+
+	/* removing text decoration from all headline links */
+	a {
+		text-decoration: none;
+	}
+}
+
+h1, .h1 {
+	font-weight: 800;
+	font-size: 2.5em;
+	line-height: 1.3em;
+}
+
+h2, .h2 {
+	font-weight: 800;
+	font-size: 1.75em;
+	line-height: 1.2em;
+	margin-bottom: 0.375em;
+}
+
+h3, .h3 {
+	font-weight: 800;
+	line-height: 1.2em;
+	font-size: 1.125em;
+}
+
+h4, .h4 {
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+
+h5, .h5 {
+	line-height: 1.2em;
+	font-size: 1em;
+}
+
+h6, .h6 {
+	line-height: 1.2em;
+	font-size: 0.846em;
+}
+
+

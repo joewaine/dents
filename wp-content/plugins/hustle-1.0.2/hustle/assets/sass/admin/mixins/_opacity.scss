@@ -1,0 +1,6 @@
+@mixin opacity($alpha:100) {
+	opacity: 0.01*$alpha;
+	filter: alpha(opacity=$alpha);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$alpha)";
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9vcGFjaXR5LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxxQkFBcUI7Q0FDckIsOEJBQThCO0NBQzlCLHNFQUFzRTtDQUN0RSIsImZpbGUiOiJfb3BhY2l0eS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQG1peGluIG9wYWNpdHkoJGFscGhhOjEwMCkge1xyXG5cdG9wYWNpdHk6IDAuMDEqJGFscGhhO1xyXG5cdGZpbHRlcjogYWxwaGEob3BhY2l0eT0kYWxwaGEpO1xyXG5cdC1tcy1maWx0ZXI6IFwicHJvZ2lkOkRYSW1hZ2VUcmFuc2Zvcm0uTWljcm9zb2Z0LkFscGhhKE9wYWNpdHk9JGFscGhhKVwiO1xyXG59Il19 */

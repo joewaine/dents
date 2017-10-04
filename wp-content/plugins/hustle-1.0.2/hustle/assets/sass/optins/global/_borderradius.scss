@@ -1,0 +1,378 @@
+.wpoi-hustle {
+	.wpoi-optin {
+		.wpoi-container {
+			border-radius: inherit;
+		}
+	}
+	// Layout #1
+	&.wpoi-layout-one .wpoi-optin {
+		> .wpoi-container {
+			> .wpoi-element:nth-child(1) {
+				border-top-left-radius: inherit;
+				border-top-right-radius: inherit;
+				.wpoi-container {
+					border-top-left-radius: inherit;
+					border-top-right-radius: inherit;
+				}
+				// Image Left
+				.wpoi-image-left .wpoi-image,
+				.wpoi-image-left .wpoi-image > div {
+					border-top-left-radius: inherit;
+				}
+				// Image Right
+				.wpoi-image-right .wpoi-image,
+				.wpoi-image-right .wpoi-image > div {
+					border-top-right-radius: inherit;
+				}
+				// Image Above
+				.wpoi-image-above .wpoi-image,
+				.wpoi-image-above .wpoi-image > div {
+					border-top-left-radius: inherit;
+					border-top-right-radius: inherit;
+				}
+			}
+			> .wpoi-element:nth-child(2),
+			.wpoi-form {
+				border-bottom-left-radius: inherit;
+				border-bottom-right-radius: inherit;
+			}
+		}
+		// Image Only
+		.nocontent:not(.noimage) {
+			.wpoi-image {
+				border-top-left-radius: inherit;
+				border-top-right-radius: inherit;
+			}
+		}
+		// Form Only
+		.nocontent.noimage {
+			.wpoi-form {
+				border-radius: inherit;
+			}
+		}
+		&.wpoi-small > .wpoi-container > .wpoi-element:nth-child(1) {
+			// Image Left
+			.wpoi-image-left .wpoi-image,
+			.wpoi-image-left .wpoi-image > div {
+				border-top-right-radius: inherit;
+			}
+			// Image Right
+			.wpoi-image-right .wpoi-image,
+			.wpoi-image-right .wpoi-image > div {
+				border-top-right-radius: 0;
+			}
+		}
+	}
+	// Layout #2
+	&.wpoi-layout-two .wpoi-optin {
+		// Image Left
+		> .wpoi-container.wpoi-image-left {
+			> .wpoi-element:nth-child(1) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+				> .wpoi-container {
+					border-top-right-radius: inherit;
+					border-bottom-right-radius: inherit;
+					> .wpoi-element:nth-child(1) {
+						border-top-right-radius: inherit;
+					}
+					> .wpoi-element:nth-child(2),
+					> .wpoi-element:nth-child(2) > form,
+					> .wpoi-element:nth-child(2) > .wpoi-form {
+						border-bottom-right-radius: inherit;
+					}
+				}
+			}
+		}
+		// Image Right
+		> .wpoi-container.wpoi-image-right {
+			> .wpoi-element:nth-child(1) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+				> .wpoi-container {
+					border-top-left-radius: inherit;
+					border-bottom-left-radius: inherit;
+					> .wpoi-element:nth-child(1) {
+						border-top-left-radius: inherit;
+					}
+					> .wpoi-element:nth-child(2),
+					> .wpoi-element:nth-child(2) > form,
+					> .wpoi-element:nth-child(2) > .wpoi-form {
+						border-bottom-left-radius: inherit;
+					}
+				}
+			}
+		}
+		// Content Only
+		.noimage:not(.nocontent) {
+			> .wpoi-element:not(.wpoi-image) {
+				border-bottom-left-radius: inherit;
+				> .wpoi-col,
+				.wpoi-form {
+					border-bottom-left-radius: inherit;
+				}
+			}
+		}
+		// Form Only
+		.nocontent.noimage {
+			> .wpoi-element:not(.wpoi-image) {
+				border-radius: inherit;
+				> .wpoi-col,
+				.wpoi-form {
+					border-radius: inherit;
+				}
+			}
+		}
+		&.wpoi-small {
+			// Image Left
+			> .wpoi-container.wpoi-image-left {
+				> .wpoi-element:nth-child(1) {
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+					> .wpoi-container {
+						border-top-right-radius: 0;
+						border-bottom-left-radius: inherit;
+						> .wpoi-element:nth-child(1) {
+							border-top-right-radius: 0;
+						}
+						> .wpoi-element:nth-child(2),
+						> .wpoi-element:nth-child(2) > form,
+						> .wpoi-element:nth-child(2) > .wpoi-form {
+							border-bottom-left-radius: inherit;
+						}
+					}
+				}
+			}
+			// Image Right
+			> .wpoi-container.wpoi-image-right {
+				> .wpoi-element:nth-child(1) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+					> .wpoi-container {
+						border-top-right-radius: inherit;
+						border-bottom-left-radius: 0;
+						> .wpoi-element:nth-child(1) {
+							border-top-right-radius: inherit;
+						}
+						> .wpoi-element:nth-child(2),
+						> .wpoi-element:nth-child(2) > form,
+						> .wpoi-element:nth-child(2) > .wpoi-form {
+							border-bottom-left-radius: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	// Layout #3
+	&.wpoi-layout-three .wpoi-optin {
+		// Image Left
+		.wpoi-image-left {
+			> .wpoi-element:nth-child(1) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+				.wpoi-image {
+					border-top-left-radius: inherit;
+				}
+				> .wpoi-element:not(.wpoi-image) {
+					border-bottom-left-radius: inherit;
+				}
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+			}
+		}
+		// Image Right
+		.wpoi-image-right {
+			> .wpoi-element:nth-child(1) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+				.wpoi-image {
+					border-top-right-radius: inherit;
+				}
+				> .wpoi-element:not(.wpoi-image) {
+					border-bottom-right-radius: inherit;
+				}
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+			}
+		}
+		// Form Only
+		.nocontent.noimage {
+			> .wpoi-form {
+				border-radius: inherit;
+			}
+		}
+		&.wpoi-small {
+			// Image Left
+			.wpoi-image-left {
+				> .wpoi-element:nth-child(1) {
+					border-top-left-radius: inherit;
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+					.wpoi-image {
+						border-top-right-radius: inherit;
+					}
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+					border-bottom-right-radius: inherit;
+				}
+			}
+			// Image Right
+			.wpoi-image-right {
+				> .wpoi-element:nth-child(1) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+					border-bottom-right-radius: inherit;
+					> .wpoi-element:not(.wpoi-image) {
+						border-bottom-left-radius: inherit;
+						border-bottom-right-radius: inherit;
+					}
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-left-radius: inherit;
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+				}
+			}
+		}
+	}
+	// Layout #4
+	&.wpoi-layout-four .wpoi-optin {
+		// Image Left
+		.wpoi-image-left {
+			> .wpoi-element:nth-child(1) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+				.wpoi-image {
+					border-top-left-radius: inherit;
+				}
+				.wpoi-form {
+					border-bottom-left-radius: inherit;
+				}
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+			}
+		}
+		// Image Right
+		.wpoi-image-right {
+			> .wpoi-element:nth-child(1) {
+				border-top-right-radius: inherit;
+				border-bottom-right-radius: inherit;
+				.wpoi-image {
+					border-top-right-radius: inherit;
+				}
+				.wpoi-form {
+					border-bottom-right-radius: inherit;
+				}
+			}
+			> .wpoi-element:nth-child(2) {
+				border-top-left-radius: inherit;
+				border-bottom-left-radius: inherit;
+			}
+		}
+		// Content Only
+		.noimage:not(.nocontent) {
+			.wpoi-aside-xl {
+				border-radius: inherit;
+				> .wpoi-col {
+					border-radius: inherit;
+					.wpoi-form {
+						border-top-left-radius: inherit;
+					}
+				}
+			}
+		}
+		// Image Only
+		.nocontent:not(.noimage) {
+			&.wpoi-image-left {
+				.wpoi-aside-xl {
+					border-radius: inherit;
+					> .wpoi-col {
+						border-radius: inherit;
+						.wpoi-image {
+							border-top-right-radius: inherit;
+						}
+						.wpoi-form {
+							border-bottom-right-radius: inherit;
+						}
+					}
+				}
+			}
+			&.wpoi-image-right {
+				.wpoi-aside-xl {
+					border-radius: inherit;
+					> .wpoi-col {
+						border-radius: inherit;
+						.wpoi-image {
+							border-top-left-radius: inherit;
+						}
+						.wpoi-form {
+							border-bottom-left-radius: inherit;
+						}
+					}
+				}
+			}
+		}
+		// Form Only
+		.nocontent.noimage {
+			.wpoi-aside-xl,
+			.wpoi-form {
+				border-radius: inherit;
+			}
+		}
+		&.wpoi-small {
+			// Image Left
+			.wpoi-image-left {
+				> .wpoi-element:nth-child(1) {
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+					.wpoi-image {
+						border-top-right-radius: inherit;
+					}
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+				}
+			}
+			// Image Right
+			.wpoi-image-right {
+				> .wpoi-element:nth-child(1) {
+					border-top-right-radius: 0;
+					border-bottom-left-radius: inherit;
+					.wpoi-form {
+						border-bottom-left-radius: inherit;
+					}
+				}
+				> .wpoi-element:nth-child(2) {
+					border-top-right-radius: inherit;
+					border-bottom-left-radius: 0;
+				}
+			}
+		}
+	}
+}

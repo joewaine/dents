@@ -1,0 +1,64 @@
+$tab-bg: #f6f7f8;
+$tab-active-bg: #929eaa;
+$tab-border-color: #929EAA;
+$tab-active-border-color: #929eaa;
+$tab-color: #485663;
+$tab-active-color: #e9ebee;
+$border-radius: 10px;
+$font: 500 12px/16px "Roboto", sans-serif;
+
+.wpmud .accordion .wpoi-triggers-tabs {
+	width: 100%;
+	display: block;
+	border: 0;
+	box-sizing: border-box;
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+	li {
+		min-width: 80px;
+		float: left;
+		cursor: pointer;
+		display: inline-block;
+		margin: 0;
+		border: 1px solid $tab-border-color;
+		border-left-width: 0;
+		border-color: rgba(146,158,170,0.4);
+		border-radius: 0;
+		background: $tab-bg;
+		box-shadow: none;
+		line-height: 18px;
+		&:first-child {
+			border-left-width: 1px;
+			border-top-left-radius: $border-radius;
+			border-bottom-left-radius: $border-radius;
+		}
+		&:last-child {
+			border-top-right-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
+		}
+		&:hover, &.current {
+			border: 1px solid $tab-active-border-color;
+			background: $tab-active-bg;
+			label {
+				color: $tab-active-color;
+			}
+		}
+		label {
+			cursor: pointer;
+			display: block;
+			padding: 8px 10px 6px;
+			color: $tab-color;
+			font: $font;
+			text-align: center;
+			transition: 0.2s ease;
+		}
+		.wpoi-display-trigger-radio{
+			display: none;
+		}
+	}
+}

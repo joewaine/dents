@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_square-testimonial *{ 
+ margin:0px;
+  padding:0px;
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+		  
+.clear{ clear:both;}		  
+.uc_square-testimonial{ }
+.uc_square-testimonial .uc_square-testimonial_out{max-width:800px;padding:41px 0 30px; margin:70px auto 0;
+-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.64);
+-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.64);
+box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.64);
+}
+.uc_square-testimonial .uc_square-testimonial_innner{ text-align:center; }
+.uc_square-testimonial .uc_square-testimonial_innner .testimonial_pic{  width:70px; height:70px; margin:-105px auto 30px;
+-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.64);
+-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.64);
+box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.64)
+}
+.uc_square-testimonial .uc_square-testimonial_innner p{font-family: 'Oxygen', sans-serif; font-size:22px;line-height:25px;padding:1px 20px; line-height:36px}
+.uc_square-testimonial .uc_square-testimonial_innner h2{font-family: 'Varela Round', sans-serif;font-size:16px; font-weight:normal;line-height: 23px; margin:10px 0 0; text-align:center;}
+
+
+
+
+@media screen and (max-width:640px){
+.uc_square-testimonial .uc_square-testimonial_out{padding:60px 20px;}
+}
+
+@media screen and (max-width:414px){
+.uc_square-testimonial .uc_square-testimonial_out p{padding: 25px 5px;font-size: 16px;line-height: 30px;}
+}
+
+
+
+ 

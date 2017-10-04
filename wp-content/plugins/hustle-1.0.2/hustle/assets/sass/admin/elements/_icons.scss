@@ -1,0 +1,32 @@
+.wpmud .display-settings-icon {
+	.icon {
+		&:before {
+			content: "";
+			width: 18px;
+			height: 18px;
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			margin-top: -2px;
+			margin-right: 10px;
+			border-radius: 3px;
+			background: url('../img/sprite.png') no-repeat transparent;
+			background-image: url('../img/sprite.svg'), none;
+		}
+		&.after_content:before {
+			background-position: -139px -66px;
+		}
+		&.popup:before {
+			background-position: -27px -66px;
+		}
+		&.slide_in:before {
+			background-position: -55px -66px;
+		}
+		&.shortcode:before {
+			background-position: -83px -66px;
+		}
+		&.widget:before {
+			background-position: -111px -66px;
+		}
+	}
+}

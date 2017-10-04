@@ -1,0 +1,297 @@
+@mixin ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.wpoi-hustle {
+	// Form fields
+	form {
+		padding: 20px;
+		.wpoi-element {
+			height: 36px;
+			overflow: hidden;
+			position: relative;
+			padding: 0;
+			select {
+				width: 100%;
+			}
+			input[type="text"],
+			input[type="email"] {
+				width: 100%;
+				height: 36px;
+				display: block;
+				margin: 0;
+				padding: 9px 10px 9px 26px;
+				border: 0;
+				background: transparent !important;
+				font: 300 13px/18px "Open Sans", Arial, sans-serif;
+				transition: 0.25s ease-in;
+			}
+			label {
+				width: 150%;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				margin: 0;
+				padding: 9px 10px;
+				font: 300 13px/18px "Open Sans", Arial, sans-serif;
+				user-select: none;
+				pointer-events: none;
+				transition: 0.25s ease-in;
+				span {
+					width: auto;
+					display: inline-block;
+					position: relative;
+					transform: translate3d(-14px, 0, 0);
+					transition: transform 0.3s, opacity 0.3s;
+				}
+			}
+			.wpoi-icon {
+				width: 26px;
+				display: inline-block;
+				text-align: center;
+				transform: translate3d(-30px, 0, 0);
+				transition: transform 0.3s;
+				&:before {
+					position: relative;
+					top: 2px;
+				}
+			}
+			// Label Animation
+			input:focus + label span,
+			&.wpoi-filled label span {
+				opacity: 0;
+				transform: translate3d(100px, 0, 0);
+			}
+			label span,
+			.wpoi-icon,
+			input:focus + label span,
+			&.wpoi-filled label span {
+				transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+			}
+			input:focus + label .wpoi-icon,
+			&.wpoi-filled .wpoi-icon,
+			.wpoi-icon.i-error {
+				transform: translate3d(-9px, 0, 0);
+			}
+		}
+		&.wpoi-none_animated_icon {
+			input + label .wpoi-icon,
+			&.wpoi-filled .wpoi-icon,
+			.wpoi-icon.i-error {
+				transform: translate3d(-9px, 0, 0);
+			}
+		}
+		&.wpoi-no_icon {
+			.wpoi-element input[type="text"],
+			.wpoi-element input[type="email"] {
+				padding-left: 10px;
+			}
+			label {
+				width: 100%;
+				span {
+					transform: translate3d(0, 0, 0);
+				}
+			}
+			.wpoi-icon {
+				display: none;
+			}
+		}
+	}
+	// Fields separation
+	.wpoi-fields-joined {
+		.wpoi-element {
+			margin-right: 1px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		&.wpoi-col {
+			> .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 1px;
+			}
+		}
+	}
+	.wpoi-fields-separated {
+		.wpoi-element {
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		&.wpoi-col {
+			> .wpoi-element {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	// Form button
+	.wpoi-button {
+		flex: 0 100px;
+		padding: 0;
+		button {
+			width: 100%;
+			height: 36px;
+			display: block;
+			margin: 0;
+			padding: 9px 10px;
+			border: 0;
+			box-shadow: none;
+			font: 600 13px/18px "Open Sans", Arial, sans-serif;
+			text-align: center;
+			transition: 0.25s ease-in;
+			@include ellipsis;
+		}
+	}
+	.wpoi-col .wpoi-button {
+		min-width: 100px;
+		flex: 0 36px;
+		&.wpoi-button-big {
+			min-width: 180px;
+			flex: 0 180px;
+		}
+	}
+	// Error Message
+	.wpoi-submit-failure {
+		display: block;
+		padding: 0 20px 20px;
+		font: 300 13px/22px "Open Sans", Arial, sans-serif;
+		text-align: center;
+	}
+}
+
+// MCG Styles
+.wpoi-hustle {
+	form {
+		.wpoi-mcg-common-fields {
+			background: transparent !important;
+		}
+		.wpoi-element.wpoi-provider-args {
+			height: auto;
+			background: transparent;
+			.wpoi-element {
+				height: auto;
+				background: transparent;
+			}
+			> .wpoi-container > .wpoi-element:nth-child(2) > .wpoi-container > .wpoi-element {
+				padding: 3px 10px 5px;
+				background: rgba(0,0,0,0.1);
+			}
+			label {
+				width: auto;
+				pointer-events: auto;
+				display: inline-block;
+				position: relative;
+				padding: 0;
+				&.wpoi-mcg-list-name {
+					display: block;
+					cursor: text;
+					font-size: 15px;
+					line-height: 30px;
+					font-weight: bold;
+				}
+			}
+		}
+		.wpoi-mcg-option {
+			position: relative;
+			transform-style: preserve-3d;
+			input {
+				display: none;
+			}
+			input[type="checkbox"] + label,
+			input[type="radio"] + label {
+				cursor: pointer;
+				font-size: 14px;
+				line-height: 20px;
+				&:before {
+					content: " ";
+					width: 16px;
+					height: 16px;
+					cursor: pointer;
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;
+					top: -1px;
+					margin-right: 5px;
+					border-radius: 2px;
+					color: transparent;
+					font-family: "hustle";
+					font-size: 12px;
+					line-height: 16px;
+					text-align: center;
+					transition: 0.2s ease;
+				}
+			}
+			input[type="checkbox"]:checked + label {
+				&:before {
+					content: "\64";
+				}
+			}
+			input[type="radio"] + label {
+				&:before {
+					border-radius: 100%;
+				}
+				&:after {
+					content: " ";
+					width: 8px;
+					height: 8px;
+					opacity: 0;
+					position: absolute;
+					top: 50%;
+					left: 4px;
+					border-radius: 100%;
+					transform: translateY(-50%);
+					transition: 0.2s ease-in;
+				}
+			}
+			input[type="radio"]:checked + label {
+				&:after {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	// Small
+	.wpoi-small form {
+		.wpoi-element.wpoi-provider-args {
+			> .wpoi-container > .wpoi-element:nth-child(2) > .wpoi-container > .wpoi-element {
+				padding: 10px;
+			}
+		}
+	}
+}
+
+.wpoi-hustle .wpoi-small {
+	form {
+		flex-direction: column;
+		.wpoi-element:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.wpoi-mcg-common-fields {
+		height: auto;
+	}
+	// Fields separation
+	.wpoi-fields-joined {
+		.wpoi-element {
+			margin-right: 0;
+			margin-bottom: 1px;
+		}
+	}
+	.wpoi-fields-separated {
+		.wpoi-element {
+			margin-right: 0;
+			margin-bottom: 10px;
+		}
+	}
+	// Form button
+	.wpoi-button {
+		flex: 0 36px;
+		&.wpoi-button-big {
+			flex: 0 36px;
+		}
+	}
+}

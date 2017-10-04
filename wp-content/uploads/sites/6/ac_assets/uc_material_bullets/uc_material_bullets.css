@@ -1,0 +1,61 @@
+
+.uc_material_bullets *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_material_bullets .uc_container_holder{
+	
+	font-size:14px;
+	line-height:20px;
+	color:#ffffff;
+}
+
+.uc_material_bullets .uc_material_bullets_row
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	overflow:hidden;
+	display:table;
+	position:relative;
+	text-align:left;
+	width:100%;
+	margin-bottom:20px;
+
+}
+
+.uc_material_bullets .uc_ceal{ display:table-cell;}
+
+.uc_material_bullets .uc_material_bullets_row:last-child
+{
+	margin-bottom:0px;
+}
+
+
+.uc_material_bullets .uc_material_bullets_row i.uc_icon
+{
+	font-size:30px;
+	position:relative;
+	width:100px;
+	padding:35px 0px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.uc_material_bullets .uc_material_bullets_row .uc_content_box
+{
+	padding:17px 15px;
+}
+
+.uc_material_bullets .uc_material_bullets_row .uc_content_box h2
+{
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+

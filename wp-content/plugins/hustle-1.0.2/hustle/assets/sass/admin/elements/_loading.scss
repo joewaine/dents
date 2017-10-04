@@ -1,0 +1,43 @@
+$base-line-height: 24px;
+$blue: rgb(0,172,202);
+$off-blue: rgba($blue, 0.2);
+$spin-duration: 1s;
+$pulse-duration: 750ms;
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wpmud .wpoi-loading-wrapper {
+	padding: 5px 10px;
+	border-radius: 3px;
+	background: #f3f3f3;
+	div, p {
+		display: inline-block;
+	}
+	div {
+		vertical-align: middle;
+	}
+	p {
+		margin-top: 0;
+		margin-left: 5px;
+		line-height: 30px;
+	}
+	.wpoi-loading {
+		width: $base-line-height;
+		height: $base-line-height;
+		border: .25rem solid $off-blue;
+		border-top-color: $blue;
+		border-radius: 50%;
+		animation: spin $spin-duration infinite linear;
+		&--double {
+			border-style: double;
+			border-width: .5rem;
+		}
+	}
+}

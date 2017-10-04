@@ -1,0 +1,22 @@
+.wpmud .can-open {
+	.box-title {
+		position: relative;
+	}
+	.open {
+		position: absolute;
+		top: 19px;
+		right: 30px;
+	}
+	.open i {
+		color: #BBB;
+		font-size: 22px;
+		cursor: pointer;
+	}
+}
+.wpmud .can-open .wpoi-toggle-mask {
+	.open {
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+}

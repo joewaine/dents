@@ -1,0 +1,61 @@
+.wpoi-card {
+	
+	border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0 2px 0 #E9E9E9;
+	
+	.wpoi-card-title {
+		
+		padding: 17px 30px;
+		box-shadow: 0 1px 0 #E9E9E9;
+		
+		h3 {
+			color: #777771;
+			font: 400 18px/26px "Roboto Condensed", "Roboto", sans-serif;
+			letter-spacing: -0.4px;
+			text-transform: uppercase;
+		}
+		
+	}
+	
+	.wpoi-card-content {
+		
+		padding: 40px 30px;
+		
+		h2 {
+			margin-bottom: 20px;
+			color: #777771;
+			font: 400 30px/35px "Roboto Condensed", "Roboto", sans-serif;
+			letter-spacing: -0.4px;
+			text-transform: uppercase;
+		}
+		
+		p {
+			margin-bottom: 15px;
+			color: #777771;
+			font: 300 16px/26px "Roboto", sans-serif;
+			letter-spacing: -0.4px;
+		}
+		
+		p:last-child {
+			margin-bottom: 0;
+		}
+		
+		&.wpoi-card-content-hero {
+			
+			padding-bottom: 0;
+			
+			.wpoi-superhero {
+				
+				width: 100%;
+				max-width: 162px;
+				height: auto;
+				display: block;
+				
+			}
+			
+		}
+		
+	}
+	
+}

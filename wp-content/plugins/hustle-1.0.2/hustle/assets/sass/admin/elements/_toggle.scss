@@ -1,0 +1,26 @@
+.wpmud .toggle {
+	
+	cursor: pointer;
+	
+	input, label {
+		cursor: pointer;
+	}
+	
+}
+
+.wpmud .toggle-content {
+	
+	padding: 0;
+	
+	&.toggle-content-r {
+		padding-left: 60px;
+	}
+	
+	&.toggle-content-l {
+		padding-right: 60px;
+	}
+	
+}
+.wpmud .accordion-block .one-line input.toggle-checkbox{
+	display: none;
+}

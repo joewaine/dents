@@ -1,0 +1,62 @@
+.wpmud {
+	.wpoi-css-selectors {
+		display: block;
+		margin-bottom: 18px;
+		label {
+			&:not(.wpoi-label-bold) {
+				margin-bottom: 15px;
+				padding: 0;
+				color: #777771;
+				font: 400 15px/18px "Roboto", sans-serif;
+			}
+		}
+		&-wrap {
+			display: block;
+			text-align: left;
+			a {
+				display: inline-block;
+				margin-right: 2px;
+				margin-bottom: 4px;
+				padding: 0 5px;
+				border-radius: 3px;
+				background: #939AD0;
+				background: linear-gradient(to right, #828BC9, #A7ADD9);
+				box-shadow: inset 0 1px 0 rgba(130, 139, 201, 0.5);
+				color: #FFF;
+				font: 400 12px/21px "Open Sans", sans-serif;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	#optin_custom_css {
+		height: 210px;
+		&.ace-solarized-light {
+			.ace_gutter {
+				background: #5A6773;
+				color: #FFF;
+				/* Overriding default ACE editor fonts causes problems with the cursor offset */
+				/*font: 500 12px/16px "Source Code Pro", Source, "source-code-pro", monospace;*/
+			}
+			.ace_scroller {
+				background: #EDEFF0;
+				color: #393939;
+				/* Overriding default ACE editor fonts causes problems with the cursor offset */
+				/*font: 500 12px/16px "Source Code Pro", Source, "source-code-pro", monospace;*/
+			}
+		}
+	}
+	.wpoi-css-button {
+		display: block;
+		margin-top: 20px;
+		text-align: right;
+		.button {
+			border-radius: 0;
+			background: #5A6773;
+			&:hover:not(:focus):not(:active) {
+				background: #4D5862;
+			}
+		}
+	}
+}

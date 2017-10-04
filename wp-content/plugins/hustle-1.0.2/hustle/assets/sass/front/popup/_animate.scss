@@ -1,0 +1,242 @@
+.wpoi-animate {
+	width: 100%;
+	max-width: 720px;
+	height: auto;
+	position: fixed;
+	z-index: 999999;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+	backface-visibility: hidden;
+	transform: translateX(-50%) translateY(-50%);
+	&.wpoi-show {
+		visibility: visible;
+	}
+}
+
+// Animation 1: Fade in and scale up
+.fadein {
+	.wpoi-hustle {
+		opacity: 0;
+		transform: scale(0.7);
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+// Animation 2: Slide from the right
+.slideright {
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateX(20%);
+		transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+// Animation 3: Slide from the bottom
+.slidebottom {
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateY(20%);
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Animation 4: Newspaper
+.newspaper {
+	.wpoi-hustle {
+		opacity: 0;
+		transform: scale(0) rotate(720deg);
+		transition: all 0.5s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+// Animation 5: Fall
+.fall {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateZ(600px) rotateX(20deg);
+		transform-style: preserve-3d;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translateZ(0px) rotateX(0deg);
+		transition: all 0.3s ease-in;
+	}
+}
+
+// Animation 6: Side Fall
+.sidefall {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translate(30%) translateZ(600px) rotate(10deg);
+		transform-style: preserve-3d;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translate(0%) translateZ(0) rotate(0deg);
+		transition: all 0.3s ease-in;
+	}
+}
+
+// Animation 7: 3D Flip (Horizontal)
+.flipx {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: rotateY(-70deg);
+		transform-style: preserve-3d;
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
+}
+
+// Animation 8: 3D Flip (Vertical)
+.flipy {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: rotateX(-70deg);
+		transform-style: preserve-3d;
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: rotateX(0deg);
+	}
+}
+
+// Animation 9: 3D Sign
+.sign {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: rotateX(-60deg);
+		transform-style: preserve-3d;
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: rotateX(0deg);
+	}
+}
+
+// Animation 10: Super Scaled
+.scaled {
+	.wpoi-hustle {
+		opacity: 0;
+		transform: scale(2);
+		transition: all 0.3s;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+// Animation 11: 3D Slit
+@keyframes slit {
+	50% {
+		opacity: 1;
+		transform: translateZ(-250px) rotateY(89deg);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		opacity: 1;
+		transform: translateZ(0) rotateY(0deg);
+	}
+}
+
+.slit {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateZ(-3000px) rotateY(90deg);
+		transform-style: preserve-3d;
+	}
+	&.wpoi-show .wpoi-hustle {
+		animation: slit .7s forwards ease-out;
+	}
+}
+
+// Animation 12: 3D Rotate (Bottom)
+.rotatey {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateY(100%) rotateX(90deg);
+		transform-origin: 0 100%;
+		transform-style: preserve-3d;
+		transition: all 0.3s ease-out;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translateY(0%) rotateX(0deg);
+	}
+}
+
+// Animation 13: 3D Rotate (Left)
+.rotatex {
+	&.wpoi-modal {
+		perspective: 1300px;
+	}
+	.wpoi-hustle {
+		opacity: 0;
+		transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+		transform-origin: 0 100%;
+		transform-style: preserve-3d;
+		transition: all 0.3s ease-out;
+	}
+	&.wpoi-show .wpoi-hustle {
+		opacity: 1;
+		transform: translateZ(0px) translateX(0%) rotateY(0deg);
+	}
+}
+
+// Animate: Close Icon + NSTMA Link
+.wpoi-animate {
+	.inc-opt-close-popup,
+	.inc_opt_never_see_again {
+		opacity: 0;
+		transition: opacity 0.2s ease-in;
+		transition-delay: 0.35s;
+	}
+	&.wpoi-show .inc-opt-close-popup,
+	&.wpoi-show .inc_opt_never_see_again {
+		opacity: 1;
+	}
+}

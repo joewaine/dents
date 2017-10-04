@@ -1,0 +1,35 @@
+.wpoi-hustle {
+	.wpoi-content {
+		h2.wpoi-title {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 0 0 12px;
+			font: 600 20px/27px "Open Sans", Arial, sans-serif;
+			text-align: left;
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+		.wpoi-message {
+			padding-bottom: 0;
+			font: 400 14px/20px "Open Sans", Arial, sans-serif;
+			text-align: left;
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+				padding: 0 0 12px;
+				font: 400 14px/20px "Open Sans", Arial, sans-serif;
+				text-align: left;
+				&:last-child {
+					padding-bottom: 0;
+				}
+				strong {
+					font-weight: bold;
+				}
+				a {
+					transition: 0.25s ease;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2806 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Tilt\n"
+"POT-Creation-Date: 2016-02-18 20:22+0200\n"
+"PO-Revision-Date: 2016-02-18 20:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:9
+msgid "404 ERROR"
+msgstr ""
+
+#: 404.php:10
+msgid "Hey there mate! Sorry, but nothing here..."
+msgstr ""
+
+#: 404.php:11
+msgid "By the way, maybe searching might help?"
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgid "1&nbsp;Comment"
+msgid_plural "%1$s&nbsp;Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:27 comments.php:45
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:28 comments.php:46
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:65
+msgid "Name"
+msgstr ""
+
+#: comments.php:71
+msgid "Email"
+msgstr ""
+
+#: comments.php:77
+msgid "Website"
+msgstr ""
+
+#: comments.php:82
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:84
+msgid "Cancel reply"
+msgstr ""
+
+#: content-audio.php:27 content-gallery.php:101 content-image.php:40
+#: content-link.php:17 content-quote.php:16 content-status.php:19
+#: content-video.php:25 content.php:19
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-audio.php:39 content-gallery.php:113 content-image.php:52
+#: content-video.php:37 content.php:31 page-left-sidebar.php:18
+#: page-right-sidebar.php:18 single-custom_type.php:57
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:54 content-audio.php:66 content-gallery.php:128
+#: content-gallery.php:139 content-image.php:67 content-image.php:78
+#: content-video.php:52 content-video.php:63 content.php:46 content.php:61
+#: library/collars.php:308
+msgid "Continue reading "
+msgstr ""
+
+#: content-audio.php:54 content-audio.php:66 content-gallery.php:128
+#: content-gallery.php:139 content-image.php:67 content-image.php:78
+#: content-video.php:52 content-video.php:63 content.php:46 content.php:61
+#: library/collars.php:308
+msgid "Read more"
+msgstr ""
+
+#: content-gallery.php:92 content-image.php:29
+#, php-format
+msgid ""
+"Please install <a href=\"%s\" >Theme Extension plugin</a> plugin "
+"to enable this feature!"
+msgstr ""
+
+#: content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please check your spelling or "
+"try again with some different keywords."
+msgstr ""
+
+#: content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help. <br/> Type some text and hit enter."
+msgstr ""
+
+#: functions.php:114
+#, php-format
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: functions.php:114
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:115
+msgid "F jS, Y"
+msgstr ""
+
+#: functions.php:120
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:150
+msgid "Click to view your shopping cart"
+msgstr ""
+
+#: inc/custom-functions.php:58 inc/custom-functions.php:96
+msgid "By"
+msgstr ""
+
+#: inc/custom-functions.php:58 inc/custom-functions.php:96
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/custom-functions.php:67 inc/custom-functions.php:104
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/custom-functions.php:67 inc/custom-functions.php:104
+msgid "1 Comment"
+msgstr ""
+
+#: inc/custom-functions.php:67 inc/custom-functions.php:104
+msgid "% Comments"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:37
+msgid "Home"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:168 inc/plugins/breadcrumbs.php:171
+#: inc/plugins/breadcrumbs.php:174
+msgid "Archives for "
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:178
+msgid "Archives by: "
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:183
+msgid "Search results for \""
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:187
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:230
+msgid "Split"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:233
+msgid "Merge"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:236 inc/plugins/breadcrumbs.php:250
+#: inc/plugins/breadcrumbs.php:270
+msgid "Edit"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:121
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/plugins/importer/importer.php:156
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:173
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:201
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:238
+msgid "Imported"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:241
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/plugins/importer/importer.php:246
+msgid "No Title"
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:42 inc/plugins/importer/parsers.php:72
+#: inc/plugins/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:84 inc/plugins/importer/parsers.php:89
+#: inc/plugins/importer/parsers.php:279 inc/plugins/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:134
+#: inc/plugins/importer/wordpress-importer.php:143
+#: inc/plugins/importer/wordpress-importer.php:194
+#: inc/plugins/importer/wordpress-importer.php:198
+#: inc/plugins/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:511
+#: inc/plugins/importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:1130
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:72 inc/plugins/per-page-sidebars.php:73
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:91
+msgid "Activate Custom Sidebar?"
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:94
+msgid "Select a sidebar to replace:"
+msgstr ""
+
+#: inc/sidebars.php:10
+msgid "Blog/Post Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:12
+msgid "Appears on blog layout and posts"
+msgstr ""
+
+#: inc/sidebars.php:20
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:22
+msgid "Appears as default sidebar on pages"
+msgstr ""
+
+#: inc/sidebars.php:31
+msgid "Top Bar Sidebar Left"
+msgstr ""
+
+#: inc/sidebars.php:33
+msgid "Top bar widget area (align left)"
+msgstr ""
+
+#: inc/sidebars.php:41
+msgid "Top Bar Sidebar Right"
+msgstr ""
+
+#: inc/sidebars.php:43
+msgid "Top bar widget area (align right)"
+msgstr ""
+
+#: inc/sidebars.php:52
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/sidebars.php:54 inc/sidebars.php:64 inc/sidebars.php:74
+#: inc/sidebars.php:84 inc/sidebars.php:94
+msgid "Appears in the footer section"
+msgstr ""
+
+#: inc/sidebars.php:62
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/sidebars.php:72
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/sidebars.php:82
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: inc/sidebars.php:92
+msgid "Copyright Area"
+msgstr ""
+
+#: inc/sidebars.php:101
+msgid "WooCommerce Page Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:103
+msgid "Product page widget area"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:234
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:235
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:236
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:237
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:238
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:239
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:240
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:241
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:242
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:243
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:244
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:245
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:246
+msgid "Install plugin"
+msgid_plural "Install plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:247
+msgid "Update plugin"
+msgid_plural "Update plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:248
+msgid "Activate plugin"
+msgid_plural "Activate plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:249
+msgid "List Plugin"
+msgid_plural "List Plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:250
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:251
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:252 inc/tgm-plugin-activation.php:2411
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:253 inc/tgm-plugin-activation.php:2013
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:254
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:255
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:648 inc/tgm-plugin-activation.php:2637
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:741
+msgid ""
+"The remote plugin package is does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:741 inc/tgm-plugin-activation.php:748
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:748
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1431 inc/tgm-plugin-activation.php:1635
+msgid "Private Repository"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1435 inc/tgm-plugin-activation.php:1639
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1443
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1443
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1446
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1449
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1452
+msgid "Need Updating"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1560
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1582
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1608
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1660
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1676
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1677
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1678
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1679
+msgid "Status"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1697
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1698
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1699
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1906
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1940
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:1990
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2393
+msgid "Install package not available."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2394
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2395
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2396
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2397
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2398
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2399
+msgid "Failed to remove old plugin directory"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2410
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2536
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2537
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2541
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2542
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2542 inc/tgm-plugin-activation.php:2549
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2542 inc/tgm-plugin-activation.php:2549
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2543
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2544
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2548
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2549
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2550
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:2551
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:35 inc/theme-options-ext/config.php:50
+#: inc/theme-options-ext/config.php:65 inc/theme-options-ext/meta-boxes.php:421
+#: inc/theme-options-ext/theme-options.php:896
+msgid "Full width"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:40
+msgid "Boxed layout"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:55 inc/theme-options-ext/meta-boxes.php:416
+#: inc/theme-options-ext/theme-options.php:891
+msgid "Fixed width"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:70
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:75
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:85
+msgid "Tiled style"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:90
+msgid "Clear style"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:95
+msgid "Tilt branded style"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:105
+msgid "Pattern 1"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:110
+msgid "Pattern 2"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:115
+msgid "Pattern 3"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:120
+msgid "Pattern 4"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:125
+msgid "Pattern 5"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:130
+msgid "Pattern 6"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:135
+msgid "Pattern 7"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:140
+msgid "Pattern 8"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:145
+msgid "Pattern 9"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:150
+msgid "Pattern 10"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:155
+msgid "Pattern 11"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:160
+msgid "Pattern 12"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:165
+msgid "Pattern 13"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:170
+msgid "Pattern 14"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:175
+msgid "Pattern 15"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:180
+msgid "Pattern 16"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:185
+msgid "Pattern 17"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:190
+msgid "Pattern 18"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:195
+msgid "Pattern 19"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:200
+msgid "Pattern 20"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:205
+msgid "Pattern 21"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:210
+msgid "Pattern 22"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:215
+msgid "Pattern 23"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:220
+msgid "Pattern 24"
+msgstr ""
+
+#: inc/theme-options-ext/config.php:225
+msgid "Pattern 25"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:35
+msgid "Revolution slider"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:44
+msgid "Select slider"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:55
+msgid "Header Options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:63
+msgid "Enable custom header"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:64
+msgid "Enable different header stile for this particular page?"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:72
+msgid "Header style"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:73
+#: inc/theme-options-ext/theme-options.php:1001
+msgid "Choose one of header styles."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:81
+#: inc/theme-options-ext/meta-boxes.php:138
+#: inc/theme-options-ext/theme-options.php:1015
+#: inc/theme-options-ext/theme-options.php:1057
+#: inc/theme-options-ext/theme-options.php:1338
+msgid "Light style"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:86
+#: inc/theme-options-ext/meta-boxes.php:143
+#: inc/theme-options-ext/theme-options.php:1020
+#: inc/theme-options-ext/theme-options.php:1062
+#: inc/theme-options-ext/theme-options.php:1343
+msgid "Dark style"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:93
+#: inc/theme-options-ext/theme-options.php:1027
+msgid "Header opacity"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:94
+#: inc/theme-options-ext/theme-options.php:1028
+msgid ""
+"Set background opacity for header. <br />0 = fully transparent and 100 = "
+"fully opaque."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:102
+#: inc/theme-options-ext/meta-boxes.php:159
+#: inc/theme-options-ext/theme-options.php:1171
+#: inc/theme-options-ext/theme-options.php:1186
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:103
+#: inc/theme-options-ext/meta-boxes.php:160
+#: inc/theme-options-ext/theme-options.php:1187
+msgid "Please choose an image file for your logo."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:111
+#: inc/theme-options-ext/meta-boxes.php:168
+#: inc/theme-options-ext/theme-options.php:1201
+msgid "Logo (Retina version @2x)"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:112
+#: inc/theme-options-ext/meta-boxes.php:169
+#: inc/theme-options-ext/theme-options.php:1202
+msgid ""
+"Retina logo should be <code>2x</code> the size of default logo keeping the "
+"aspect ratio!"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:120
+msgid "Enable custom sticky header"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:121
+msgid "Enable different sticky header stile for this particular page?"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:129
+#: inc/theme-options-ext/theme-options.php:1323
+msgid "Sticky header menu style"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:130
+#: inc/theme-options-ext/theme-options.php:1324
+msgid "Choose header style when sticked to top."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:150
+#: inc/theme-options-ext/theme-options.php:1350
+msgid "Sticky header opacity"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:151
+#: inc/theme-options-ext/theme-options.php:1351
+msgid ""
+"Set background opacity for header sticked to top. <br />0 = fully "
+"transparent and 100 = fully opaque."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:180
+msgid "Page Title / Pre-content Options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:190
+msgid ""
+"<div class=\"section_warning\"><strong>IMPROTANT!</strong><br/> Settings for "
+"\"Blog\" page will affect \"Single Post\" and \"Archive\" as well.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\tSettings for main \"WooCommerce shop\" page will affect "
+"other standard WooCommerce pages as well.</div>"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:195
+msgid "Enable Page title"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:203
+msgid "Enable Pre-content area"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:206
+msgid "Activates additional area before page title and main content."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:213
+msgid "Pre-content area options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:217
+msgid "Height (optional)"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:220
+msgid ""
+"Pre-content area height. Don't forget to add <code>px</code>. Example: "
+"<code>250px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:234
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:238
+msgid "Insert any custom code you wish. Also <code>shortcodes</code> allowed!"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:245
+msgid "Bottom slope decoration options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:251
+msgid "Enable title slope decoration?"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:252
+msgid "Enables customizable slope decoration at the bottom of title section."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:260
+msgid "Direction of slope decoration"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:261
+msgid "Choose the preferable direction of slope decoration of title section."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:269
+msgid "Left"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:274
+msgid "Right"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:281
+msgid "Slope decoration height"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:282
+msgid ""
+"Enter the height of title slope decoration. <br />\n"
+"\t\t\t\t\t\t\t\t\tRemember to add <code>px</code> value after the number. "
+"For example: <code>90px</code>px"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:291
+msgid "Title / Pre-content area slope decoration color"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:304
+msgid "Page content options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:311
+msgid "Padding top"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:315
+msgid ""
+"Enter distance from the top of the page to the content.\n"
+"\t\t\t\t\t\t\t\t\t<br/>Remember to add <code>px</code> in the end. Example: "
+"<code>30px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:320
+msgid "Padding bottom"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:324
+msgid ""
+"Enter distance from content to the bottom of the page.\n"
+"\t\t\t\t\t\t\t\t\t<br/>Remember to add <code>px</code> in the end. Example: "
+"<code>30px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:333
+msgid "Post Format Options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:340
+msgid "Image link"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:343
+#, php-format
+msgid ""
+"Link to the image (if image post format selected).  Or use \"Featured image"
+"\" option instead. More about supported formats at %s."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:346
+msgid "Audio link"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:349
+#, php-format
+msgid ""
+"Link to the audio (if audio post format selected). Or attach audio file to "
+"post instead. More about supported formats at %s."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:352
+msgid "Video link"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:355
+#, php-format
+msgid ""
+"Link to the video (if video post format selected). More about supported "
+"formats at %s."
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:361
+msgid "Gallery post format"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:365
+msgid "Animation style"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:369
+msgid "This option will determine the animation type of the slider"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:373
+msgid "Fade"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:378
+msgid "Slide"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:384
+msgid "Slide delay (milliseconds)"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:388
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:391
+msgid "Slider height (px)"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:401
+msgid "Portfolio Item Options"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:409
+msgid "Portfolio Item Layout"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:427
+msgid "Featured Image In Post"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:434
+msgid "Image Width"
+msgstr ""
+
+#: inc/theme-options-ext/meta-boxes.php:442
+msgid "Image Height"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:32
+msgid "General Options"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:36
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:40
+msgid "Title Area"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:44
+msgid "Layouts &amp; Design"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:48
+msgid "Typography &amp; Colors"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:52
+#: inc/theme-options-ext/theme-options.php:2867
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:56
+msgid "Import Demo"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:60
+msgid "Import Successful"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:66
+#: inc/theme-options-ext/theme-options.php:293
+#: inc/theme-options-ext/theme-options.php:970
+msgid "General"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:81
+msgid "Theme accent color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:82
+msgid ""
+"This will be general color scheme for your website. Click input field for "
+"color picker."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:96
+msgid "Smooth page scroll"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:97
+msgid "Add smooth page scrolling in Chrome browser."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:111
+msgid "Scroll to top button"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:112
+msgid "Enable or disable \"To Top\" button when you scroll down."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:126
+msgid "Comments on page"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:127
+msgid "Turn ON or OFF comments on pages."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:141
+msgid "Favicons"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:156
+msgid "Favicon"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:157
+msgid "Size 16x16 px. Upload image in .ico format."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:171
+msgid "iPhone icon"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:172
+msgid ""
+"If set, anyone who saves your webpage to the home screen will see a nice app-"
+"like icon. <br />\n"
+"Recommended image format is .png. <br />\n"
+"Size 60x60 px."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:188
+msgid "iPhone retina icon"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:189
+msgid "Size 120x120 px."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:203
+msgid "iPad icon"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:204
+msgid "Size 76x76 px."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:218
+msgid "iPad retina icon"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:219
+msgid "Size 152x152 px."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:233
+msgid "Analytics &amp; Custom code"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:248
+msgid "Analytics / tracking code"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:249
+msgid ""
+"Paste your Google Analytics or other tracking code in text area. Or any code "
+"to be placed before <code><span>&lt;</span>/head&gt;</code> in header file."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:263
+msgid "Code after <span>&lt;</span>body&gt;"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:264
+msgid ""
+"Add your custom code right after <code><span>&lt;</span>body&gt;</code> tag. "
+"Can be useful for Facebook SDK."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:278
+msgid "Code before <span>&lt;</span>/body&gt;"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:279
+msgid ""
+"Add your custom code in footer before <code><span>&lt;</span>/body&gt;</"
+"code> tag."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:308
+msgid "Layout style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:309
+msgid ""
+"\t1. Full width layout <br />\n"
+"\t\t\t\t\t\t\t\t\t\t2. Boxed layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:324
+msgid "Page background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:325
+msgid "Choose page background for boxed layout."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:339
+msgid "Body background"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:340
+msgid "Choose body background for boxed layout."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:354
+msgid "Predefined pattern"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:355
+msgid "Select background pattern for boxed layout."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:369
+msgid "Patterns"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:384
+msgid "Header width"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:385
+msgid ""
+"For full width layout you can chose from 2 header styles:<br />\n"
+"1. Full width<br />\n"
+"2. Same as content width"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:401
+msgid "Content width"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:402
+msgid "This setting will apply selected layout width to your website."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:416
+msgid "940px"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:421
+msgid "1010px"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:426
+msgid "1120px"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:431
+msgid "1200px"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:438
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:453
+msgid "Blog layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:454
+msgid ""
+"1. Full width content <br />\n"
+"\t\t\t\t\t\t\t\t\t2. Content / Right sidebar <br />\n"
+"\t\t\t\t\t\t\t\t\t3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:470
+msgid "Blog template"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:471
+msgid ""
+"1. Tiled style <br />\n"
+"\t\t\t\t\t\t\t\t\t2. Clear style <br />\n"
+"\t\t\t\t\t\t\t\t\t3. Tilt branded style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:487
+msgid "Content type for post preview"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:488
+msgid ""
+"Choose what to display on blog index pages. Note that only 'Full Content' "
+"respects WordPress 'read more' tag."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:502
+msgid "Excerpt"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:507
+msgid "Full content"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:514
+msgid "Exclude category from blog"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:515
+msgid ""
+"This option will exclude selected category posts from blog and search pages."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:529
+msgid "Post date in meta"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:530
+msgid "Do you want to display date in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:544
+msgid "Post category in meta"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:545
+msgid "Do you want to display category in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:559
+msgid "Post author in meta"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:560
+msgid "Do you want to display author in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:574
+msgid "Comments link in meta"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:575
+msgid "Do you want to display comment count in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:589
+msgid "Posts"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:604
+msgid "Header menu style in posts"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:605
+msgid "Choose the header style to display in all posts."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:619
+msgid "Blog header style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:624
+msgid "Default header style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:631
+msgid "Page title in posts"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:632
+msgid "Display or hide page title in all posts?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:646
+msgid "Custom pre-content area in posts"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:647
+msgid "Display or hide custom pre-content area in all posts?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:661
+msgid "Post layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:662
+msgid ""
+"\t1. Full width content<br />\n"
+"\t\t\t\t\t\t\t\t\t\t2. Content / Right sidebar <br />\n"
+"\t\t\t\t\t\t\t\t\t\t3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:678
+msgid "Previous &amp; next post link"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:679
+msgid ""
+"Do you want to display next and previous post links on single blog post page?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:693
+msgid "Post tags after content"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:694
+msgid "Display post tags on single post page?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:708
+msgid "Post author description"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:709
+msgid ""
+"When ON, author info box will only appear for those post authors who have "
+"\"Biographical Info\" field filled!"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:723
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:738
+msgid "Display cart content on hover"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:739
+msgid ""
+"Display cart content on icon hover (ON) or just lead to cart page on click "
+"(OFF)?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:753
+msgid "Product archive page (shop) layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:754
+msgid ""
+"1. Full width content<br />\n"
+"\t\t\t\t\t\t\t\t\t2. Content / Right sidebar <br />\n"
+"\t\t\t\t\t\t\t\t\t3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:770
+msgid "Single product page layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:771
+msgid ""
+"1. Full width content<br />\n"
+"2. Content / Right sidebar <br />\n"
+"3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:787
+msgid "Product column count"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:788
+msgid "Choose column count for main product catalog page."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:802
+msgid "3 columns"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:807
+msgid "4 columns"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:814
+msgid "Products per page"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:815
+msgid "Choose how many products to display on product catalog page."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:829
+msgid "Search"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:844
+msgid "Search page layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:845
+msgid ""
+"\t1. Full width content <br />\n"
+"\t\t\t\t\t\t\t\t\t\t2. Content / Right sidebar <br />\n"
+"\t\t\t\t\t\t\t\t\t\t3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:861
+msgid "Footer & Copyright"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:876
+msgid "Footer &amp; copyright layout"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:877
+msgid "Choose between fixed and full width layouts."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:903
+msgid "Footer columns count"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:904
+msgid "Choose the number of columns in footer."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:918
+msgid "1"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:923
+msgid "2"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:928
+msgid "3"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:933
+msgid "4"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:940
+msgid "Footer background"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:941
+#: inc/theme-options-ext/theme-options.php:956
+msgid ""
+"You can either choose color or upload a background image. Leave blank for "
+"default setting."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:955
+msgid "Copyright section background"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:985
+msgid "Header height"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:986
+msgid "Height of the header area (menu area). Example: <code>60px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1000
+msgid "Header menu style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1042
+msgid "Header submenu style"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1043
+msgid "Choose one of header submenu styles."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1069
+msgid "Header text weight"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1070
+msgid "Affects weight and font-size of header navigation."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1084
+msgid "Bolder"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1089
+msgid "Lighter"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1096
+msgid "Menu font size"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1097
+msgid "Choose the size of header menu tesxt. Example: <code>13px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1111
+msgid "Menu font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1126
+msgid "Enable header shadow"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1127
+msgid "Adds shadow to site header."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1141
+msgid "Search button in menu"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1142
+msgid "Enables or disables search from menu."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1156
+msgid "WooCommerce cart button in menu"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1157
+msgid "Do you want a smart WooCommerce cart icon in main menu?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1216
+msgid "Standart logo height (for retina logo)"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1217
+#: inc/theme-options-ext/theme-options.php:1413
+msgid ""
+"Please enter the DEFAULT (1x) logo height. Retina logo, if uploaded, will "
+"also be the same height.<br />\n"
+"Remember to add <code>px</code> value in the end. Example: <code>100px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1232
+msgid "Standart logo width (for retina logo)"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1233
+msgid ""
+"Please enter the DEFAULT (1x) logo width. Retina logo, if uploaded, will "
+"also be the same width.<br />\n"
+"Remember to add <code>px</code> value in the end. Example: <code>100px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1248
+#: inc/theme-options-ext/theme-options.php:1428
+msgid "Margin top"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1249
+#: inc/theme-options-ext/theme-options.php:1429
+msgid ""
+"Move your logo vertically with this option. Remember to add <code>px</code> "
+"value after the number. For example: <code>25px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1263
+#: inc/theme-options-ext/theme-options.php:1443
+msgid "Margin left"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1264
+#: inc/theme-options-ext/theme-options.php:1444
+msgid ""
+"Move your logo horizontally with this option. Remember to add <code>px</"
+"code> value after the number. For example: <code>25px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1278
+#: inc/theme-options-ext/theme-options.php:1293
+msgid "Sticky header"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1294
+msgid "Do you want your header to stick to top while you scroll?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1308
+msgid "Sticky header height"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1309
+msgid ""
+"Height of the header area when sticked to top. Example: <code>60px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1365
+msgid "Logo when header sticked"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1366
+msgid ""
+"You can choose a different logo to display when a header is sticked to the "
+"top."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1380
+msgid "Logo when header sticked (Retina version @2x)"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1381
+msgid ""
+"You can choose a different logo to display when a header is sticked to the "
+"top. <br/>\n"
+"\t\t\t\t\t\t\t\t\t\tRetina logo should be <code>2x</code> the size of "
+"default logo keeping the aspect ratio!"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1396
+msgid "Standart logo height"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1397
+msgid ""
+"If retina logo is uploaded, please enter the STANDARD (1x) logo height.<br /"
+">\n"
+"Remember to add <code>px</code> value in the end. Example: <code>100px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1412
+msgid "Standart logo width"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1458 library/collars.php:167
+msgid "Menu"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1473
+msgid "Enable menu styles"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1474
+msgid "Will override header styles for menu section."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1488
+msgid "Header background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1489
+msgid "Choose your site header color."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1503
+msgid "Menu link color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1504
+#: inc/theme-options-ext/theme-options.php:1794
+#: inc/theme-options-ext/theme-options.php:1809
+#: inc/theme-options-ext/theme-options.php:1824
+#: inc/theme-options-ext/theme-options.php:2123
+#: inc/theme-options-ext/theme-options.php:2153
+msgid "Click input field for color picker or enter your custom value."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1518
+msgid "Menu link hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1519
+#: inc/theme-options-ext/theme-options.php:2688
+#: inc/theme-options-ext/theme-options.php:2838
+msgid "Leave empty to use \"Theme accent color\"."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1533
+msgid "Menu item background hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1534
+#, php-format
+msgid ""
+"Background color for hovered menu item. <br />\n"
+"\t\t\t\t\t\t\t\t\tLeave empty for: <br/>\n"
+"\t\t\t\t\t\t\t\t\t - transparent background for top menu <br/>\n"
+"\t\t\t\t\t\t\t\t\t - transparent black cover with 6% opacity for submenu "
+"items"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1551
+msgid "Menu bottom border"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1552
+msgid ""
+"Sets 1px bottom border for menu. <br />\n"
+"Leave empty for no border."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1567
+msgid "Submenu"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1582
+msgid "Enable submenu styles"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1583
+msgid "Will override general menu styles for submenu section."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1597
+msgid "Submenu background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1598
+msgid ""
+"Background color for the submenu section. <br />\n"
+"Leave empty for same color as header."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1613
+msgid "Submenu link color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1614
+msgid "Color for links in submenu. Leave empty for main menu link color."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1628
+msgid "Submenu link hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1629
+msgid "Hover color for links in submenu. Leave empty for main menu link color."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1643
+msgid "Submenu item background hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1644
+#, php-format
+msgid ""
+"Background color for hovered menu item. <br />\n"
+"\t\t\t\t\t\t\t\t\tLeave empty for transparent black cover with 6% opacity."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1659
+msgid "Megamenu column separator color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1660
+msgid "Leave empty for default color."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1674
+msgid "Animation"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1689
+msgid "Enable submenu animation?"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1690
+msgid "Enables header submenu animation on link hover."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1704
+msgid "Animation type"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1705
+msgid "Choose the type of animation for submenu."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1719
+msgid "Fade in"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1724
+msgid "Fly in from top"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1729
+msgid "Fly in from bottom"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1734
+msgid "Scale up"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1739
+msgid "Slide down"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1746
+msgid "Animation duration"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1747
+msgid ""
+"Choose the speed in <code>ms</code> of submenu appearance animation. <br/>\n"
+"\t\t\t\t\t\t\t\t\tDefault value is <code>300ms</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1762
+msgid "Top bar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1777
+msgid "Header top bar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1778
+msgid ""
+"Top bar appears in header above the menu. If activated, new widget areas "
+"appear in Appearance/Widgets - 'Top Bar Sidebar Left' and 'Top Bar Sidebar "
+"Right'."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1793
+msgid "Background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1808
+msgid "Text and link color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1823
+#: inc/theme-options-ext/theme-options.php:2302
+#: inc/theme-options-ext/theme-options.php:2687
+#: inc/theme-options-ext/theme-options.php:2762
+#: inc/theme-options-ext/theme-options.php:2837
+msgid "Link hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1838
+msgid "Mobile menu"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1853
+msgid "Mobile menu breakpoint"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1854
+msgid ""
+"Set viewport width at which menu should switch to mobile version. <br /> "
+"Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1868
+msgid "Mobile menu header background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1869
+msgid "Choose background color for menu header in mobile view."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1883
+msgid "Mobile menu background color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1884
+#: inc/theme-options-ext/theme-options.php:1899
+msgid "Choose background color for menu in mobile view."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1898
+msgid "Mobile menu text &amp icons color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1913
+msgid "Content Design"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1928
+msgid "Title color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1929
+msgid "Pick a preferrable color for page title."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1943
+msgid "Page title font size"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1944
+msgid ""
+"Set the size of the page title. <br /> Remember to add <code>px</code> value "
+"after the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1958
+msgid "Page title font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1973
+msgid "Title and breadcrumbs alignment"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1974
+msgid "Choose one of three options for title and breadcrumbs alignment."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1988
+msgid "Title and breadcrumbs centered"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1993
+msgid "Title and breadcrumbs aligned left"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:1998
+msgid "Title aligned left, breadcrumbs aligned right"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2003
+msgid "Title and breadcrumbs aligned right"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2008
+msgid "Title aligned right, breadcrumbs aligned left"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2015
+msgid "Decoration"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2030
+msgid "Background"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2031
+msgid ""
+"You can either use color or upload a background image. Leave blank for "
+"transparent background."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2045
+msgid "Top padding"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2046
+msgid ""
+"Enter the preferrable top padding of your page title area. <br />\n"
+"\t\t\t\t\t\t\t\t\tRemember to add <code>px</code> value after the number. "
+"For example: <code>30px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2061
+msgid "Bottom padding"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2062
+msgid ""
+"Enter the preferrable bottom padding of your page title area. <br />\n"
+"\t\t\t\t\t\t\t\t\tRemember to add <code>px</code> value after the number. "
+"For example: <code>30px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2077
+#: inc/theme-options-ext/theme-options.php:2092
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2093
+msgid "Enable or disable breadcrumbs under the page or post title."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2107
+msgid "Breadcrumbs divider"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2108
+msgid ""
+"Enter divider symbol or leave empty to use the default symbol <code>/</code>."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2122
+msgid "Breadcrumb color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2137
+msgid "Breadcrumb link color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2138
+#: inc/theme-options-ext/theme-options.php:2168
+msgid ""
+"Click input field for color picker or enter your custom value. If left "
+"empty, general breadcrumbs color will be used."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2152
+msgid "Breadcrumb hover color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2167
+msgid "Breadcrumb divider color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2182
+msgid "Breadcrumbs font size"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2183
+msgid ""
+"Set the size of the breadcrumbs font. <br /> Remember to add <code>px</code> "
+"value after the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2197
+msgid "Breadcrumbs font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2212
+msgid "Yoast SEO breadcrumbs"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2213
+msgid ""
+"Use breadcrumbs provided by Yoast SEO plugin instead of default ones. "
+"Requires Yoast SEO plugin installed."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2227
+msgid "Global"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2242
+msgid "Body font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2257
+msgid "Body font size"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2258
+msgid ""
+"Remember to add <code>px</code> value after the number. For example: "
+"<code>13px</code>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2272
+msgid "Body text color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2273
+msgid "General color for body content."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2287
+#: inc/theme-options-ext/theme-options.php:2672
+#: inc/theme-options-ext/theme-options.php:2747
+#: inc/theme-options-ext/theme-options.php:2822
+msgid "Link color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2288
+msgid "Global link color in the main content area."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2303
+msgid ""
+"Global link hover color in the main content area. <br /> To use \"Theme "
+"accent color\" leave empty."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2356
+msgid "Headings"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2371
+msgid "Heading color (H1, H2, H3, H4, H5, H6)"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2372
+msgid ""
+"Color for heading tags. The color is applied to all heading elements, if "
+"different color is not specified in element styling."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2386
+msgid "Default heading font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2401
+msgid "Visual Composer heading element title font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2416
+msgid "Visual Composer heading element subtitle font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2431
+msgid "H1"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2432
+msgid ""
+"Heading 1 tag font size. <br /> Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2446
+msgid "H2"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2447
+msgid ""
+"Heading 2 tag font size. <br />Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2461
+msgid "H3"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2462
+msgid ""
+"Heading 3 tag font size. <br />Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2476
+msgid "H4"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2477
+msgid ""
+"Heading 4 tag font size. <br />Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2491
+msgid "H5"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2492
+msgid ""
+"Heading 5 tag font size. <br />Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2506
+msgid "H6"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2507
+msgid ""
+"Heading 6 tag font size. <br />Remember to add <code>px</code> value after "
+"the number."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2521
+msgid "Blog &amp; Posts"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2536
+msgid "Post heading text color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2537
+msgid "Set color for blog headings on blog index and single post pages."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2551
+msgid "Post heading font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2566
+msgid "Post content text color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2567
+msgid "Set color for blog content on blog index and single post pages."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2581
+msgid "Post content font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2596
+msgid "Post meta text color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2597
+msgid ""
+"Set color for post meta fields (tags, date, category, author, comments "
+"count) on blog index and single post pages."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2611
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2626
+msgid "Widget title font"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2641
+#: inc/theme-options-ext/theme-options.php:2777
+#: inc/theme-options-ext/theme-options.php:2852
+msgid "Widget title color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2642
+msgid "Color for widget titles in sidebar."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2657
+#: inc/theme-options-ext/theme-options.php:2732
+#: inc/theme-options-ext/theme-options.php:2807
+msgid "Text color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2658
+msgid "Choose text color for sidebar widget content."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2673
+msgid "Choose color for links in sidebar."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2702
+msgid "Widget divider color"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2703
+msgid "Choose border line color separating list items in sidebar."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2717
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2733
+msgid "Choose text color for your footer widget content."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2748
+msgid "Choose the color of links in footer widgets."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2763
+msgid ""
+"Choose the hover color of links in footer widgets. Leave empty to use "
+"\"Theme accent color\"."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2778
+msgid "Choose the color of widget titles in the footer."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2792
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2808
+msgid "Choose text color for your copyright area widget content."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2823
+msgid "Color for links located in your copyright area widgets."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2853
+msgid "Color for widget titles in copyright area."
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2868
+msgid ""
+"Add any of your custom CSS here: <br />\n"
+"\n"
+"<pre><code>.page-id-10 #site-header {\n"
+"background:none;\n"
+"}\n"
+"</code></pre>\n"
+"\n"
+"Have fun!"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2889
+msgid "Import demo"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2890
+msgid ""
+"\t<h1 class=\"import_heading\">Welcome to Tilt</h1>\n"
+"\t\t\t\t\t\t\t\t\t\t<a class=\"import_img\" href=\"http://www.themes.whiteboxstud."
+"io/tilt\" target=\"_blank\"><img src=\"http://whiteboxstud.io/envato/tilt/demo_data/demo_import_img.png\"></a>\n"
+"\t\t\t\t\t\t\t\t\t\t<span class=\"import_note\">\n"
+"\t\t\t\t\t\t\t\t\t\t\tYou can import all the demo data to replicate the live "
+"preview website.<br />\n"
+"\t\t\t\t\t\t\t\t\t\t\tThis will automatically import and set <strong>posts</"
+"strong>, <strong>pages</strong>, <strong>widgets</strong>, <strong>menus</"
+"strong> and <strong>reading settings</strong>. <br />\n"
+"\t\t\t\t\t\t\t\t\t\t\tNo worries, you can change and edit everything later.\n"
+"\t\t\t\t\t\t\t\t\t\t</span>\n"
+"\t\t\t\t\t\t\t\t\t\t<a class=\"import_button\" href=\"themes.php?page=ot-"
+"theme-options&amp;import_data_content=true\">Import demo data</a>\n"
+"\t\t\t\t\t\t\t\t\t\t<span class=\"import_note import_warning\"><div class="
+"\"important_tag\">IMPORTANT</div>Images and graphics used in live demo are "
+"licensed for preview purposes only and are replaced with placeholder images "
+"in this demo content.</span>"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2912
+msgid "Import successful"
+msgstr ""
+
+#: inc/theme-options-ext/theme-options.php:2913
+msgid ""
+"<i class=\"fa fa-child\"></i>\n"
+"\t\t\t\t\t\t\t\t\t\t<h1>Data Imported Successfully</h1>\n"
+"\t\t\t\t\t\t\t\t\t\t<h5>Go on, start using tilt!</h5>"
+msgstr ""
+
+#: inc/theme-setup.php:14 library/collars.php:234
+msgid "Main Navigation"
+msgstr ""
+
+#: index.php:19 index.php:39 search.php:20 search.php:41
+msgid "Newer posts"
+msgstr ""
+
+#: index.php:19 index.php:39 search.php:20 search.php:41
+msgid "Older posts"
+msgstr ""
+
+#: library/collars.php:51
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/collars.php:263
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: searchform.php:10
+msgid "Type and press enter to search"
+msgstr ""
+
+#: sidebar-blog.php:13 sidebar.php:14 title.php:188
+msgid "Archives"
+msgstr ""
+
+#: sidebar-blog.php:20 sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: single-custom_type.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span> <span class=\"amp\">&</"
+"span> filed under %4$s."
+msgstr ""
+
+#: single-custom_type.php:66
+msgid "Custom Tags:"
+msgstr ""
+
+#: single-custom_type.php:80
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: single-custom_type.php:83
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: single-custom_type.php:86
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: single.php:18 single.php:54
+msgid "Author:"
+msgstr ""
+
+#: single.php:22 single.php:58
+msgid "About:"
+msgstr ""
+
+#: single.php:26 single.php:62
+msgid "More articles by: "
+msgstr ""
+
+#: title.php:171
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tilt"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.whiteboxstud.io/tilt"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tilt is a modern multipurpose WordPress theme. Tilt is available exclusively "
+"on Theme Forest."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Whitebox Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/whitebox-studio"
+msgstr ""

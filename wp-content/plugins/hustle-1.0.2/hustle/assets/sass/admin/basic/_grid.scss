@@ -1,0 +1,48 @@
+// Clearfix
+.wpoi-content-box {
+	
+	&:before, &:after {
+		content: "";
+		display: table;
+	}
+	
+	&:after {
+		clear: both;
+	}
+	
+}
+
+// Float Box
+.wpoi-content-box {
+	
+	.wpoi-float {
+		display: inline-block;
+	}
+	
+	.wpoi-float-left {
+		
+		float: left;
+		margin-right: 60px;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+		
+	}
+	
+	.wpoi-float-right {
+		
+		float: right;
+		margin-left: 60px;
+		
+		&:last-child {
+			margin-left: 0;
+		}
+		
+	}
+	
+	.wpoi-float-none {
+		float: none;
+	}
+	
+}

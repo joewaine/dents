@@ -10,16 +10,16 @@ if ( ! defined('ABSPATH')) exit;  // if direct access
 function accordions_posttype_register() {
  
         $labels = array(
-                'name' => _x('Accordions', 'accordions'),
-                'singular_name' => _x('Accordions', 'accordions'),
-                'add_new' => _x('New Accordions', 'accordions'),
-                'add_new_item' => __('New Accordions'),
-                'edit_item' => __('Edit Accordions'),
-                'new_item' => __('New Accordions'),
-                'view_item' => __('View Accordions'),
-                'search_items' => __('Search Accordions'),
-                'not_found' =>  __('Nothing found'),
-                'not_found_in_trash' => __('Nothing found in Trash'),
+                'name' => __('Accordions', 'accordions'),
+                'singular_name' => __('Accordions', 'accordions'),
+                'add_new' => __('New Accordions', 'accordions'),
+                'add_new_item' => __('New Accordions', 'accordions'),
+                'edit_item' => __('Edit Accordions', 'accordions'),
+                'new_item' => __('New Accordions', 'accordions'),
+                'view_item' => __('View Accordions', 'accordions'),
+                'search_items' => __('Search Accordions', 'accordions'),
+                'not_found' =>  __('Nothing found', 'accordions'),
+                'not_found_in_trash' => __('Nothing found in Trash', 'accordions'),
                 'parent_item_colon' => ''
         );
  
@@ -187,7 +187,7 @@ function meta_boxes_accordions_input( $post ) {
                 
                 
 				<div class="option-box">
-                    <p class="option-title"><?php _e('heightStyle','accordions'); ?></p>
+                    <p class="option-title"><?php _e('Height Style','accordions'); ?></p>
                     <p class="option-info"></p>
                     <select class="accordions_heightStyle" name="accordions_heightStyle"  >
                     <option  value="content" <?php if($accordions_heightStyle=="content") echo "selected"; ?>><?php _e('Content','accordions'); ?></option> 
@@ -213,7 +213,7 @@ function meta_boxes_accordions_input( $post ) {
             <li style="display: none;" class="box3 tab-box ">
 
 				<div class="option-box">
-                    <p class="option-title"><?php _e('Themes','accordions'); ?></p>
+                    <p class="option-title"><?php _e('Themes', 'accordions'); ?></p>
                     <p class="option-info"></p>
                     
                     <?php
@@ -428,7 +428,7 @@ function meta_boxes_accordions_input( $post ) {
                             <?php if(!empty($accordions_title)) echo $accordions_title; ?>
                             </div>
 							
-                       		<span class="removeaccordions"><?php _e('Remove', accordions_textdomain); ?></span>
+                       		<span class="removeaccordions"><?php _e('Remove', 'accordions'); ?></span>
                         
                         <?php
                         
@@ -505,7 +505,7 @@ function meta_boxes_accordions_input( $post ) {
 				
 				var unique_key = $.now();
 				
-				$("#accordions_metabox .accordions-content").append('<div class="items" valign="top"><div class="section-header"><span class="move"><i class="fa fa-bars"></i></span><span class="expand-compress"><i class="fa fa-expand"></i><i class="fa fa-compress"></i></span><div class="accordions-title-preview">Demo Title #'+unique_key+'</div><span class="removeaccordions">Remove</span><label class="switch"><input type="checkbox" value="1" name="accordions_hide['+unique_key+']">Hide on Frontend</label></div><div class="section-panel"><strong><?php _e('Header',accordions_textdomain); ?></strong> <br><input style="width:80%" placeholder="<?php echo __('Accordion header', accordions_textdomain); ?>" type="text" name="accordions_content_title['+unique_key+']" value="" /><br> <br /><strong><?php _e('Content', accordions_textdomain); ?></strong> <br><textarea class="accordion-content-textarea" id="content-'+unique_key+'" placeholder="Accordion content" name="accordions_content_body['+unique_key+']" ></textarea></div></div>');
+				$("#accordions_metabox .accordions-content").append('<div class="items" valign="top"><div class="section-header"><span class="move"><i class="fa fa-bars"></i></span><span class="expand-compress"><i class="fa fa-expand"></i><i class="fa fa-compress"></i></span><div class="accordions-title-preview">Demo Title #'+unique_key+'</div><span class="removeaccordions">Remove</span><label class="switch"><input type="checkbox" value="1" name="accordions_hide['+unique_key+']">Hide on Frontend</label></div><div class="section-panel"><strong><?php _e('Header','accordions'); ?></strong> <br><input style="width:80%" placeholder="<?php echo __('Accordion header', 'accordions'); ?>" type="text" name="accordions_content_title['+unique_key+']" value="" /><br> <br /><strong><?php _e('Content', 'accordions'); ?></strong> <br><textarea class="accordion-content-textarea" id="content-'+unique_key+'" placeholder="Accordion content" name="accordions_content_body['+unique_key+']" ></textarea></div></div>');
 				
 				tinyMCE.execCommand('mceAddEditor', false, 'content-'+unique_key);
 				

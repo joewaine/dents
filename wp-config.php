@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configuration for WordPress
  *
@@ -80,12 +81,19 @@ $table_prefix  = 'wp2_';
 define('WP_DEBUG', false);
 /* Multisite added by kb */
 
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', '138.68.62.103');
+define('MULTISITE', false);
+//define('DOMAIN_CURRENT_SITE', 'http://donuts.domains');
+
+define('WP_HOME','http://donuts.domains');
+define('WP_SITEURL','http://donuts.domains');
+
+
+
+/*define('SUBDOMAIN_INSTALL', false);
+
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);*/
 
 
 /* That's all, stop editing! Happy blogging. */
@@ -98,5 +106,8 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 define('FS_METHOD','direct');
 
-
 define('WP_MEMORY_LIMIT', '3000M');
+
+define('FORCE_SSL_ADMIN', false);
+
+

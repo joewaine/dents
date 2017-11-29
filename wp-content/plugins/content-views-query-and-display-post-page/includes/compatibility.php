@@ -9,6 +9,39 @@
  * @copyright 2016 PT Guy
  */
 /**
+ * Check if a plugin is active
+ * @since 1.9.9.3
+ */
+$cv_active_plugins_list = array();
+function cv_is_active_plugin( $plugin ) {
+	global $cv_active_plugins_list;
+	if ( empty( $cv_active_plugins_list ) ) {
+		// get blog active plugins
+		$plugins = apply_filters( 'active_plugins', get_option( 'active_plugins' ) );
+
+		if ( is_multisite() ) {
+			// get active plugins for the network
+			$network_plugins = get_site_option( 'active_sitewide_plugins' );
+			if ( $network_plugins ) {
+				$network_plugins = array_keys( $network_plugins );
+				$plugins		 = array_merge( $plugins, $network_plugins );
+			}
+		}
+
+		if ( is_array( $plugins ) ) {
+			foreach ( $plugins as $string ) {
+				$parts = explode( '/', $string );
+				if ( !empty( $parts[ 0 ] ) ) {
+					$cv_active_plugins_list[] = $parts[ 0 ];
+				}
+			}
+		}
+	}
+
+	return in_array( $plugin, $cv_active_plugins_list );
+}
+
+/**
  * Autoptimize
  * Disable "Force JavaScript in <head>"
  *
@@ -115,14 +148,24 @@ function cv_comp_wrong_sortby( $query ) {
 		 * "Post Types Order" plugin
 		 * @since 1.9.6
 		 */
-		$query->set( 'ignore_custom_sort', true );
+		if ( cv_is_active_plugin( 'post-types-order' ) ) {
+			$query->set( 'ignore_custom_sort', true );
+		}
 
 		/**
 		 * "Simple Custom Post Order" plugin
 		 * @since 1.9.8
 		 */
-		if ( defined( 'SCPORDER_URL' ) ) {
+		if ( cv_is_active_plugin( 'simple-custom-post-order' ) ) {
 			add_filter( 'option_scporder_options', '__return_false', 10, 2 );
+		}
+
+		/**
+		 * "Intuitive Custom Post Order" plugin
+		 * @since 1.9.9.3
+		 */
+		if ( cv_is_active_plugin( 'intuitive-custom-post-order' ) ) {
+			add_filter( 'option_hicpo_options', '__return_false', 10, 2 );
 		}
 	}
 
@@ -189,18 +232,24 @@ function cv_comp_pagination_settings( $action, $view_settings ) {
  */
 add_action( 'pt_cv_add_global_variables', 'cv_comp_plugin_lazyload_break_loading' );
 function cv_comp_plugin_lazyload_break_loading() {
-	if ( class_exists( 'LazyLoad_Images' ) ) {
+	if ( cv_is_active_plugin( 'lazy-load' ) ) {
 		remove_filter( 'the_content', array( 'LazyLoad_Images', 'add_image_placeholders' ), 99 );
 	}
 }
 
 /**
- * Fix Content Views causes the frontend editor of OptimizepressTheme doesn't work
+ * Do shortcode in the_content might cause theme or plugin issue
  */
-add_filter( 'pt_cv_skip_do_shortcode', 'cv_comp_theme_optimizepress_editor' );
-function cv_comp_theme_optimizepress_editor( $args ) {
+add_filter( 'pt_cv_skip_do_shortcode', 'cv_comp_skip_do_shortcode_content' );
+function cv_comp_skip_do_shortcode_content( $args ) {
+	// OptimizePress theme: the frontend editor doesn't work
 	$theme = wp_get_theme();
 	if ( $theme->get( 'Name' ) === 'OptimizePress' ) {
+		$args = true;
+	}
+
+	// Slider Revolution plugin (tested until v5.4.5.1) doesn't work
+	if ( cv_is_active_plugin( 'revslider' ) ) {
 		$args = true;
 	}
 

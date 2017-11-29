@@ -553,7 +553,7 @@ PT_CV_Functions::view_submit();
 						'params'		 => array(
 							array(
 								'type'	 => 'group',
-								'params' => array(
+								'params' => apply_filters( PT_CV_PREFIX_ . 'format_settings', array(
 									array(
 										'label'			 => array(
 											'text' => '',
@@ -610,7 +610,7 @@ PT_CV_Functions::view_submit();
 										),
 										'dependence'	 => array( 'layout-format', '2-col' ),
 									),
-								),
+								) ),
 							),
 						),
 					),

@@ -3,8 +3,8 @@ Contributors: pt-guy
 Donate link: https://www.contentviewspro.com/?utm_source=wporg&utm_medium=link&utm_campaign=donate
 Tags: post grid, grid plugin, grid, latest post, display post, post, page, category, responsive, list, thumbnail
 Requires at least: 3.3
-Tested up to: 4.8.1
-Stable tag: 1.9.9.2
+Tested up to: 4.8.2
+Stable tag: 1.9.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -163,6 +163,10 @@ If you are using "Your latest posts" as home page, you should paste this code `<
 
 == Changelog ==
 
+= 1.9.9.3 - 2017/09/25 =
+* Compatible Fix: "Sort by" feature always returns a same order, when the "Intuitive Custom Post Order" plugin is in used
+* Compatible Fix: Resolve conflict with Slider Revolution plugin
+
 = 1.9.9.2 - 2017/08/19 =
 * Fix: Text is invisible in some cases when select "Do not wrap text around image" setting
 * Improvement: Update pages list of ajax pagination more dynamically
@@ -188,7 +192,7 @@ If you are using "Your latest posts" as home page, you should paste this code `<
 
 = 1.9.8 - 2017/04/17 =
 * Update: Remove default font-size of Title
-* Fix: Sort by functionality doesn't work correctly with "Simple Custom Post Order" plugin active
+* Fix: "Sort by" feature always returns a same order, when the "Simple Custom Post Order" plugin is in used
 * Fix: View output doesn't appear correctly in page created by OptimizePress plugin
 
 = 1.9.7 - 2017/03/28 =
@@ -199,7 +203,7 @@ If you are using "Your latest posts" as home page, you should paste this code `<
 
 = 1.9.6 - 2017/03/08 =
 * Fix: Shortcode of "Visual Composer" plugin is visible in content of posts loaded by Ajax pagination
-* Fix: Show wrong order of posts, caused by impact of "Post Types Order" plugin
+* Fix: "Sort by" feature always returns a same order, when the "Post Types Order" plugin is in used
 * Update: Add Romania translation, thanks to "Dan Caragea"
 * Update: Add Dutch translation, thanks to "At Voogt"
 * Update: Add Chinese translation, thanks to "JIGE-HNM (iojpe dot com)"

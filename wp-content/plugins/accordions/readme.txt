@@ -4,7 +4,7 @@
 	Tags: accordion, accordions, Responsive accordions, accordions plugin, jQuery accordions, accordions short-code, accordions Widget, accordions plugin wordpress, accordions plugin jquery, tabs, jquery tabs, tab, responsive tabs
 	Requires at least: 3.8
 	Tested up to: 4.8
-	Stable tag: 2.0.18
+	Stable tag: 2.0.19
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -91,8 +91,11 @@ then paste this shortcode anywhere in your page to display accordions<br />
 
 == Changelog ==
 
-	= 2.0.18 =
-    * 31/05/2017 - add - Added filter hook for default plus icon.
+
+	= 2.0.19 =
+    * 16/10/2017 - add - Translation ready.
+
+
     * 31/05/2017 - add - Added filter hook for default minus icon.
     * 31/05/2017 - update - adding icon method updated.
 

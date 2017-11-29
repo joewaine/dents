@@ -2,10 +2,11 @@
 /*
 Plugin Name: Accordions
 Plugin URI: http://www.pickplugins.com/item/accordions-html-css3-responsive-accordion-grid-for-wordpress/
-Description: Fully responsive and mobile ready accordion grid for wordpress.
-Version: 2.0.18
+Description: Fully responsive and mobile ready accordion grid for WordPress.
+Version: 2.0.19
 Author: pickplugins
 Author URI: http://pickplugins.com
+Text Domain: accordions
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -31,8 +32,6 @@ class Accordions{
 		define('accordions_share_url', 'https://wordpress.org/plugins/accordions/' );
 		define('accordions_tutorial_video_url', '//www.youtube.com/embed/h2wNFJaaY8s?rel=0' );
 
-		define('accordions_textdomain', 'accordions' );
-
 		require_once( plugin_dir_path( __FILE__ ) . 'includes/meta.php');
 		require_once( plugin_dir_path( __FILE__ ) . 'includes/functions.php');
 		
@@ -56,7 +55,7 @@ class Accordions{
 	
 	
 	public function accordions_load_textdomain() {
-	  load_plugin_textdomain( accordions_textdomain, false, plugin_basename( dirname( __FILE__ ) ) . '/languages/' ); 
+	  load_plugin_textdomain( 'accordions', false, plugin_basename( dirname( __FILE__ ) ) . '/languages/' );
 	}
 	
 	
@@ -99,7 +98,7 @@ class Accordions{
 		wp_enqueue_script('jquery-ui-sortable');
 		wp_enqueue_script('accordions_admin_js', plugins_url( 'assets/admin/js/scripts.js' , __FILE__ ) , array( 'jquery' ));
 		wp_localize_script( 'accordions_admin_js', 'L10n_accordions', array(
-							'confirm_text' => __( 'Confirm', accordions_textdomain )
+							'confirm_text' => __( 'Confirm', 'accordions' )
 							));
 
 
@@ -124,7 +123,7 @@ class Accordions{
 	
 			return array_merge(
 				array(
-					'get_premium' => '<a target="_blank" class="" style=" font-weight:bold;color:#f00;" href="https://www.pickplugins.com/product/accordions/?ref=wordpress.org">Buy Premium!</a>'
+					'get_premium' => '<a target="_blank" class="" style=" font-weight:bold;color:#f00;" href="https://www.pickplugins.com/product/accordions/?ref=dashboard">'.__('Buy Premium!', 'accordions').'</a>'
 					),
 				$links
 			);

@@ -1,0 +1,53 @@
+#<IfModule mod_rewrite.c>
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#</IfModule>
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Ban Hosts - Security > Settings > Banned Users
+SetEnvIF REMOTE_ADDR "^51\.255\.34\.212$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^51\.255\.34\.212$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^51\.255\.34\.212$" DenyAccess
+
+SetEnvIF REMOTE_ADDR "^213\.216\.11\.99$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^213\.216\.11\.99$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^213\.216\.11\.99$" DenyAccess
+
+SetEnvIF REMOTE_ADDR "^197\.13\.2\.215$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^197\.13\.2\.215$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^197\.13\.2\.215$" DenyAccess
+
+<IfModule mod_authz_core.c>
+<RequireAll>
+Require all granted
+Require not env DenyAccess
+Require not ip 51.255.34.212
+Require not ip 213.216.11.99
+Require not ip 197.13.2.215
+</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order allow,deny
+Allow from all
+Deny from env=DenyAccess
+Deny from 51.255.34.212
+Deny from 213.216.11.99
+Deny from 197.13.2.215
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{SERVER_PORT} !^443$
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    RewriteBase /
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+

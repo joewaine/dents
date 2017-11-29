@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^donuts.domains [NC]
+RewriteRule ^(.*)$ http://donuts.domains/$1 [L,R=301]
+
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUESTFILENAME} !-f
+RewriteCond %{REQUESTFILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

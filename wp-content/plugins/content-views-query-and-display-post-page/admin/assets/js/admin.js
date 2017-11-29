@@ -324,6 +324,8 @@
 			} else {
 				$( '#' + PT_CV_ADMIN._group_prefix + $this.val() ).addClass( 'hidden' );
 			}
+
+			$( '.pt-wrap' ).trigger( 'finish-toggle-group' );
 		},
 		/**
 		 * Custom function for 'Content Type'

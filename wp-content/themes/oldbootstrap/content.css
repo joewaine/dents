@@ -1,0 +1,393 @@
+/* Misc Classes for TYPO3 */
+/* added this sept 2016 */
+@font-face {
+    font-family: 'Bliss ExtraLight';
+    src: url('../fonts/blsw-lt.eot');
+    src: url('../fonts/blsw-lt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blsw-lt.woff2') format('woff2'),
+         url('../fonts/blsw-lt.woff') format('woff'),
+         url('../fonts/blsw-lt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Bliss ExtraLight';
+    src: url('../fonts/blsw-xlt.eot');
+    src: url('../fonts/blsw-xlt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blsw-xlt.woff2') format('woff2'),
+         url('../fonts/blsw-xlt.woff') format('woff'),
+         url('../fonts/blsw-xlt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BlsW-XLt';
+    src: url('../fonts/blsw-xlt.eot');
+    src: url('../fonts/blsw-xlt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blsw-xlt.woff2') format('woff2'),
+         url('../fonts/blsw-xlt.woff') format('woff'),
+         url('../fonts/blsw-xlt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p.text-gray-small {
+  color: #909c9c;
+  font-size: 85%;
+}
+
+p.button a,
+a.button {
+  background: #909c9c;
+  color: white;
+  display: inline-block;
+  font-size: .888888em;
+  line-height: 1em;
+  padding: 8px 30px;
+  margin: 0;
+  white-space: nowrap;
+}
+p.button a:link, p.button a:visited,
+a.button:link,
+a.button:visited {
+  color: white;
+}
+p.button a:hover, p.button a:active, p.button a:focus,
+a.button:hover,
+a.button:active,
+a.button:focus {
+  background: #333333;
+  color: white;
+  text-decoration: none;
+}
+
+p.buttonDark a,
+a.buttonDark {
+  background: black;
+  color: white;
+  display: inline-block;
+  line-height: 1em;
+  padding: 8px 30px;
+  margin: 0;
+  white-space: nowrap;
+}
+p.buttonDark a:link, p.buttonDark a:visited,
+a.buttonDark:link,
+a.buttonDark:visited {
+  color: white;
+}
+p.buttonDark a:hover, p.buttonDark a:active, p.buttonDark a:focus,
+a.buttonDark:hover,
+a.buttonDark:active,
+a.buttonDark:focus {
+  background: #909c9c;
+  color: white;
+  text-decoration: none;
+}
+
+p.fancyButton {
+  clear: both;
+}
+p.fancyButton a:link, p.fancyButton a:visited {
+  background: #0099C1;
+  box-shadow: 0 3px 0 0 #196885;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 17px 29px;
+  white-space: nowrap;
+}
+p.fancyButton a:hover, p.fancyButton a:active, p.fancyButton a:focus {
+  background: #238FB9;
+  display: inline-block;
+  text-decoration: none;
+}
+
+p.serifLarge {
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+p.large {
+  font-size: 18px;
+}
+
+.banner {
+  background: #F15A40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px 0;
+}
+.banner a {
+  color: #fff;
+}
+section.alt .bkgd-light {
+  background: #F15A40;
+  color: #fff;
+}
+.factList li i {
+  color: #f15a40;
+  font-style: normal;
+}
+section.alt .bkgd-light .factList li i {
+  color: #333;
+}
+main #pageHeader h1 img {
+  max-width: 300px;
+}
+.img-responsive {
+    display: inline-block;
+}
+.bg-img {
+    min-height: 500px;
+    padding: 0;
+    position: relative;
+}
+.bg-img .tld-logo {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
+.bg-img .box {
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    padding: 20px;
+}
+ul.simple-tabs li {
+    border-right: 1px solid #aaa;
+    padding: 0 10px 0 5px;
+}
+ul.simple-tabs li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+ul.simple-tabs li a {
+    color: #999;
+}
+ul.simple-tabs li.active a {
+    color: #f15a40;
+    text-decoration: underline;
+}
+
+/**
+ * Careers page
+ */
+ul.benefits li {
+    padding-left: 90px;
+    background: no-repeat 0 0;
+    background-size: 79px 79px;
+    min-height: 79px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+ul.benefits li.piggy-bank {
+    background-image: url(/fileadmin/images/careers/piggy-bank.png);
+}
+ul.benefits li.vault {
+    background-image: url(/fileadmin/images/careers/401k.png);
+}
+ul.benefits li.money-bag {
+    background-image: url(/fileadmin/images/careers/money-bag.png);
+}
+ul.benefits li.dog {
+    background-image: url(/fileadmin/images/careers/dog.png);
+}
+ul.benefits li.healthcare {
+    background-image: url(/fileadmin/images/careers/healthcare.png);
+}
+ul.benefits li.food {
+    background-image: url(/fileadmin/images/careers/food.png);
+}
+ul.benefits li.heart {
+    background-image: url(/fileadmin/images/careers/heart.png);
+}
+ul.benefits li.credit-card {
+    background-image: url(/fileadmin/images/careers/creditcard.png);
+}
+ul.benefits li.calendar {
+    background-image: url(/fileadmin/images/careers/calendar.png);
+    padding-top: 10px;
+}
+ul.benefits li.school {
+    background-image: url(/fileadmin/images/careers/school.png);
+}
+#map-canvas {
+    width: 100%;
+    height: 500px;
+}
+.rightside_gives{
+    margin-top: 0px;
+}
+.hq_style{
+    color: #f15a40;
+}
+.office_desc{
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+#job-listings h2 {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    height: 140px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+#rightside_jobs{
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    background: white;
+}
+.job_listings{
+    margin-top: -140px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Careers - Google Map locations */
+#addressKirkland {
+    width: 240px;
+    height: 90px;
+    font-size:   13px;
+    line-height: 17px;
+}
+#addressDublin {
+    width: 120px;
+    height: 90px;
+    font-size:   13px;
+    line-height: 17px;
+}
+#addressDenver{
+    width: 210px;
+    height: 90px;
+    font-size:   13px;
+    line-height: 17px;
+}
+#addressAustin{
+    width: 200px;
+    height: 90px;
+    font-size:   13px;
+    line-height: 17px;
+}
+
+/* NewsBlog */
+.news-img-wrap {
+    margin-bottom: 10px;
+}
+.news-img-wrap img {
+    width: 100%;
+    cursor: pointer;
+}
+div.articleShare {
+    float: right;
+    margin-top: 3px;
+}
+.blog-img {
+    overflow: hidden;
+    position: relative;
+}
+.blog-img img {
+    position: relative;
+    left: 0;
+    right: 0;
+    min-width: 150%;
+    max-height: 200px;
+}
+main .news-menu-view ul.noBullets li ul {
+    padding: 0;
+}
+.news-menu-view ul.noBullets ul li {
+    line-height: 1.2;
+    margin: 12px 0;
+}
+
+
+/************************************
+ *
+ * Media queries
+ *
+ * **********************************
+ */
+
+/**
+ *     Large devices only
+ */
+@media (min-width: 1200px) {
+}
+
+/**
+ *     Medium devices and down
+ */
+@media (max-width: 1199px) {
+}
+
+/**
+ *     Medium devices and up
+ */
+@media (min-width: 992px) {
+    .bg-img .box {
+        width: 50%;
+        float: right;
+    }
+    .gives .bg-img .box {
+        float: left;
+    }
+}
+
+/**
+ *     Medium devices only
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/**
+ *     Small devices and down
+ */
+@media (max-width: 991px) {
+}
+
+/**
+ *     Small devices and up
+ */
+@media (min-width: 768px) {
+    .bg-img img.bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+    .bg-img .box {
+        position: relative;
+        z-index: 1;
+        margin-top: 100px;
+    }
+    #meet-the-teams .bg-img .box {
+        margin-top: 60px;
+    }
+    ul.benefits li {
+        float: left;
+        width: 50%;
+    }
+    .bg-img {
+        min-height: 550px;
+        overflow-y: hidden;
+        padding: 30px;
+    }
+}
+
+/**
+ *     Small devices only
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/**
+ *     Extra small devices only
+ */
+@media (max-width: 767px) {
+}

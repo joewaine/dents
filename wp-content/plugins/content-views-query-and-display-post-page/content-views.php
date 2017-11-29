@@ -10,8 +10,8 @@
  * Plugin Name:       Content Views
  * Plugin URI:        http://wordpress.org/plugins/content-views-query-and-display-post-page/
  * Description:       Query and display <strong>posts, pages</strong> in awesome layouts (<strong>grid, scrollable list, collapsible list</strong>) easier than ever, without coding!
- * Version:           1.9.9.2
- * Author:            CVSOFT Ltd
+ * Version:           1.9.9.3
+ * Author:            CVSOFT LLC
  * Author URI:        http://profiles.wordpress.org/pt-guy
  * Text Domain:       content-views-query-and-display-post-page
  * License:           GPL-2.0+
@@ -25,7 +25,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 // Define Constant
-define( 'PT_CV_VERSION', '1.9.9.2' );
+define( 'PT_CV_VERSION', '1.9.9.3' );
 define( 'PT_CV_FILE', __FILE__ );
 define( 'PT_CV_PATH', plugin_dir_path( __FILE__ ) );
 include_once( PT_CV_PATH . 'includes/defines.php' );

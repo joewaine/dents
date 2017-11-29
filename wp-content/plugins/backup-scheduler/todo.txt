@@ -1,2 +1,0 @@
-Password protected Alexander Dippold (Alexander.Dippold gmail)
-add gz compression for sql fles
